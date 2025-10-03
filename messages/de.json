@@ -1,0 +1,276 @@
+{
+  "navigation": {
+    "logoText": "Veretee",
+    "imageAlt": "Veretee Logo",
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "career": "Karriere",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "logoText": "Veretee",
+    "description": "Ihr vertrauenswürdiger B2B-Partner im globalen Geschäft, der Unternehmen weltweit verbindet.",
+    "quickLinks": "Schnellzugriff",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "career": "Karriere",
+    "contact": "Kontakt",
+    "servicesTitle": "Dienstleistungen",
+    "importExport": "Import & Export",
+    "supplyChain": "Lieferkette",
+    "logistics": "Logistiklösungen",
+    "distribution": "Globale Distribution",
+    "contactInfo": "Kontaktinformationen",
+    "address": "123 Business Street, New York, NY 10001",
+    "phone": "+1 (234) 567-890",
+    "email": "info@veretee.com",
+    "copyright": "© 2025 Veretee. Alle Rechte vorbehalten.",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen"
+  },
+  "hero": {
+    "welcome": "Willkommen bei Veretee",
+    "headline": "Ihr vertrauenswürdiger B2B-Partner im globalen Geschäft",
+    "desc": "Wir verbinden Unternehmen weltweit mit nahtlosen Import- und Exportlösungen",
+    "exploreButtonText": "Katalog erkunden",
+    "quoteButtonText": "Angebot anfordern",
+    "search": "Suche",
+    "trackOrder": "Bestellung verfolgen",
+    "form": {
+      "title": "Wir sind hier, um Ihnen den besten Service zu bieten",
+      "firstName": "Vollständiger Name",
+      "lastName": "Nachname",
+      "trackingId": "Geben Sie Ihre Sendungsnummer ein",
+      "submit": "Verfolgen"
+    }
+  },
+  "about": {
+    "badge": "Über Veretee",
+    "purposeTab": "Unser Zweck",
+    "missionTab": "Unsere Mission",
+    "visionTab": "Unsere Vision",
+    "ourStory": "Unsere Geschichte",
+    "purpose": "Lassen Sie uns gemeinsam die Welt verbessern und helfen wir Ihnen mit CSR, ein nachhaltiges, erfolgreiches Geschäft aufzubauen. Erklärung über unsere Arbeit. Hier können wir etwas hinzufügen. Ich lasse es gleich wie auf der Startseite. Erklärung über unsere Arbeit. Hier können wir etwas hinzufügen.",
+    "mission": "Lassen Sie uns gemeinsam die Welt verbessern und helfen wir Ihnen mit CSR, ein nachhaltiges, erfolgreiches Geschäft aufzubauen. Erklärung über unsere Arbeit. Hier können wir etwas hinzufügen. Ich lasse es gleich wie auf der Startseite. Erklärung über unsere Arbeit. Hier können wir etwas hinzufügen.",
+    "vision": "Lassen Sie uns gemeinsam die Welt verbessern und helfen wir Ihnen mit CSR, ein nachhaltiges, erfolgreiches Geschäft aufzubauen. Erklärung über unsere Arbeit. Hier können wir etwas hinzufügen. Ich lasse es gleich wie auf der Startseite. Erklärung über unsere Arbeit. Hier können wir etwas hinzufügen.",
+    "readMore": "Mehr lesen",
+    "imageAlt": "Illustration Geschäftszusammenarbeit",
+    "stats": {
+      "countiesPresent": "Präsent in über 50 Ländern",
+      "partners": "1000+ Partner und erbrachte Dienstleistungen",
+      "warehouses": "50+ Lagerhäuser in ganz Deutschland"
+    },
+    "story": {
+      "title": "Lesen Sie die Geschichten von Kunden und Partnern",
+      "description": "Lassen Sie uns gemeinsam die Welt verbessern und helfen wir Ihnen mit CSR, ein nachhaltiges, erfolgreiches Geschäft aufzubauen. Erklärung über unsere Arbeit. Hier können wir etwas hinzufügen. Ich lasse es gleich wie auf der Startseite.",
+      "readMore": "Mehr lesen",
+      "partner": {
+        "dhl": "DHL",
+        "flexport": "Flexport",
+        "schenker": "Schenker arkas",
+        "ups": "UPS"
+      },
+      "businesses": {
+        "ourBusinesses": "Unsere Geschäftsfelder",
+        "machinedProducts": "Maschinenteile",
+        "textileAndYarn": "Textilien & Garn",
+        "kitchenProducts": "Küchenprodukte",
+        "wellnessProducts": "Wellness-Produkte",
+        "threeDPrintingProducts": "3D-Druck-Produkte",
+        "toys": "Spielzeug",
+        "rawMaterials": "Rohmaterialien"
+      }
+    }
+  },
+  "whyChooseUs": {
+    "badge": "WARUM UNS WÄHLEN",
+    "headline": "Auf Vertrauen gebaut, von Exzellenz angetrieben",
+    "description": "Unser umfassender Ansatz für qualitativ hochwertigen Service als zuverlässiges und sicheres Unternehmen in globalen Lagerhäusern",
+    "stats": {
+      "clientPartner": "Kunde/Partner",
+      "globalPartner": "Globaler Partner",
+      "yearsExperience": "Jahre Erfahrung"
+    },
+    "features": {
+      "card1": {
+        "title": "Qualitätstitel",
+        "description": "Unser umfassender Ansatz für qualitativ hochwertigen Service als zuverlässiges und sicheres Unternehmen in globalen Lagerhäusern."
+      },
+      "card2": {
+        "title": "Qualitätstitel",
+        "description": "Unser umfassender Ansatz für qualitativ hochwertigen Service als zuverlässiges und sicheres Unternehmen in globalen Lagerhäusern."
+      },
+      "card3": {
+        "title": "Qualitätstitel",
+        "description": "Unser umfassender Ansatz für qualitativ hochwertigen Service als zuverlässiges und sicheres Unternehmen in globalen Lagerhäusern."
+      },
+      "card4": {
+        "title": "Qualitätstitel",
+        "description": "Unser umfassender Ansatz für qualitativ hochwertigen Service als zuverlässiges und sicheres Unternehmen in globalen Lagerhäusern."
+      }
+    }
+  },
+  "features": {
+    "list": [
+      {
+        "title": "Sicher & Zuverlässig",
+        "desc": "ISO-zertifizierte Abläufe mit umfassender Versicherung und Risikomanagement"
+      },
+      {
+        "title": "24/7 Support",
+        "desc": "Rund-um-die-Uhr Kundenservice und Echtzeit-Tracking für Ihre Sicherheit"
+      },
+      {
+        "title": "Globales Netzwerk",
+        "desc": "Umfassende weltweite Präsenz mit lokaler Expertise auf wichtigen Handelsrouten"
+      },
+      {
+        "title": "Qualität garantiert",
+        "desc": "Strenge Qualitätskontrollen und branchenführende Zertifizierungen"
+      }
+    ]
+  },
+  "products": {
+    "badge": "UNSERE PRODUKTE",
+    "headline": "Komplette Produktlösung",
+    "description": "Unser umfassender Ansatz für qualitativ hochwertigen Service als zuverlässiges und sicheres Unternehmen in globalen Lagerhäusern",
+    "product1": {
+      "title": "Maschinen / 3D-Druck etc."
+    },
+    "product2": {
+      "title": "Textilien & Garn"
+    },
+    "product3": {
+      "title": "Spielzeug"
+    },
+    "product4": {
+      "title": "Rohmaterialien"
+    },
+    "product5": {
+      "title": "Wellness-Produkte"
+    },
+    "learnMore": "Mehr erfahren",
+    "viewAll": "Alle anzeigen"
+  },
+  "partners": {
+    "badge": "UNSERE PARTNER",
+    "headline": "Vertraut von führenden globalen Marken",
+    "description": "Unser umfassender Ansatz für qualitativ hochwertigen Service als zuverlässiges und sicheres Unternehmen in globalen Lagerhäusern",
+    "more": "Mehr als 100+ Partner und Kunden arbeiten mit uns",
+    "brief": "Ein Überblick über unsere Partner, wie wir mit ihnen zusammenarbeiten und gemeinsame Projekte realisieren.",
+    "readMore": "Mehr lesen",
+    "partner": {
+      "dhl": "DHL",
+      "flexport": "Flexport",
+      "schenker": "Schenker",
+      "ups": "UPS"
+    }
+  },
+  "productSolution": {
+    "list": [
+      {
+        "title": "Maritime Dienstleistungen",
+        "desc": "Umfassende Schifffahrts- und Schiffsmanagementlösungen"
+      },
+      {
+        "title": "Logistiklösungen",
+        "desc": "End-to-End-Lieferketten- und Frachtmanagement"
+      },
+      {
+        "title": "Hafenbetrieb",
+        "desc": "Effiziente Hafenabwicklung und Frachtservices"
+      },
+      {
+        "title": "Industrielle Versorgung",
+        "desc": "Hochwertige Ausrüstung und Materialbeschaffung"
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Bereit für Geschäfte?",
+    "description": "Unser kreativer Ansatz für qualitativ hochwertigen Service – zuverlässig und sicher in globalen Lagerhäusern",
+    "contact": "Kontakt",
+    "knowAboutUs": "Mehr über uns erfahren"
+  },
+  "testimonials": {
+    "quoteIconAlt": "Zitat-Symbol",
+    "author1": {
+      "quote": "Die beste vertrauenswürdige Plattform für die Beschaffung hochwertiger Produkte und Geschäftslösungen, die Ihr Geschäft voranbringen.",
+      "author": "John Doe",
+      "role": "CEO, Firmenname"
+    },
+    "author2": {
+      "quote": "Die beste vertrauenswürdige Plattform für die Beschaffung hochwertiger Produkte und Geschäftslösungen, die Ihr Geschäft voranbringen.",
+      "author": "Jane Smith",
+      "role": "Direktorin, Company Inc"
+    },
+    "page": {
+      "title": "Warum wählen die besten Marken der Welt Veretee?",
+      "description": "Lassen Sie uns gemeinsam die Welt verbessern und helfen wir Ihnen mit CSR, ein nachhaltiges, erfolgreiches Geschäft aufzubauen. Erklärung Erklärung.",
+      "readMore": "Mehr lesen",
+      "businesses": {
+        "ups": {
+          "title": "UPS",
+          "description": "Live-Updates: Ihr vertrauenswürdiger Partner für hochwertige Produkte und Geschäftslösungen, die Ihr Unternehmen an die Spitze bringen."
+        },
+        "dhl": {
+          "title": "DHL",
+          "description": "Live-Updates: Ihr vertrauenswürdiger Partner für hochwertige Produkte und Geschäftslösungen, die Ihr Unternehmen an die Spitze bringen."
+        },
+        "flexport": {
+          "title": "Flexport",
+          "description": "Live-Updates: Ihr vertrauenswürdiger Partner für hochwertige Produkte und Geschäftslösungen, die Ihr Unternehmen an die Spitze bringen."
+        },
+        "schenker": {
+          "title": "Schenker",
+          "description": "Live-Updates: Ihr vertrauenswürdiger Partner für hochwertige Produkte und Geschäftslösungen, die Ihr Unternehmen an die Spitze bringen."
+        }
+      },
+      "reviews": {
+        "title": "Bewertungsübersicht",
+        "review1": {
+          "author": "John Doe",
+          "quote": "Ihr vertrauenswürdiger Partner für hochwertige Produkte und Geschäftslösungen, die Ihr Unternehmen an die Spitze bringen."
+        }
+      }
+    }
+  },
+  "testimonial-detail": {
+    "title": "Einführung in das Veretee-Netzwerk.",
+    "content": "Unternehmen jeder Größe im EcoVadis-Netzwerk, insbesondere jene mit mehreren Bewertungen, erzielen messbare Fortschritte in einem breiten Spektrum an Nachhaltigkeitsthemen. Diese Erkenntnisse und mehr finden sich in der achten Ausgabe des Business Sustainability Index, der heute vom Anbieter EcoVadis veröffentlicht wurde. Diese Ausgabe untersucht die Trends hinter den 125.000+ Nachhaltigkeitsbewertungen (~38.000 allein im Jahr 2023), die EcoVadis an 1.200 führende Beschaffungsteams von 2019 bis 2023 geliefert hat. Sie zeigt, wie Lieferanten in allen globalen Regionen und wichtigen Branchen in den Bereichen Umwelt, Arbeits- & Menschenrechte, Ethik und nachhaltige Beschaffung abschneiden. Durch datengestützte Analysen werden die aktuellen Entwicklungen der globalen Wertschöpfungsketten in Bezug auf Nachhaltigkeit hervorgehoben – fast zur Hälfte eines entscheidenden Jahrzehnts für Klima- und Sozialmaßnahmen. Die Ergebnistrends geben Aufschluss darüber, wie große Einkaufsorganisationen Bewertungen in ihren Lieferketten nutzen, um Risiken zu reduzieren, Resilienz aufzubauen, sich auf ESG-Berichterstattung und Sorgfaltspflichtgesetze vorzubereiten und den Wert freizusetzen, der heute und in Zukunft benötigt wird. Sie zeigen auch, wie Lieferanten operationelle Risiken reduzieren, Effizienz steigern, Kosten sparen, bessere Daten sammeln und ihre Beziehungen zu Geschäftspartnern stärken."
+  },
+  "news": {
+    "badge": "BACKLINKS",
+    "headline": "Brancheneinblicke & Updates",
+    "readMore": "Mehr lesen",
+    "liveUpdate": "Live-Updates: Ihr vertrauenswürdiger Partner für hochwertige Produkte und Geschäftslösungen, die Ihr Geschäft an die Spitze bringen.",
+    "insights": {
+      "news1": {
+        "title": "Wie digitale Technologien die Lieferkette transformieren",
+        "date": "15. März 2024",
+        "excerpt": "Erkundung der neuesten Innovationen in Logistik und Lieferkettenmanagement"
+      },
+      "news2": {
+        "title": "Globale Handelstrends und Markteinblicke für 2024",
+        "date": "12. März 2024",
+        "excerpt": "Verstehen der sich entwickelnden Landschaft des internationalen Geschäfts anhand unzähliger Datenpunkte und Partnerschaften weltweit"
+      },
+      "news3": {
+        "title": "Nachhaltigkeit in der Logistik: Best Practices und Strategien",
+        "date": "10. März 2024",
+        "excerpt": "Implementierung umweltfreundlicher Lösungen in Lieferketten und Logistik, zur Effizienzsteigerung und CO2-Reduktion."
+      },
+      "news4": {
+        "title": "Die Zukunft des E-Commerce und seine Auswirkungen auf die globale Logistik",
+        "date": "8. März 2024",
+        "excerpt": "Anpassung an das schnelle Wachstum des Onlinehandels und der Lieferdienste für einen nahtlosen globalen Handel."
+      },
+      "news5": {
+        "title": "Stärkere B2B-Partnerschaften in globalen Märkten aufbauen",
+        "date": "5. März 2024",
+        "excerpt": "Strategien für erfolgreiche internationale Geschäftszusammenarbeit, die Unternehmen zum Erfolg führt."
+      }
+    }
+  }
+}

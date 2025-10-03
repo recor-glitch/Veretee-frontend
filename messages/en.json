@@ -1,0 +1,276 @@
+{
+  "navigation": {
+    "logoText": "Veretee",
+    "imageAlt": "Veretee Logo",
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "career": "Career",
+    "contact": "Contact"
+  },
+  "footer": {
+    "logoText": "Veretee",
+    "description": "Your trusted B2B partner in global businesses, connecting enterprises worldwide.",
+    "quickLinks": "Quick Links",
+    "about": "About Us",
+    "services": "Services",
+    "career": "Career",
+    "contact": "Contact",
+    "servicesTitle": "Services",
+    "importExport": "Import & Export",
+    "supplyChain": "Supply Chain",
+    "logistics": "Logistics Solutions",
+    "distribution": "Global Distribution",
+    "contactInfo": "Contact Info",
+    "address": "123 Business Street, New York, NY 10001",
+    "phone": "+1 (234) 567-890",
+    "email": "info@veretee.com",
+    "copyright": "© 2025 Veretee. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "hero": {
+    "welcome": "Welcome to Veretee",
+    "headline": "Your Trusted B2B Partner in Global Businesses",
+    "desc": "Connecting businesses worldwide with seamless import and export solutions",
+    "exploreButtonText": "Explore Catalog",
+    "quoteButtonText": "Request Quote",
+    "search": "Search",
+    "trackOrder": "Track Your Order",
+    "form": {
+      "title": "We are here to provide you the best service",
+      "firstName": "Full Name",
+      "lastName": "Last Name",
+      "trackingId": "Enter your tracking number",
+      "submit": "Track"
+    }
+  },
+  "about": {
+    "badge": "About Veretee",
+    "purposeTab": "Our Purpose",
+    "missionTab": "Our Mission",
+    "visionTab": "Our Vision",
+    "ourStory": "Our Story",
+    "purpose": "Lets make the world better together and let us help you with the CSR and make it a sustainable, fruitful business. Explain something something something about our work. We can add something here. I just keep it same as home page has. something something about our work. We can add something here. I just keep it same as home page has. something something about our work. We can add something here. I just keep it same as home page has. ",
+    "mission": "Lets make the world better together and let us help you with the CSR and make it a sustainable, fruitful business. Explain something something something about our work. We can add something here. I just keep it same as home page has. something something about our work. We can add something here. I just keep it same as home page has. something something about our work. We can add something here. I just keep it same as home page has. ",
+    "vision": "Lets make the world better together and let us help you with the CSR and make it a sustainable, fruitful business. Explain something something something about our work. We can add something here. I just keep it same as home page has. something something about our work. We can add something here. I just keep it same as home page has. something something about our work. We can add something here. I just keep it same as home page has. ",
+    "readMore": "Read more",
+    "imageAlt": "Business collaboration illustration",
+    "stats": {
+      "countiesPresent": "50+ Countries present",
+      "partners": "1000+ Partners and services provided",
+      "warehouses": "50+ Warehouse across Germany"
+    },
+    "story": {
+      "title": "Read clients and Partners Story",
+      "description": "Lets make the world better together and let us help you with the CSR and make it a sustainable, fruitful business. Explain something something something about our work. We can add something here. I just keep it same as home page has. something something about our work. We can add something here. I just keep it same as home page has. something something about our work. We can add something here. I just keep it same as home page has. ",
+      "readMore": "Read More",
+      "partner": {
+        "dhl": "DHL",
+        "flexport": "Flexport",
+        "schenker": "Schenker arkas",
+        "ups": "UPS"
+      },
+      "businesses": {
+        "ourBusinesses": "Our Businesses",
+        "machinedProducts": "Machined Products",
+        "textileAndYarn": "Textile & Yarn",
+        "kitchenProducts": "Kitchen Products",
+        "wellnessProducts": "Wellness Products",
+        "threeDPrintingProducts": "3 D Printing Products",
+        "toys": "Toys",
+        "rawMaterials": "Raw Materials"
+      }
+    }
+  },
+  "whyChooseUs": {
+    "badge": "WHY CHOOSE US",
+    "headline": "Built on Trust, Driven by Excellence",
+    "description": "Our comprehensive approach to quality service as a reliable and secure firm in global warehouses",
+    "stats": {
+      "clientPartner": "Client/Partner",
+      "globalPartner": "Global Partner",
+      "yearsExperience": "Years Experience"
+    },
+    "features": {
+      "card1": {
+        "title": "Title of quality",
+        "description": "Our comprehensive approach to quality service as a reliable and secure firm in global warehouses."
+      },
+      "card2": {
+        "title": "Title of quality",
+        "description": "Our comprehensive approach to quality service as a reliable and secure firm in global warehouses."
+      },
+      "card3": {
+        "title": "Title of quality",
+        "description": "Our comprehensive approach to quality service as a reliable and secure firm in global warehouses."
+      },
+      "card4": {
+        "title": "Title of quality",
+        "description": "Our comprehensive approach to quality service as a reliable and secure firm in global warehouses."
+      }
+    }
+  },
+  "features": {
+    "list": [
+      {
+        "title": "Secure & Reliable",
+        "desc": "ISO certified operations with comprehensive insurance coverage and risk management"
+      },
+      {
+        "title": "24/7 Support",
+        "desc": "Round-the-clock customer service and real-time tracking for peace of mind"
+      },
+      {
+        "title": "Global Network",
+        "desc": "Extensive worldwide presence with local expertise in major trade routes"
+      },
+      {
+        "title": "Quality Assured",
+        "desc": "Rigorous quality control standards and industry-leading certifications"
+      }
+    ]
+  },
+  "products": {
+    "badge": "OUR PRODUCTS",
+    "headline": "Complete Product Solution",
+    "description": "Our comprehensive approach to quality service as a reliable and secure firm in global warehouses",
+    "product1": {
+      "title": "Machined / 3D Printing etc"
+    },
+    "product2": {
+      "title": "Textiles & Yarn"
+    },
+    "product3": {
+      "title": "Toys"
+    },
+    "product4": {
+      "title": "Raw Materials"
+    },
+    "product5": {
+      "title": "Wellness Products"
+    },
+    "learnMore": "Learn More",
+    "viewAll": "View All"
+  },
+  "partners": {
+    "badge": "OUR PARTNERS",
+    "headline": "Trusted by Leading Global Brands",
+    "description": "Our comprehensive approach to quality service as a reliable and secure firm in global warehouses",
+    "more": "More than 100+ Partners and clients work with us",
+    "brief": "A brief about the partners and what we did with them how we collaborate and work with them.",
+    "readMore": "Read More",
+    "partner": {
+      "dhl": "DHL",
+      "flexport": "Flexport",
+      "schenker": "Schenker",
+      "ups": "UPS"
+    }
+  },
+  "productSolution": {
+    "list": [
+      {
+        "title": "Maritime Services",
+        "desc": "Comprehensive shipping and vessel management solutions"
+      },
+      {
+        "title": "Logistics Solutions",
+        "desc": "End-to-end supply chain and freight management"
+      },
+      {
+        "title": "Port Operations",
+        "desc": "Efficient port handling and cargo services"
+      },
+      {
+        "title": "Industrial Supply",
+        "desc": "Quality equipment and material procurement"
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Ready to do Business?",
+    "description": "Our creative approach to quality service, and is a reliable and secure firm in global warehouses",
+    "contact": "Contact",
+    "knowAboutUs": "Know about us"
+  },
+  "testimonials": {
+    "quoteIconAlt": "Quote Icon",
+    "author1": {
+      "quote": "Best Trusted platform for sourcing high-quality products and business solutions that grow your business experience",
+      "author": "John Doe",
+      "role": "CEO, Company Name"
+    },
+    "author2": {
+      "quote": "Best Trusted platform for sourcing high-quality products and business solutions that grow your business experience",
+      "author": "Jane Smith",
+      "role": "Director, Company Inc"
+    },
+    "page": {
+      "title": "Why world’s best Brands Choose Veretee?",
+      "description": "Lets make the world better together and let us help you with the CSR and make it a sustainable, fruitful business. Explain something something.",
+      "readMore": "Read More",
+      "businesses": {
+        "ups": {
+          "title": "UPS",
+          "description": "Live Updates: Your trusted partner for sourcing high-quality products and business solutions that drive yourbusiness to the top"
+        },
+        "dhl": {
+          "title": "DHL",
+          "description": "Live Updates: Your trusted partner for sourcing high-quality products and business solutions that drive yourbusiness to the top"
+        },
+        "flexport": {
+          "title": "Flexport",
+          "description": "Live Updates: Your trusted partner for sourcing high-quality products and business solutions that drive yourbusiness to the top"
+        },
+        "schenker": {
+          "title": "Schenker",
+          "description": "Live Updates: Your trusted partner for sourcing high-quality products and business solutions that drive yourbusiness to the top"
+        }
+      },
+      "reviews": {
+        "title": "Review Board",
+        "review1": {
+          "author": "John Doe",
+          "quote": "Your trusted partner for sourcing high-quality products and business solutions that drive your business to the top"
+        }
+      }
+    }
+  },
+  "testimonial-detail": {
+    "title": "Introducing to the Veretee Network.",
+    "content": "Companies of all sizes across the EcoVadis Network, particularly those with multiple ratings, are making measurable progress on a broad spectrum of sustainability challenges. These insights and more are found in the eighth edition of the Business Sustainability Index, published today by business sustainability ratings provider EcoVadis. This edition of the Index explores the trends behind the 125,000+ supplier sustainability ratings (~38,000 in 2023 alone) EcoVadis has delivered to 1,200 leading procurement teams from 2019 through 2023. It looks at how these suppliers, spanning all global regions and major industries, are performing on four core assessment themes: Environment, Labor & Human Rights, Ethics and Sustainable Procurement. Through data-driven analysis, it highlights the state of where global value chains stand on sustainability nearly halfway into a pivotal decade for climate and social action. The score trends give a view into how large purchasing organizations are leveraging ratings in their supply chains to reduce risk, build resilience, prepare for compliance with ESG reporting and due diligence laws, and unlock the value needed to thrive today and into the future. It also reflects how suppliers are also reducing operational risks, enhancing efficiency, saving costs, collecting better data and enhancing their relationships with business partners."
+  },
+  "news": {
+    "badge": "BACKLINKS",
+    "headline": "Industry Insights & Updates",
+    "readMore": "Read More",
+    "liveUpdate": "Live Updates: Your trusted partner for sourcing high-quality products and business solutions that drive your business to the top",
+    "insights": {
+      "news1": {
+        "title": "How digital technologies are transforming the supply chain",
+        "date": "March 15, 2024",
+        "excerpt": "Exploring the latest innovations in logistics and supply chain management"
+      },
+      "news2": {
+        "title": "Global trade trends and market insights for 2024",
+        "date": "March 12, 2024",
+        "excerpt": "Understanding the evolving landscape of international business via countless data points and partnerships across the globe"
+      },
+      "news3": {
+        "title": "Sustainability in logistics: Best practices and strategies",
+        "date": "March 10, 2024",
+        "excerpt": "Implementing eco-friendly solutions in supply chain operations and logistics, maintaining efficiency and reducing carbon footprint."
+      },
+      "news4": {
+        "title": "The future of e-commerce and its impact on global logistics",
+        "date": "March 8, 2024",
+        "excerpt": "Adapting to the rapid growth of online retail and delivery services enabling seamless global trade."
+      },
+      "news5": {
+        "title": "Building stronger B2B partnerships in global markets",
+        "date": "March 5, 2024",
+        "excerpt": "Strategies for successful international business collaboration helping companies thrive."
+      }
+    }
+  }
+}
