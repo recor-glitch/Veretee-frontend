@@ -5,6 +5,36 @@
     "home": "Startseite",
     "about": "Über uns",
     "services": "Dienstleistungen",
+    "servicesDropdown": [
+      {
+        "title": "Bearbeitete Produkte",
+        "link": "/services/machined-products"
+      },
+      {
+        "title": "Textilien & Garn",
+        "link": "/services/textile-yarn"
+      },
+      {
+        "title": "Küchenprodukte",
+        "link": "/services/kitchen-products"
+      },
+      {
+        "title": "Wellnessprodukte",
+        "link": "/services/wellness-products"
+      },
+      {
+        "title": "3D-Druckprodukte",
+        "link": "/services/3d-printing-products"
+      },
+      {
+        "title": "Spielzeug",
+        "link": "/services/toys"
+      },
+      {
+        "title": "Rohmaterialien",
+        "link": "/services/raw-materials"
+      }
+    ],
     "career": "Karriere",
     "contact": "Kontakt"
   },

@@ -3,8 +3,38 @@
     "logoText": "Veretee",
     "imageAlt": "Veretee Logo",
     "home": "Home",
-    "about": "About Us",
+    "about": "About us",
     "services": "Services",
+    "servicesDropdown": [
+      {
+        "title": "Machined Products",
+        "link": "/services/machined-products"
+      },
+      {
+        "title": "Textile & Yarn",
+        "link": "/services/textile-yarn"
+      },
+      {
+        "title": "Kitchen Products",
+        "link": "/services/kitchen-products"
+      },
+      {
+        "title": "Wellness Products",
+        "link": "/services/wellness-products"
+      },
+      {
+        "title": "3 D Printing Products",
+        "link": "/services/3d-printing-products"
+      },
+      {
+        "title": "Toys",
+        "link": "/services/toys"
+      },
+      {
+        "title": "Raw Materials",
+        "link": "/services/raw-materials"
+      }
+    ],
     "career": "Career",
     "contact": "Contact"
   },

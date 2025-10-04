@@ -162,7 +162,7 @@ const Products = () => {
           <Button
             variant="outline"
             size="lg"
-            className="group rounded-full w-3xs h-24 text-4xl font-medium"
+            className="group rounded-full md:w-3xs md:h-24 text-xl md:text-4xl font-medium"
           >
             {t("viewAll")}
             {/* <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" /> */}

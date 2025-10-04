@@ -30,7 +30,6 @@ const Navigation = () => {
   const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
 
   const handleLanguageChange = (selectedLocale: string) => {
-
     // Get the path segments
     const segments = pathname.split("/").filter(Boolean);
 
@@ -46,6 +45,11 @@ const Navigation = () => {
 
     router.replace(newPath);
   };
+
+  const serviceDropdownItems = t.raw("servicesDropdown") as {
+    title: string;
+    link: string;
+  }[];
 
   return (
     <nav className="bg-white sticky top-0 z-50">
@@ -83,31 +87,13 @@ const Navigation = () => {
                 <ChevronDown className="h-4 w-4" />
               </DropdownMenuTrigger>
               <DropdownMenuContent align="start" className="w-56">
-                <DropdownMenuItem asChild>
-                  <Link href="/services/web-development" className="w-full">
-                    Web Development
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link href="/services/mobile-development" className="w-full">
-                    Mobile Development
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link href="/services/ui-ux-design" className="w-full">
-                    UI/UX Design
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link href="/services/consulting" className="w-full">
-                    Consulting
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link href="/services/maintenance" className="w-full">
-                    Maintenance & Support
-                  </Link>
-                </DropdownMenuItem>
+                {serviceDropdownItems.map((item) => (
+                  <DropdownMenuItem asChild key={item.title}>
+                    <Link href={item.link} className="w-full">
+                      {item.title}
+                    </Link>
+                  </DropdownMenuItem>
+                ))}
               </DropdownMenuContent>
             </DropdownMenu>
             <Link
@@ -132,21 +118,17 @@ const Navigation = () => {
                 <ChevronDown className="h-4 w-4" />
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" className="w-32">
-                <DropdownMenuItem 
+                <DropdownMenuItem
                   onClick={() => handleLanguageChange("en")}
                   className={currentLocale === "en" ? "bg-accent" : ""}
                 >
-                  <span className="flex items-center gap-2">
-                    🇺🇸 English
-                  </span>
+                  <span className="flex items-center gap-2">🇺🇸 English</span>
                 </DropdownMenuItem>
-                <DropdownMenuItem 
+                <DropdownMenuItem
                   onClick={() => handleLanguageChange("de")}
                   className={currentLocale === "de" ? "bg-accent" : ""}
                 >
-                  <span className="flex items-center gap-2">
-                    🇩🇪 Deutsch
-                  </span>
+                  <span className="flex items-center gap-2">🇩🇪 Deutsch</span>
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
@@ -177,49 +159,30 @@ const Navigation = () => {
                   </Link>
                   <div className="space-y-2">
                     <button
-                      onClick={() => setIsMobileServicesOpen(!isMobileServicesOpen)}
+                      onClick={() =>
+                        setIsMobileServicesOpen(!isMobileServicesOpen)
+                      }
                       className="flex items-center justify-between w-full text-muted-foreground hover:text-primary transition-colors py-2 px-4 rounded-md hover:bg-accent"
                     >
                       {t("services")}
-                      <ChevronDown className={`h-4 w-4 transition-transform ${isMobileServicesOpen ? 'rotate-180' : ''}`} />
+                      <ChevronDown
+                        className={`h-4 w-4 transition-transform ${
+                          isMobileServicesOpen ? "rotate-180" : ""
+                        }`}
+                      />
                     </button>
                     {isMobileServicesOpen && (
                       <div className="ml-4 space-y-1">
-                        <Link
-                          href="/services/web-development"
-                          className="block text-sm text-muted-foreground hover:text-primary transition-colors py-2 px-4 rounded-md hover:bg-accent"
-                          onClick={() => setIsDrawerOpen(false)}
-                        >
-                          Web Development
-                        </Link>
-                        <Link
-                          href="/services/mobile-development"
-                          className="block text-sm text-muted-foreground hover:text-primary transition-colors py-2 px-4 rounded-md hover:bg-accent"
-                          onClick={() => setIsDrawerOpen(false)}
-                        >
-                          Mobile Development
-                        </Link>
-                        <Link
-                          href="/services/ui-ux-design"
-                          className="block text-sm text-muted-foreground hover:text-primary transition-colors py-2 px-4 rounded-md hover:bg-accent"
-                          onClick={() => setIsDrawerOpen(false)}
-                        >
-                          UI/UX Design
-                        </Link>
-                        <Link
-                          href="/services/consulting"
-                          className="block text-sm text-muted-foreground hover:text-primary transition-colors py-2 px-4 rounded-md hover:bg-accent"
-                          onClick={() => setIsDrawerOpen(false)}
-                        >
-                          Consulting
-                        </Link>
-                        <Link
-                          href="/services/maintenance"
-                          className="block text-sm text-muted-foreground hover:text-primary transition-colors py-2 px-4 rounded-md hover:bg-accent"
-                          onClick={() => setIsDrawerOpen(false)}
-                        >
-                          Maintenance & Support
-                        </Link>
+                        {serviceDropdownItems.map((item) => (
+                          <Link
+                            key={item.title}
+                            href={item.link}
+                            className="block text-sm text-muted-foreground hover:text-primary transition-colors py-2 px-4 rounded-md hover:bg-accent"
+                            onClick={() => setIsDrawerOpen(false)}
+                          >
+                            {item.title}
+                          </Link>
+                        ))}
                       </div>
                     )}
                   </div>

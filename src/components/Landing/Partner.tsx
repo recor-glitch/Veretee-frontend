@@ -1,11 +1,11 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import Link from "next/link";
 import DHLLogo from "../../../public/dhl.svg";
 import Flexport from "../../../public/flexport.svg";
 import Schenker from "../../../public/schenker.svg";
 import UPS from "../../../public/ups.svg";
 import { Button } from "../ui/button";
-import Link from "next/link";
 
 const Partners = () => {
   const t = useTranslations("partners");
@@ -37,10 +37,9 @@ const Partners = () => {
             <div className="w-full flex-col">
               <p className="font-medium text-2xl">{t("brief")}</p>
               <Link href={"/testimonial"}>
-              
-              <Button className="mt-4 rounded-4xl" size="lg">
-                {t("readMore")}
-              </Button>
+                <Button className="mt-4 rounded-4xl cursor-pointer" size="lg">
+                  {t("readMore")}
+                </Button>
               </Link>
             </div>
           </div>

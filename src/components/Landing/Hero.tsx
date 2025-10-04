@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 const Hero = () => {
   const t = useTranslations("hero");
   return (
-    <section className="relative md:min-h-[960px] flex items-center overflow-hidden rounded-2xl">
+    <section className="relative min-h-[820px] md:min-h-[960px] flex items-center overflow-hidden rounded-2xl">
       <div
         className="absolute inset-0 bg-cover bg-center pointer-events-none"
         style={{
