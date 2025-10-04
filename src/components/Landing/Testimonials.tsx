@@ -23,19 +23,19 @@ const Testimonials = () => {
   return (
     <section className="py-20">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 md:gap-8 gap-16">
           {testimonials.map((testimonial, index) => (
             <div
               key={testimonial.author + index}
-              className="w-full gap-9 flex min-h-64"
+              className="w-full gap-9 min-h-64 grid grid-cols-3"
             >
-              <div className="border relative border-accent p-4 flex items-center rounded-md">
+              <div className="border relative border-accent p-4 flex items-center rounded-md col-span-2">
                 <Image
                   src={Quote}
                   alt={t("quoteIconAlt")}
                   className="absolute text-accent mb-4 right-0 bottom-0 translate-x-1/2 translate-y-[70%]"
                 />
-                <p className="text-2xl mb-6 font-bold text-[#64748B]">
+                <p className="md:text-2xl mb-6 font-bold text-[#64748B]">
                   "{testimonial.quote}"
                 </p>
               </div>
@@ -44,7 +44,7 @@ const Testimonials = () => {
                 width={64}
                 src={Person}
                 alt={testimonial.author}
-                className="w-32 h-32 rounded-xl object-cover"
+                className="w-32 h-32 rounded-xl object-cover col-span-1"
               />
             </div>
           ))}
