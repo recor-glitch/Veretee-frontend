@@ -282,5 +282,128 @@
         "content": "Heute ist der erste Schultag. Lena steht mit ihrer Schultüte vor der Schule. Sandra, Susanne und Paul sind auch da. Die Kinder kennen sich aus dem Kindergarten. Jetzt gehen sie in die gleiche Klasse. Sie freuen sich schon auf den Unterricht. Lena freut sich besonders auf das Rechnen. Sandra und Susanne aufs Schreiben. Und Paul? Paul sagt, er freut sich besonders auf die Pausen. In der Klasse lernen sie ihren Lehrer, Herrn Mayer, kennen. Herr Mayer ist noch sehr jung und lustig. In der ersten Stunde lernen die Kinder das ABC-Lied. Alle singen begeistert mit. Danach schreibt der Lehrer die ersten Buchstaben an die Tafel: A wie Affe, B wie Banane. Herr Mayer zeichnet einen Affen dazu, der einen Banane frisst. Die Kinder lachen laut. Dann läutet auch schon die Schulglocke. Der erste Tag in der Schule ist vorbei. Vor der Schule warten die Eltern auf die Kinder. Die Kinder erzählen vom ersten Tag. Sie freuen sich schon auf morgen."
       }
     }
+  },
+  "career": {
+    "title": "Werden Sie Teil unserer Mission",
+    "opening": "Stellenangebote",
+    "detail": {
+      "title": "Veretee",
+      "about": "Über Veretee",
+      "jobDescription": "Stellenbeschreibungen",
+      "apply": "Bewerben",
+      "applyForJob": "Für diese Stelle bewerben",
+      "form": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail",
+        "phone": "Telefonnummer",
+        "resume": {
+          "title": "Lebenslauf hochladen",
+          "attach": "Anhängen",
+          "dropbox": "Dropbox",
+          "googleDrive": "Google Drive"
+        },
+        "howWillYouBeValuable": "Wie werden Sie für unser Unternehmen wertvoll sein?",
+        "telMeAboutYourself": "Erzählen Sie uns von sich",
+        "submit": "Bewerbung absenden"
+      },
+      "description": "Unternehmen aller Größenordnungen im gesamten EcoVadis-Netzwerk, insbesondere solche mit mehreren Bewertungen, erzielen messbare Fortschritte bei einem breiten Spektrum von Nachhaltigkeitsherausforderungen. Diese Erkenntnisse und mehr finden sich in der achten Ausgabe des Business Sustainability Index, der heute vom Anbieter von Nachhaltigkeitsbewertungen für Unternehmen EcoVadis veröffentlicht wurde. Diese Ausgabe des Index untersucht die Trends hinter den mehr als 125.000 Nachhaltigkeitsbewertungen für Lieferanten (~38.000 allein im Jahr 2023), die EcoVadis von 2019 bis 2023 an 1.200 führende Beschaffungsteams geliefert hat. Sie betrachtet, wie diese Lieferanten, die alle globalen Regionen und wichtigsten Branchen umfassen, bei vier zentralen Bewertungsthemen abschneiden: Umwelt, Arbeit & Menschenrechte, Ethik und nachhaltige Beschaffung. Durch datengestützte Analysen wird aufgezeigt, wo globale Wertschöpfungsketten in Bezug auf Nachhaltigkeit fast auf halbem Weg in einem entscheidenden Jahrzehnt für Klima- und Sozialmaßnahmen stehen. Die Bewertungstrends geben Einblick, wie große Einkaufsorganisationen Bewertungen in ihren Lieferketten nutzen, um Risiken zu reduzieren, Widerstandsfähigkeit aufzubauen, sich auf die Einhaltung von ESG-Berichts- und Sorgfaltspflichtgesetzen vorzubereiten und den Wert freizusetzen, der für erfolgreiches Wirtschaften heute und in Zukunft erforderlich ist. Es spiegelt auch wider, wie Lieferanten ebenfalls operative Risiken reduzieren, die Effizienz steigern, Kosten einsparen, bessere Daten sammeln und ihre Beziehungen zu Geschäftspartnern verbessern. Beispielsweise steigen Unternehmen mit mehreren Bewertungen im Durchschnitt weit über regionale und branchenspezifische Leistungsbaselines. Diese Unternehmen entwickeln robuste Richtlinien, setzen datengestützte Ziele, übernehmen bessere Praktiken, berichten ihren Fortschritt einem breiteren Publikum und beginnen, ihre Nachhaltigkeitsbemühungen in die nächste Ebene der Wertschöpfungskette zu übertragen."
+    },
+    "description": "Wir suchen leidenschaftliche Menschen, die uns bei unserer Mission begleiten. Wir schätzen klare Kommunikation sowie vollständige Eigenverantwortung und Verantwortungsbewusstsein",
+    "filters": [
+      {
+        "title": "Alle anzeigen"
+      },
+      {
+        "title": "Projektmanager"
+      },
+      {
+        "title": "Entwickler"
+      },
+      {
+        "title": "Designer"
+      },
+      {
+        "title": "Marketing"
+      },
+      {
+        "title": "Vertrieb"
+      },
+      {
+        "title": "Betrieb"
+      }
+    ],
+    "table": {
+      "position": "Position",
+      "team": "Team",
+      "location": "Standort",
+      "link": "Link"
+    },
+    "jobList": [
+      {
+        "id": 1,
+        "position": "Senior Zollsachbearbeiter",
+        "team": "Zoll",
+        "location": "New York, NY",
+        "date": "2023-04-01",
+        "description": "„Das Thema nachhaltige Beschaffung wird zu einem immer wichtigeren Bereich, den es zu beobachten gilt, da die Gesetze zu Lieferketten und Sorgfaltspflichten immer weiter ausgebaut werden“, sagte Sylvain Guyoton, Chief Rating Officer bei EcoVadis. „Das Prinzip der ‚begründeten Bedenken‘ in der Richtlinie zur Nachhaltigkeitssorgfaltspflicht von Unternehmen wird beispielsweise viele Unternehmen dazu verpflichten, nachhaltige Beschaffungspraktiken an ihre Tier-1-Lieferanten weiterzugeben, die überall auf der Welt sein können. Unternehmen müssen enger als je zuvor mit ihren Lieferanten zusammenarbeiten, um konform und wettbewerbsfähig zu bleiben.“ Lesen Sie hier den vollständigen Bericht zum Business Sustainability Index und erstellen Sie im Index Online benutzerdefinierte Ansichten bestimmter Sektoren, Regionen und Themen. ###"
+      },
+      {
+        "id": 2,
+        "position": "Senior Zollsachbearbeiter",
+        "team": "Zoll",
+        "location": "New York, NY",
+        "date": "2023-04-01",
+        "description": "„Das Thema nachhaltige Beschaffung wird zu einem immer wichtigeren Bereich, den es zu beobachten gilt, da die Gesetze zu Lieferketten und Sorgfaltspflichten immer weiter ausgebaut werden“, sagte Sylvain Guyoton, Chief Rating Officer bei EcoVadis. „Das Prinzip der ‚begründeten Bedenken‘ in der Richtlinie zur Nachhaltigkeitssorgfaltspflicht von Unternehmen wird beispielsweise viele Unternehmen dazu verpflichten, nachhaltige Beschaffungspraktiken an ihre Tier-1-Lieferanten weiterzugeben, die überall auf der Welt sein können. Unternehmen müssen enger als je zuvor mit ihren Lieferanten zusammenarbeiten, um konform und wettbewerbsfähig zu bleiben.“ Lesen Sie hier den vollständigen Bericht zum Business Sustainability Index und erstellen Sie im Index Online benutzerdefinierte Ansichten bestimmter Sektoren, Regionen und Themen. ###"
+      },
+      {
+        "id": 3,
+        "position": "Senior Zollsachbearbeiter",
+        "team": "Zoll",
+        "location": "New York, NY",
+        "date": "2023-04-01",
+        "description": "„Das Thema nachhaltige Beschaffung wird zu einem immer wichtigeren Bereich, den es zu beobachten gilt, da die Gesetze zu Lieferketten und Sorgfaltspflichten immer weiter ausgebaut werden“, sagte Sylvain Guyoton, Chief Rating Officer bei EcoVadis. „Das Prinzip der ‚begründeten Bedenken‘ in der Richtlinie zur Nachhaltigkeitssorgfaltspflicht von Unternehmen wird beispielsweise viele Unternehmen dazu verpflichten, nachhaltige Beschaffungspraktiken an ihre Tier-1-Lieferanten weiterzugeben, die überall auf der Welt sein können. Unternehmen müssen enger als je zuvor mit ihren Lieferanten zusammenarbeiten, um konform und wettbewerbsfähig zu bleiben.“ Lesen Sie hier den vollständigen Bericht zum Business Sustainability Index und erstellen Sie im Index Online benutzerdefinierte Ansichten bestimmter Sektoren, Regionen und Themen. ###"
+      },
+      {
+        "id": 4,
+        "position": "Senior Zollsachbearbeiter",
+        "team": "Zoll",
+        "location": "New York, NY",
+        "date": "2023-04-01",
+        "description": "„Das Thema nachhaltige Beschaffung wird zu einem immer wichtigeren Bereich, den es zu beobachten gilt, da die Gesetze zu Lieferketten und Sorgfaltspflichten immer weiter ausgebaut werden“, sagte Sylvain Guyoton, Chief Rating Officer bei EcoVadis. „Das Prinzip der ‚begründeten Bedenken‘ in der Richtlinie zur Nachhaltigkeitssorgfaltspflicht von Unternehmen wird beispielsweise viele Unternehmen dazu verpflichten, nachhaltige Beschaffungspraktiken an ihre Tier-1-Lieferanten weiterzugeben, die überall auf der Welt sein können. Unternehmen müssen enger als je zuvor mit ihren Lieferanten zusammenarbeiten, um konform und wettbewerbsfähig zu bleiben.“ Lesen Sie hier den vollständigen Bericht zum Business Sustainability Index und erstellen Sie im Index Online benutzerdefinierte Ansichten bestimmter Sektoren, Regionen und Themen. ###"
+      },
+      {
+        "id": 5,
+        "position": "Senior Zollsachbearbeiter",
+        "team": "Zoll",
+        "location": "New York, NY",
+        "date": "2023-04-01",
+        "description": "„Das Thema nachhaltige Beschaffung wird zu einem immer wichtigeren Bereich, den es zu beobachten gilt, da die Gesetze zu Lieferketten und Sorgfaltspflichten immer weiter ausgebaut werden“, sagte Sylvain Guyoton, Chief Rating Officer bei EcoVadis. „Das Prinzip der ‚begründeten Bedenken‘ in der Richtlinie zur Nachhaltigkeitssorgfaltspflicht von Unternehmen wird beispielsweise viele Unternehmen dazu verpflichten, nachhaltige Beschaffungspraktiken an ihre Tier-1-Lieferanten weiterzugeben, die überall auf der Welt sein können. Unternehmen müssen enger als je zuvor mit ihren Lieferanten zusammenarbeiten, um konform und wettbewerbsfähig zu bleiben.“ Lesen Sie hier den vollständigen Bericht zum Business Sustainability Index und erstellen Sie im Index Online benutzerdefinierte Ansichten bestimmter Sektoren, Regionen und Themen. ###"
+      },
+      {
+        "id": 6,
+        "position": "Senior Zollsachbearbeiter",
+        "team": "Zoll",
+        "location": "New York, NY",
+        "date": "2023-04-01",
+        "description": "„Das Thema nachhaltige Beschaffung wird zu einem immer wichtigeren Bereich, den es zu beobachten gilt, da die Gesetze zu Lieferketten und Sorgfaltspflichten immer weiter ausgebaut werden“, sagte Sylvain Guyoton, Chief Rating Officer bei EcoVadis. „Das Prinzip der ‚begründeten Bedenken‘ in der Richtlinie zur Nachhaltigkeitssorgfaltspflicht von Unternehmen wird beispielsweise viele Unternehmen dazu verpflichten, nachhaltige Beschaffungspraktiken an ihre Tier-1-Lieferanten weiterzugeben, die überall auf der Welt sein können. Unternehmen müssen enger als je zuvor mit ihren Lieferanten zusammenarbeiten, um konform und wettbewerbsfähig zu bleiben.“ Lesen Sie hier den vollständigen Bericht zum Business Sustainability Index und erstellen Sie im Index Online benutzerdefinierte Ansichten bestimmter Sektoren, Regionen und Themen. ###"
+      },
+      {
+        "id": 7,
+        "position": "Senior Zollsachbearbeiter",
+        "team": "Zoll",
+        "location": "New York, NY",
+        "date": "2023-04-01",
+        "description": "„Das Thema nachhaltige Beschaffung wird zu einem immer wichtigeren Bereich, den es zu beobachten gilt, da die Gesetze zu Lieferketten und Sorgfaltspflichten immer weiter ausgebaut werden“, sagte Sylvain Guyoton, Chief Rating Officer bei EcoVadis. „Das Prinzip der ‚begründeten Bedenken‘ in der Richtlinie zur Nachhaltigkeitssorgfaltspflicht von Unternehmen wird beispielsweise viele Unternehmen dazu verpflichten, nachhaltige Beschaffungspraktiken an ihre Tier-1-Lieferanten weiterzugeben, die überall auf der Welt sein können. Unternehmen müssen enger als je zuvor mit ihren Lieferanten zusammenarbeiten, um konform und wettbewerbsfähig zu bleiben.“ Lesen Sie hier den vollständigen Bericht zum Business Sustainability Index und erstellen Sie im Index Online benutzerdefinierte Ansichten bestimmter Sektoren, Regionen und Themen. ###"
+      },
+      {
+        "id": 8,
+        "position": "Senior Zollsachbearbeiter",
+        "team": "Zoll",
+        "location": "New York, NY",
+        "date": "2023-04-01",
+        "description": "„Das Thema nachhaltige Beschaffung wird zu einem immer wichtigeren Bereich, den es zu beobachten gilt, da die Gesetze zu Lieferketten und Sorgfaltspflichten immer weiter ausgebaut werden“, sagte Sylvain Guyoton, Chief Rating Officer bei EcoVadis. „Das Prinzip der ‚begründeten Bedenken‘ in der Richtlinie zur Nachhaltigkeitssorgfaltspflicht von Unternehmen wird beispielsweise viele Unternehmen dazu verpflichten, nachhaltige Beschaffungspraktiken an ihre Tier-1-Lieferanten weiterzugeben, die überall auf der Welt sein können. Unternehmen müssen enger als je zuvor mit ihren Lieferanten zusammenarbeiten, um konform und wettbewerbsfähig zu bleiben.“ Lesen Sie hier den vollständigen Bericht zum Business Sustainability Index und erstellen Sie im Index Online benutzerdefinierte Ansichten bestimmter Sektoren, Regionen und Themen. ###"
+      }
+    ]
   }
 }
