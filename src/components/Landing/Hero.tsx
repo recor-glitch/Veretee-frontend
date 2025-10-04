@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
 import TrackingForm from "./TrackingForm";
+import { ArrowRight, Home } from "lucide-react";
 
 // Use public path directly for background images
 const Hero = () => {
@@ -27,16 +28,15 @@ const Hero = () => {
             </h1>
             <p className="text-lg mb-8 text-white/90">{t("desc")}</p>
             <div className="flex flex-wrap gap-4">
-              <Button
-                size="lg"
-                className="bg-primary-dark hover:bg-primary-dark/90"
-              >
+              <Button size="lg" className="bg-primary">
+                <Home className="text-white" />
                 {t("exploreButtonText")}
+                <ArrowRight className="text-white" />
               </Button>
               <Button
                 size="lg"
                 variant="outline"
-                className="bg-white/10 backdrop-blur-sm text-white border-white hover:bg-white hover:text-primary"
+                className="bg-white text-primary border-primary hover:text-white"
               >
                 {t("quoteButtonText")}
               </Button>
