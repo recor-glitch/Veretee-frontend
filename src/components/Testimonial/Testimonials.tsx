@@ -1,12 +1,11 @@
 import { Star } from "lucide-react";
-import { useTranslations } from "next-intl";
-import React from "react";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import Person from "../../../public/person.svg";
 import Quote from "../../../public/quote.svg";
 
-const TestimonialsSection = () => {
-  const t = useTranslations("testimonials");
+const TestimonialsSection = async () => {
+  const t = await getTranslations("testimonials");
   const reviews = [
     {
       author: t("page.reviews.review1.author"),
@@ -26,16 +25,16 @@ const TestimonialsSection = () => {
     },
   ];
   return (
-    <div className="col-span-full grid grid-cols-2 gap-32">
+    <div className="col-span-full grid grid-cols-2 gap-16">
       <p className="col-span-full text-4xl font-medium">
         {t("page.reviews.title")}
       </p>
       {reviews.map((testimonial, index) => (
         <div
           key={testimonial.author + index}
-          className="w-full gap-9 flex min-h-64 col-span-full md:col-span-1"
+          className="w-full gap-9 md:min-h-64 col-span-full md:col-span-1 grid grid-cols-3"
         >
-          <div className="bg-primary relative p-4 flex items-center rounded-md">
+          <div className="bg-primary relative p-4 flex items-center rounded-md col-span-2">
             <Image
               src={Quote}
               alt={t("quoteIconAlt")}
@@ -45,7 +44,7 @@ const TestimonialsSection = () => {
               "{testimonial.quote}"
             </p>
           </div>
-          <div className="flex flex-col items-center gap-4">
+          <div className="flex flex-col items-center gap-4 col-span-1">
             <Image
               height={64}
               width={64}
@@ -54,11 +53,11 @@ const TestimonialsSection = () => {
               className="w-32 h-32 rounded-xl object-cover"
             />
             <div className="flex items-center gap-1">
-              <Star className="text-[#F8C43E]" fill="#F8C43E" />
-              <Star className="text-[#F8C43E]" fill="#F8C43E" />
-              <Star className="text-[#F8C43E]" fill="#F8C43E" />
-              <Star className="text-[#F8C43E]" fill="#F8C43E" />
-              <Star className="text-[#F8C43E]" fill="#F8C43E" />
+              <Star className="text-[#F8C43E] h-4 w-4" fill="#F8C43E" />
+              <Star className="text-[#F8C43E] h-4 w-4" fill="#F8C43E" />
+              <Star className="text-[#F8C43E] h-4 w-4" fill="#F8C43E" />
+              <Star className="text-[#F8C43E] h-4 w-4" fill="#F8C43E" />
+              <Star className="text-[#F8C43E] h-4 w-4" fill="#F8C43E" />
             </div>
           </div>
         </div>

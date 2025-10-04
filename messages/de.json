@@ -248,28 +248,38 @@
     "insights": {
       "news1": {
         "title": "Wie digitale Technologien die Lieferkette transformieren",
+        "author": "John Doe",
         "date": "15. März 2024",
-        "excerpt": "Erkundung der neuesten Innovationen in Logistik und Lieferkettenmanagement"
+        "excerpt": "Erkundung der neuesten Innovationen in Logistik und Lieferkettenmanagement",
+        "content": "Heute ist der erste Schultag. Lena steht mit ihrer Schultüte vor der Schule. Sandra, Susanne und Paul sind auch da. Die Kinder kennen sich aus dem Kindergarten. Jetzt gehen sie in die gleiche Klasse. Sie freuen sich schon auf den Unterricht. Lena freut sich besonders auf das Rechnen. Sandra und Susanne aufs Schreiben. Und Paul? Paul sagt, er freut sich besonders auf die Pausen. In der Klasse lernen sie ihren Lehrer, Herrn Mayer, kennen. Herr Mayer ist noch sehr jung und lustig. In der ersten Stunde lernen die Kinder das ABC-Lied. Alle singen begeistert mit. Danach schreibt der Lehrer die ersten Buchstaben an die Tafel: A wie Affe, B wie Banane. Herr Mayer zeichnet einen Affen dazu, der einen Banane frisst. Die Kinder lachen laut. Dann läutet auch schon die Schulglocke. Der erste Tag in der Schule ist vorbei. Vor der Schule warten die Eltern auf die Kinder. Die Kinder erzählen vom ersten Tag. Sie freuen sich schon auf morgen."
       },
       "news2": {
         "title": "Globale Handelstrends und Markteinblicke für 2024",
+        "author": "Jane Smith",
         "date": "12. März 2024",
-        "excerpt": "Verstehen der sich entwickelnden Landschaft des internationalen Geschäfts anhand unzähliger Datenpunkte und Partnerschaften weltweit"
+        "excerpt": "Verstehen der sich entwickelnden Landschaft des internationalen Geschäfts anhand unzähliger Datenpunkte und Partnerschaften weltweit",
+        "content": "Heute ist der erste Schultag. Lena steht mit ihrer Schultüte vor der Schule. Sandra, Susanne und Paul sind auch da. Die Kinder kennen sich aus dem Kindergarten. Jetzt gehen sie in die gleiche Klasse. Sie freuen sich schon auf den Unterricht. Lena freut sich besonders auf das Rechnen. Sandra und Susanne aufs Schreiben. Und Paul? Paul sagt, er freut sich besonders auf die Pausen. In der Klasse lernen sie ihren Lehrer, Herrn Mayer, kennen. Herr Mayer ist noch sehr jung und lustig. In der ersten Stunde lernen die Kinder das ABC-Lied. Alle singen begeistert mit. Danach schreibt der Lehrer die ersten Buchstaben an die Tafel: A wie Affe, B wie Banane. Herr Mayer zeichnet einen Affen dazu, der einen Banane frisst. Die Kinder lachen laut. Dann läutet auch schon die Schulglocke. Der erste Tag in der Schule ist vorbei. Vor der Schule warten die Eltern auf die Kinder. Die Kinder erzählen vom ersten Tag. Sie freuen sich schon auf morgen."
       },
       "news3": {
         "title": "Nachhaltigkeit in der Logistik: Best Practices und Strategien",
+        "author": "Jane Smith",
         "date": "10. März 2024",
-        "excerpt": "Implementierung umweltfreundlicher Lösungen in Lieferketten und Logistik, zur Effizienzsteigerung und CO2-Reduktion."
+        "excerpt": "Implementierung umweltfreundlicher Lösungen in Lieferketten und Logistik, zur Effizienzsteigerung und CO2-Reduktion.",
+        "content": "Heute ist der erste Schultag. Lena steht mit ihrer Schultüte vor der Schule. Sandra, Susanne und Paul sind auch da. Die Kinder kennen sich aus dem Kindergarten. Jetzt gehen sie in die gleiche Klasse. Sie freuen sich schon auf den Unterricht. Lena freut sich besonders auf das Rechnen. Sandra und Susanne aufs Schreiben. Und Paul? Paul sagt, er freut sich besonders auf die Pausen. In der Klasse lernen sie ihren Lehrer, Herrn Mayer, kennen. Herr Mayer ist noch sehr jung und lustig. In der ersten Stunde lernen die Kinder das ABC-Lied. Alle singen begeistert mit. Danach schreibt der Lehrer die ersten Buchstaben an die Tafel: A wie Affe, B wie Banane. Herr Mayer zeichnet einen Affen dazu, der einen Banane frisst. Die Kinder lachen laut. Dann läutet auch schon die Schulglocke. Der erste Tag in der Schule ist vorbei. Vor der Schule warten die Eltern auf die Kinder. Die Kinder erzählen vom ersten Tag. Sie freuen sich schon auf morgen."
       },
       "news4": {
         "title": "Die Zukunft des E-Commerce und seine Auswirkungen auf die globale Logistik",
+        "author": "John Doe",
         "date": "8. März 2024",
-        "excerpt": "Anpassung an das schnelle Wachstum des Onlinehandels und der Lieferdienste für einen nahtlosen globalen Handel."
+        "excerpt": "Anpassung an das schnelle Wachstum des Onlinehandels und der Lieferdienste für einen nahtlosen globalen Handel.",
+        "content": "Heute ist der erste Schultag. Lena steht mit ihrer Schultüte vor der Schule. Sandra, Susanne und Paul sind auch da. Die Kinder kennen sich aus dem Kindergarten. Jetzt gehen sie in die gleiche Klasse. Sie freuen sich schon auf den Unterricht. Lena freut sich besonders auf das Rechnen. Sandra und Susanne aufs Schreiben. Und Paul? Paul sagt, er freut sich besonders auf die Pausen. In der Klasse lernen sie ihren Lehrer, Herrn Mayer, kennen. Herr Mayer ist noch sehr jung und lustig. In der ersten Stunde lernen die Kinder das ABC-Lied. Alle singen begeistert mit. Danach schreibt der Lehrer die ersten Buchstaben an die Tafel: A wie Affe, B wie Banane. Herr Mayer zeichnet einen Affen dazu, der einen Banane frisst. Die Kinder lachen laut. Dann läutet auch schon die Schulglocke. Der erste Tag in der Schule ist vorbei. Vor der Schule warten die Eltern auf die Kinder. Die Kinder erzählen vom ersten Tag. Sie freuen sich schon auf morgen."
       },
       "news5": {
         "title": "Stärkere B2B-Partnerschaften in globalen Märkten aufbauen",
+        "author": "Jane Smith",
         "date": "5. März 2024",
-        "excerpt": "Strategien für erfolgreiche internationale Geschäftszusammenarbeit, die Unternehmen zum Erfolg führt."
+        "excerpt": "Strategien für erfolgreiche internationale Geschäftszusammenarbeit, die Unternehmen zum Erfolg führt.",
+        "content": "Heute ist der erste Schultag. Lena steht mit ihrer Schultüte vor der Schule. Sandra, Susanne und Paul sind auch da. Die Kinder kennen sich aus dem Kindergarten. Jetzt gehen sie in die gleiche Klasse. Sie freuen sich schon auf den Unterricht. Lena freut sich besonders auf das Rechnen. Sandra und Susanne aufs Schreiben. Und Paul? Paul sagt, er freut sich besonders auf die Pausen. In der Klasse lernen sie ihren Lehrer, Herrn Mayer, kennen. Herr Mayer ist noch sehr jung und lustig. In der ersten Stunde lernen die Kinder das ABC-Lied. Alle singen begeistert mit. Danach schreibt der Lehrer die ersten Buchstaben an die Tafel: A wie Affe, B wie Banane. Herr Mayer zeichnet einen Affen dazu, der einen Banane frisst. Die Kinder lachen laut. Dann läutet auch schon die Schulglocke. Der erste Tag in der Schule ist vorbei. Vor der Schule warten die Eltern auf die Kinder. Die Kinder erzählen vom ersten Tag. Sie freuen sich schon auf morgen."
       }
     }
   }

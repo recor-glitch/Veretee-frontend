@@ -9,11 +9,13 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "../ui/carousel";
+import Link from "next/link";
 
 const News = () => {
   const t = useTranslations("news");
   const newsItems = [
     {
+      id: "news1",
       image:
         "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=400",
       title: t("insights.news1.title"),
@@ -21,6 +23,7 @@ const News = () => {
       excerpt: t("insights.news1.excerpt"),
     },
     {
+      id: "news2",
       image:
         "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400",
       title: t("insights.news2.title"),
@@ -28,6 +31,7 @@ const News = () => {
       excerpt: t("insights.news2.excerpt"),
     },
     {
+      id: "news3",
       image:
         "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=400",
       title: t("insights.news3.title"),
@@ -35,12 +39,14 @@ const News = () => {
       excerpt: t("insights.news3.excerpt"),
     },
     {
+      id: "news4",
       image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=400",
       title: t("insights.news4.title"),
       date: t("insights.news4.date"),
       excerpt: t("insights.news4.excerpt"),
     },
     {
+      id: "news5",
       image:
         "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400",
       title: t("insights.news5.title"),
@@ -50,7 +56,7 @@ const News = () => {
   ];
 
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20 bg-background col-span-full">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <span className="inline-block bg-accent/10 text-accent px-4 py-2 rounded-full text-sm font-semibold mb-4">
@@ -96,12 +102,14 @@ const News = () => {
                       <p className="text-[16px] font-medium mb-4 text-black line-clamp-3">
                         {item.excerpt}
                       </p>
-                      <Button
-                        variant="link"
-                        className="p-0 h-auto group/btn underline underline-offset-4 cursor-pointer"
-                      >
-                        {t("readMore")}
-                      </Button>
+                      <Link href={`/insight/${item.id}`}>
+                        <Button
+                          variant="link"
+                          className="p-0 h-auto group/btn underline underline-offset-4 cursor-pointer"
+                        >
+                          {t("readMore")}
+                        </Button>
+                      </Link>
                     </div>
                   </Card>
                 </CarouselItem>

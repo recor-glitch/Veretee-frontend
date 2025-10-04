@@ -1,12 +1,11 @@
-import React from "react";
-import { Button } from "../ui/button";
-import { Card } from "../ui/card";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import Link from "next/link";
+import { Button } from "../ui/button";
+import { Card } from "../ui/card";
 
-function BusinessesSection() {
-  const t = useTranslations("testimonials");
+async function BusinessesSection() {
+  const t = await getTranslations("testimonials");
   const businesses = [
     {
       title: t("page.businesses.ups.title"),
