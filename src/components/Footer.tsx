@@ -1,13 +1,10 @@
 import {
-  Facebook,
-  Instagram,
-  Linkedin,
   Mail,
   MapPin,
-  Phone,
-  Twitter,
+  Phone
 } from "lucide-react";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 const Footer = () => {
   const t = useTranslations("footer");
@@ -20,68 +17,42 @@ const Footer = () => {
               <span className="text-xl font-bold">{t("logoText")}</span>
             </div>
             <p className="text-white/80 mb-4">{t("description")}</p>
-            <div className="flex space-x-4">
-              <a
-                href="#"
-                className="hover:text-primary-light transition-colors"
-              >
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                className="hover:text-primary-light transition-colors"
-              >
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                className="hover:text-primary-light transition-colors"
-              >
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                className="hover:text-primary-light transition-colors"
-              >
-                <Instagram className="h-5 w-5" />
-              </a>
-            </div>
           </div>
 
           <div>
             <h3 className="font-bold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a
+                <Link
                   href="#about"
                   className="text-white/80 hover:text-white transition-colors"
                 >
                   {t("about")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#services"
                   className="text-white/80 hover:text-white transition-colors"
                 >
                   {t("services")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#career"
+                <Link
+                  href="/career"
                   className="text-white/80 hover:text-white transition-colors"
                 >
                   {t("career")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#contact"
                   className="text-white/80 hover:text-white transition-colors"
                 >
                   {t("contact")}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -119,18 +90,18 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-white/80 text-sm">{t("copyright")}</p>
             <div className="flex gap-6 text-sm">
-              <a
+              <Link
                 href="#"
                 className="text-white/80 hover:text-white transition-colors"
               >
                 {t("privacyPolicy")}
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="text-white/80 hover:text-white transition-colors"
               >
                 {t("termsOfService")}
-              </a>
+              </Link>
             </div>
           </div>
         </div>

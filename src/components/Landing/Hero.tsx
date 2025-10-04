@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { useTranslations } from "next-intl";
-import TrackingForm from "./TrackingForm";
 import { ArrowRight, Home } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 // Use public path directly for background images
 const Hero = () => {

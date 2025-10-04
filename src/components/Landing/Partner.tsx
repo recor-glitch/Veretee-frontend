@@ -5,6 +5,7 @@ import Flexport from "../../../public/flexport.svg";
 import Schenker from "../../../public/schenker.svg";
 import UPS from "../../../public/ups.svg";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 const Partners = () => {
   const t = useTranslations("partners");
@@ -35,9 +36,12 @@ const Partners = () => {
             </h3>
             <div className="w-full flex-col">
               <p className="font-medium text-2xl">{t("brief")}</p>
+              <Link href={"/testimonial"}>
+              
               <Button className="mt-4 rounded-4xl" size="lg">
                 {t("readMore")}
               </Button>
+              </Link>
             </div>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-20">

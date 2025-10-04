@@ -18,7 +18,7 @@ function ApplicationForm() {
         <Input placeholder={t("detail.form.email")} />
         <Input placeholder={t("detail.form.phone")} />
       </form>
-      <h2 className="text-[20px] font-bold col-span-full">
+      <h2 className="text-xl font-medium col-span-full">
         {t("detail.form.resume.title")}
       </h2>
       <form className="col-span-full flex flex-col md:col-span-1 gap-8">
@@ -32,13 +32,13 @@ function ApplicationForm() {
           {t("detail.form.resume.googleDrive")}
         </Button>
       </form>
-      <h2 className="text-3xl font-light text-primary col-span-full">
+      <h2 className="text-xl font-medium col-span-full">
         {t("detail.form.howWillYouBeValuable")}
       </h2>
       <form className="col-span-full flex flex-col gap-8">
         <Textarea />
       </form>
-      <h2 className="text-3xl font-light text-primary col-span-full">
+      <h2 className="text-xl font-medium col-span-full">
         {t("detail.form.telMeAboutYourself")}
       </h2>
       <form className="col-span-full flex flex-col gap-8">

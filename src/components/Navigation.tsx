@@ -1,20 +1,35 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { Globe, Menu } from "lucide-react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+import { ChevronDown, Globe, Menu } from "lucide-react";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
-import Logo from "../../public/logo.svg";
-import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
-import { useRouter, usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
+import { useState } from "react";
+import Logo from "../../public/logo.svg";
 
 const Navigation = () => {
   const t = useTranslations("navigation");
   const router = useRouter();
   const pathname = usePathname();
   const currentLocale = useLocale();
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
 
-  const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const selectedLocale = e.target.value;
+  const handleLanguageChange = (selectedLocale: string) => {
 
     // Get the path segments
     const segments = pathname.split("/").filter(Boolean);
@@ -56,54 +71,175 @@ const Navigation = () => {
             >
               {t("home")}
             </Link>
-            <a
+            <Link
               href="#about"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               {t("about")}
-            </a>
-            <a
-              href="#services"
-              className="text-muted-foreground hover:text-primary transition-colors"
-            >
-              {t("services")}
-            </a>
-            <a
+            </Link>
+            <DropdownMenu>
+              <DropdownMenuTrigger className="flex items-center gap-1 text-muted-foreground hover:text-primary transition-colors outline-none">
+                {t("services")}
+                <ChevronDown className="h-4 w-4" />
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="start" className="w-56">
+                <DropdownMenuItem asChild>
+                  <Link href="/services/web-development" className="w-full">
+                    Web Development
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link href="/services/mobile-development" className="w-full">
+                    Mobile Development
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link href="/services/ui-ux-design" className="w-full">
+                    UI/UX Design
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link href="/services/consulting" className="w-full">
+                    Consulting
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link href="/services/maintenance" className="w-full">
+                    Maintenance & Support
+                  </Link>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+            <Link
               href="/career"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               {t("career")}
-            </a>
-            <a
+            </Link>
+            <Link
               href="#contact"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               {t("contact")}
-            </a>
+            </Link>
           </div>
 
           <div className="flex items-center space-x-4">
-            <div className="relative">
-              <Globe className="h-4 w-4 absolute left-5 top-1/2 -translate-y-1/2 pointer-events-none text-white z-10" />
-              <select
-                value={currentLocale}
-                onChange={handleLanguageChange}
-                className="flex items-center gap-2 bg-blue-900 focus:outline-none hover:bg-blue-800 text-white pl-12 pr-10 py-2.5 rounded-full transition-colors duration-200 font-medium cursor-pointer appearance-none min-w-[100px] [&>option]:bg-white [&>option]:text-black"
-                style={{
-                  backgroundImage:
-                    "url('data:image/svg+xml;charset=UTF-8,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724%27 height=%2724%27 viewBox=%270 0 24 24%27 fill=%27none%27 stroke=%27white%27 stroke-width=%272%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27%3e%3cpolyline points=%276 9 12 15 18 9%27%3e%3c/polyline%3e%3c/svg%3e')",
-                  backgroundPosition: "right 12px center",
-                  backgroundSize: "16px 16px",
-                  backgroundRepeat: "no-repeat",
-                }}
-              >
-                <option value="en">EN</option>
-                <option value="de">DE</option>
-              </select>
-            </div>
-            <Button variant="ghost" size="icon" className="md:hidden">
-              <Menu className="h-5 w-5" />
-            </Button>
+            <DropdownMenu>
+              <DropdownMenuTrigger className="flex items-center gap-2 bg-blue-900 focus:outline-none hover:bg-blue-800 text-white pl-4 pr-3 py-2.5 rounded-full transition-colors duration-200 font-medium cursor-pointer min-w-[100px]">
+                <Globe className="h-4 w-4" />
+                {currentLocale.toUpperCase()}
+                <ChevronDown className="h-4 w-4" />
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="w-32">
+                <DropdownMenuItem 
+                  onClick={() => handleLanguageChange("en")}
+                  className={currentLocale === "en" ? "bg-accent" : ""}
+                >
+                  <span className="flex items-center gap-2">
+                    🇺🇸 English
+                  </span>
+                </DropdownMenuItem>
+                <DropdownMenuItem 
+                  onClick={() => handleLanguageChange("de")}
+                  className={currentLocale === "de" ? "bg-accent" : ""}
+                >
+                  <span className="flex items-center gap-2">
+                    🇩🇪 Deutsch
+                  </span>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+            <Sheet open={isDrawerOpen} onOpenChange={setIsDrawerOpen}>
+              <SheetTrigger asChild>
+                <Button variant="ghost" size="icon" className="md:hidden">
+                  <Menu className="h-5 w-5" />
+                </Button>
+              </SheetTrigger>
+              <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+                <SheetHeader>
+                  <SheetTitle className="text-left">{t("logoText")}</SheetTitle>
+                </SheetHeader>
+                <div className="flex flex-col space-y-4 mt-6">
+                  <Link
+                    href="#"
+                    className="text-foreground hover:text-primary transition-colors font-medium py-2 px-4 rounded-md hover:bg-accent"
+                    onClick={() => setIsDrawerOpen(false)}
+                  >
+                    {t("home")}
+                  </Link>
+                  <Link
+                    href="#about"
+                    className="text-muted-foreground hover:text-primary transition-colors py-2 px-4 rounded-md hover:bg-accent"
+                    onClick={() => setIsDrawerOpen(false)}
+                  >
+                    {t("about")}
+                  </Link>
+                  <div className="space-y-2">
+                    <button
+                      onClick={() => setIsMobileServicesOpen(!isMobileServicesOpen)}
+                      className="flex items-center justify-between w-full text-muted-foreground hover:text-primary transition-colors py-2 px-4 rounded-md hover:bg-accent"
+                    >
+                      {t("services")}
+                      <ChevronDown className={`h-4 w-4 transition-transform ${isMobileServicesOpen ? 'rotate-180' : ''}`} />
+                    </button>
+                    {isMobileServicesOpen && (
+                      <div className="ml-4 space-y-1">
+                        <Link
+                          href="/services/web-development"
+                          className="block text-sm text-muted-foreground hover:text-primary transition-colors py-2 px-4 rounded-md hover:bg-accent"
+                          onClick={() => setIsDrawerOpen(false)}
+                        >
+                          Web Development
+                        </Link>
+                        <Link
+                          href="/services/mobile-development"
+                          className="block text-sm text-muted-foreground hover:text-primary transition-colors py-2 px-4 rounded-md hover:bg-accent"
+                          onClick={() => setIsDrawerOpen(false)}
+                        >
+                          Mobile Development
+                        </Link>
+                        <Link
+                          href="/services/ui-ux-design"
+                          className="block text-sm text-muted-foreground hover:text-primary transition-colors py-2 px-4 rounded-md hover:bg-accent"
+                          onClick={() => setIsDrawerOpen(false)}
+                        >
+                          UI/UX Design
+                        </Link>
+                        <Link
+                          href="/services/consulting"
+                          className="block text-sm text-muted-foreground hover:text-primary transition-colors py-2 px-4 rounded-md hover:bg-accent"
+                          onClick={() => setIsDrawerOpen(false)}
+                        >
+                          Consulting
+                        </Link>
+                        <Link
+                          href="/services/maintenance"
+                          className="block text-sm text-muted-foreground hover:text-primary transition-colors py-2 px-4 rounded-md hover:bg-accent"
+                          onClick={() => setIsDrawerOpen(false)}
+                        >
+                          Maintenance & Support
+                        </Link>
+                      </div>
+                    )}
+                  </div>
+                  <Link
+                    href="/career"
+                    className="text-muted-foreground hover:text-primary transition-colors py-2 px-4 rounded-md hover:bg-accent"
+                    onClick={() => setIsDrawerOpen(false)}
+                  >
+                    {t("career")}
+                  </Link>
+                  <Link
+                    href="#contact"
+                    className="text-muted-foreground hover:text-primary transition-colors py-2 px-4 rounded-md hover:bg-accent"
+                    onClick={() => setIsDrawerOpen(false)}
+                  >
+                    {t("contact")}
+                  </Link>
+                </div>
+              </SheetContent>
+            </Sheet>
           </div>
         </div>
       </div>
