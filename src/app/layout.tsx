@@ -19,24 +19,15 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const locales = ["en", "de"]; // your supported languages
-
-export async function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
-}
-
-export default async function RootLayout({
+export default function RootLayout({
   children,
-  params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await params;
   return (
-    <html lang={locale} className={inter.className}>
+    <html>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${inter.className} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>

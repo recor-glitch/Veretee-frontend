@@ -5,7 +5,7 @@ interface params {
   partner: string;
 }
 
-const TestimonialDetailPage = ({ partner }: params) => {
+const TestimonialDetailPage = ({ partner: _partner }: params) => {
   const t = useTranslations("testimonial-detail");
   return (
     <div className="min-h-screen bg-background grid grid-cols-3 gap-24 container mx-auto px-4 py-16">

@@ -41,7 +41,7 @@ const TestimonialsSection = async () => {
               className="absolute text-accent mb-4 right-0 bottom-0 translate-x-1/2 translate-y-[70%]"
             />
             <p className="text-xl mb-6 font-medium text-white">
-              "{testimonial.quote}"
+              &ldquo;{testimonial.quote}&rdquo;
             </p>
           </div>
           <div className="flex flex-col items-center gap-4 col-span-1">

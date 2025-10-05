@@ -1,7 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { CheckCircle, Shield, Zap, Award, Check } from "lucide-react";
-import featuresImage from "../../public/hero-port.svg";
-import Image from "next/image";
+import { CheckCircle, Shield, Zap, Award } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 

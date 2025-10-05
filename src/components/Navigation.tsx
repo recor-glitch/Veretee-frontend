@@ -82,7 +82,7 @@ const Navigation = () => {
               {t("about")}
             </Link>
             <DropdownMenu>
-              <DropdownMenuTrigger className="flex items-center gap-1 text-muted-foreground hover:text-primary transition-colors outline-none">
+              <DropdownMenuTrigger className="flex cursor-pointer items-center gap-1 text-muted-foreground hover:text-primary transition-colors outline-none">
                 {t("services")}
                 <ChevronDown className="h-4 w-4" />
               </DropdownMenuTrigger>

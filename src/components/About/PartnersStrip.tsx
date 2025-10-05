@@ -1,6 +1,6 @@
 "use client";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import React, { use, useState } from "react";
+import React, { useState } from "react";
 import { Button } from "../ui/button";
 import { useTranslations } from "next-intl";
 import Link from "next/link";

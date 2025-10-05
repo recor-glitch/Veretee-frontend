@@ -36,7 +36,7 @@ const Testimonials = () => {
                   className="absolute text-accent mb-4 right-0 bottom-0 translate-x-1/2 translate-y-[70%]"
                 />
                 <p className="md:text-2xl mb-6 font-bold text-[#64748B]">
-                  "{testimonial.quote}"
+                  &ldquo;{testimonial.quote}&rdquo;
                 </p>
               </div>
               <Image
