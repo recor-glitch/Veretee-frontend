@@ -1,8 +1,4 @@
-import {
-  Mail,
-  MapPin,
-  Phone
-} from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 
@@ -32,7 +28,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="#services"
+                  href="/services"
                   className="text-white/80 hover:text-white transition-colors"
                 >
                   {t("services")}

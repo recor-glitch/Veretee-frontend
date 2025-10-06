@@ -1,9 +1,10 @@
 "use client";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useTranslations } from "next-intl";
+import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 import { Button } from "../ui/button";
-import { useTranslations } from "next-intl";
-import Link from "next/link";
 
 interface Client {
   id: number;
@@ -121,7 +122,7 @@ const PartnersStrip: React.FC = () => {
                 }}
               >
                 <div className="aspect-[3/4] relative">
-                  <img
+                  <Image
                     src={client.image}
                     alt={client.name}
                     className="w-full h-full min-h-2/3 object-cover transition-all duration-500 group-hover:scale-110"

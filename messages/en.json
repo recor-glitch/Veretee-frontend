@@ -435,5 +435,108 @@
         "description": "“The Sustainable Procurement theme is becoming an even more crucial area to watch as supply chain and due diligence laws continue to expand,” said Sylvain Guyoton, chief rating officer at EcoVadis. “The principle of ‘substantiated concerns’ in the Corporate Sustainability Due Diligence Directive, for example, will require many companies to cascade sustainable procurement practices to their Tier 1 suppliers, and who may be anywhere in the world. Companies must work more closely with suppliers than ever before to remain both compliant and competitive.” Read the full Business Sustainability Index report here, and create custom views of specific sectors, geographies, and themes, in the Index Online. ###"
       }
     ]
+  },
+  "service": {
+    "title": "Service Catalog",
+    "viewDetails": "View Details",
+    "requestSample": "Request Sample",
+    "headline": "Machined/ 3D Printed Products",
+    "description": "Your trusted partner for sourcing high-quality products.",
+    "categories": [
+      {
+        "id": "all",
+        "label": "View all"
+      },
+      {
+        "id": "cnc",
+        "label": "CNC Machining"
+      },
+      {
+        "id": "fabricated",
+        "label": "Casting - Vacuum & Die"
+      },
+      {
+        "id": "cad",
+        "label": "Moulding - Injection & Compression"
+      },
+      {
+        "id": "3d",
+        "label": "3D Printing - Prototypes & Moulds"
+      }
+    ],
+    "services": [
+      {
+        "id": "1",
+        "title": "Fabricated Fixtures",
+        "description": "High-quality organic cotton yarn sourced from certified farm",
+        "image": "/service1.svg",
+        "category": "Fabricated Product",
+        "tags": ["Eco-friendly", "Hypoallergic"]
+      },
+      {
+        "id": "2",
+        "title": "CNC lathe drilling",
+        "description": "High-quality organic cotton yarn sourced from certified farm",
+        "image": "/service2.svg",
+        "category": "CNC Product",
+        "tags": ["Eco-friendly", "Hypoallergic"]
+      },
+      {
+        "id": "3",
+        "title": "CAD 3D Software",
+        "description": "High-quality organic cotton yarn sourced from certified farm",
+        "image": "/service3.svg",
+        "category": "CAD Software",
+        "tags": ["Eco-friendly", "Hypoallergic"]
+      },
+      {
+        "id": "4",
+        "title": "CNC Operator",
+        "description": "High-quality organic cotton yarn sourced from certified farm",
+        "image": "/service4.svg",
+        "category": "CNC Product",
+        "tags": ["Eco-friendly", "Hypoallergic"]
+      },
+      {
+        "id": "5",
+        "title": "CNC Tools",
+        "description": "High-quality organic cotton yarn sourced from certified farm",
+        "image": "/service5.svg",
+        "category": "CNC Product",
+        "tags": ["Eco-friendly", "Hypoallergic"]
+      },
+      {
+        "id": "6",
+        "title": "Laser Welding",
+        "description": "High-quality organic cotton yarn sourced from certified farm",
+        "image": "/service6.svg",
+        "category": "Fabricated Product",
+        "tags": ["Eco-friendly", "Hypoallergic"]
+      },
+      {
+        "id": "7",
+        "title": "Precision CNC Milling",
+        "description": "High-precision milling services for complex parts and components",
+        "image": "/service7.svg",
+        "category": "CNC Product",
+        "tags": ["Precision", "Durable"]
+      },
+      {
+        "id": "8",
+        "title": "Rapid Prototyping",
+        "description": "Fast production of functional prototypes using advanced 3D printing technology",
+        "image": "/service8.svg",
+        "category": "3D Printing",
+        "tags": ["Innovation", "Speed"]
+      },
+      {
+        "id": "9",
+        "title": "Injection Moulding Tools",
+        "description": "Custom-designed moulds and tools for plastic processing applications",
+        "image": "/service9.svg",
+        "category": "Moulding Tools",
+        "tags": ["Custom-made", "High-quality"]
+      }
+    ]
   }
 }

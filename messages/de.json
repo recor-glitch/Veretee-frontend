@@ -435,5 +435,108 @@
         "description": "„Das Thema nachhaltige Beschaffung wird zu einem immer wichtigeren Bereich, den es zu beobachten gilt, da die Gesetze zu Lieferketten und Sorgfaltspflichten immer weiter ausgebaut werden“, sagte Sylvain Guyoton, Chief Rating Officer bei EcoVadis. „Das Prinzip der ‚begründeten Bedenken‘ in der Richtlinie zur Nachhaltigkeitssorgfaltspflicht von Unternehmen wird beispielsweise viele Unternehmen dazu verpflichten, nachhaltige Beschaffungspraktiken an ihre Tier-1-Lieferanten weiterzugeben, die überall auf der Welt sein können. Unternehmen müssen enger als je zuvor mit ihren Lieferanten zusammenarbeiten, um konform und wettbewerbsfähig zu bleiben.“ Lesen Sie hier den vollständigen Bericht zum Business Sustainability Index und erstellen Sie im Index Online benutzerdefinierte Ansichten bestimmter Sektoren, Regionen und Themen. ###"
       }
     ]
+  },
+  "service": {
+    "title": "Dienstleistungskatalog",
+    "viewDetails": "Details ansehen",
+    "requestSample": "Muster anfordern",
+    "headline": "Bearbeitete/ 3D-gedruckte Produkte",
+    "description": "Ihr vertrauenswürdiger Partner für die Beschaffung hochwertiger Produkte.",
+    "categories": [
+      {
+        "id": "all",
+        "label": "Alle anzeigen"
+      },
+      {
+        "id": "cnc",
+        "label": "CNC-Bearbeitung"
+      },
+      {
+        "id": "fabricated",
+        "label": "Guss - Vakuum & Druckguss"
+      },
+      {
+        "id": "cad",
+        "label": "Formung - Spritzguss & Pressguss"
+      },
+      {
+        "id": "3d",
+        "label": "3D-Druck - Prototypen & Formen"
+      }
+    ],
+    "services": [
+      {
+        "id": "1",
+        "title": "Gefertigte Vorrichtungen",
+        "description": "Hochwertiges Bio-Baumwollgarn aus zertifizierten Betrieben",
+        "image": "/service1.svg",
+        "category": "Gefertigtes Produkt",
+        "tags": ["Umweltfreundlich", "Hypoallergen"]
+      },
+      {
+        "id": "2",
+        "title": "CNC-Drehbohren",
+        "description": "Hochwertiges Bio-Baumwollgarn aus zertifizierten Betrieben",
+        "image": "/service2.svg",
+        "category": "CNC-Produkt",
+        "tags": ["Umweltfreundlich", "Hypoallergen"]
+      },
+      {
+        "id": "3",
+        "title": "CAD-3D-Software",
+        "description": "Hochwertiges Bio-Baumwollgarn aus zertifizierten Betrieben",
+        "image": "/service3.svg",
+        "category": "CAD-Software",
+        "tags": ["Umweltfreundlich", "Hypoallergen"]
+      },
+      {
+        "id": "4",
+        "title": "CNC-Bediener",
+        "description": "Hochwertiges Bio-Baumwollgarn aus zertifizierten Betrieben",
+        "image": "/service4.svg",
+        "category": "CNC-Produkt",
+        "tags": ["Umweltfreundlich", "Hypoallergen"]
+      },
+      {
+        "id": "5",
+        "title": "CNC-Werkzeuge",
+        "description": "Hochwertiges Bio-Baumwollgarn aus zertifizierten Betrieben",
+        "image": "/service5.svg",
+        "category": "CNC-Produkt",
+        "tags": ["Umweltfreundlich", "Hypoallergen"]
+      },
+      {
+        "id": "6",
+        "title": "Laserschweißen",
+        "description": "Hochwertiges Bio-Baumwollgarn aus zertifizierten Betrieben",
+        "image": "/service6.svg",
+        "category": "Gefertigtes Produkt",
+        "tags": ["Umweltfreundlich", "Hypoallergen"]
+      },
+      {
+        "id": "7",
+        "title": "Präzisions-CNC-Fräsen",
+        "description": "Hochpräzise Fräsarbeiten für komplexe Bauteile und Komponenten",
+        "image": "/service7.svg",
+        "category": "CNC-Produkt",
+        "tags": ["Präzision", "Langlebig"]
+      },
+      {
+        "id": "8",
+        "title": "Rapid Prototyping",
+        "description": "Schnelle Herstellung funktionsfähiger Prototypen mittels modernster 3D-Drucktechnologie",
+        "image": "/service8.svg",
+        "category": "3D-Druck",
+        "tags": ["Innovation", "Schnelligkeit"]
+      },
+      {
+        "id": "9",
+        "title": "Spritzguss-Werkzeuge",
+        "description": "Maßgeschneiderte Formen und Werkzeuge für die Kunststoffverarbeitung",
+        "image": "/service9.svg",
+        "category": "Formungswerkzeuge",
+        "tags": ["Maßgefertigt", "Hochwertig"]
+      }
+    ]
   }
 }
