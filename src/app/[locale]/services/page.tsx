@@ -4,6 +4,7 @@ import { getTranslations } from "next-intl/server";
 
 async function ServicePage() {
   const t = await getTranslations("service");
+  // Note: this page is Server Component; use a client island for modal trigger
   return (
     <div className="min-h-screen bg-background grid grid-cols-3">
       <section className="relative col-span-full min-h-[820px] md:min-h-[960px] flex items-center overflow-hidden rounded-2xl">

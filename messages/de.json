@@ -442,6 +442,1449 @@
     "requestSample": "Muster anfordern",
     "headline": "Bearbeitete/ 3D-gedruckte Produkte",
     "description": "Ihr vertrauenswürdiger Partner für die Beschaffung hochwertiger Produkte.",
+    "sample": {
+      "title": "Professionelle Musteranfrage",
+      "description": "Füllen Sie das untenstehende professionelle Formular aus, um ein Premium-Muster dieses Produkts anzufordern. Alle mit * gekennzeichneten Felder sind für die maritime Bearbeitung erforderlich.",
+      "form": {
+        "step1": {
+          "title": "Informationen zum professionellen Unternehmen",
+          "companyName": "Firmenname *",
+          "companyNamePlaceholder": "Ihr Professionelles Unternehmen GmbH",
+          "industry": {
+            "title": "Branche *",
+            "options": [
+              "Professionelle Textilherstellung",
+              "Premium Bekleidung & Mode",
+              "Professionelles Spielzeug & Spiele",
+              "Professionelle Gesundheit & Wellness",
+              "Premium Einzelhandel",
+              "Luxus Gastgewerbe",
+              "Andere Professionelle"
+            ],
+            "placeholder": "Professionelle Branche auswählen"
+          },
+          "companySize": {
+            "title": "Unternehmensgröße",
+            "options": [
+              "Start-up (1–5)",
+              "Kleines Unternehmen (11–50)",
+              "Mittleres Unternehmen (100–500)",
+              "Großunternehmen (500–1000++)"
+            ],
+            "placeholder": "Unternehmensgröße auswählen"
+          },
+          "website": {
+            "title": "Professionelle Website",
+            "placeholder": "www.beispiel.de"
+          },
+          "submit": "Weiter",
+          "cancel": "Abbrechen"
+        },
+        "step2": {
+          "title": "Professionelle Kontaktinformationen",
+          "fullName": {
+            "title": "Vollständiger Name *",
+            "placeholder": "Ihr Name"
+          },
+          "professionalTitle": {
+            "title": "Berufstitel *",
+            "placeholder": "Ihr Titel"
+          },
+          "email": {
+            "title": "Professionelle E-Mail *",
+            "placeholder": "name@firma.com"
+          },
+          "phone": {
+            "title": "Kontakttelefon",
+            "placeholder": "+49"
+          },
+          "country": {
+            "title": "Land *",
+            "placeholder": "Wählen Sie Ihr Land",
+            "options": [
+              "Vereinigte Staaten",
+              "Deutschland",
+              "Indien",
+              "Polen",
+              "England"
+            ]
+          },
+          "submit": "Weiter",
+          "previous": "Zurück"
+        },
+        "step3": {
+          "title": "Professionelle Musteranforderungen",
+          "professionalIntent": {
+            "title": "Geplanter professioneller Verwendungszweck *",
+            "placeholder": "Benötigt für den persönlichen Gebrauch"
+          },
+          "orderQuantity": {
+            "title": "Bestellmenge *",
+            "placeholder": "Menge auswählen",
+            "options": [
+              "Klein (<100 kg)",
+              "Professionelles Minimum (100 kg)",
+              "Mittel (2x professionelles Minimum)",
+              "Groß (5x professionelles Minimum)"
+            ]
+          },
+          "orderTimeframe": {
+            "title": "Zeitplan für Bestellung",
+            "placeholder": "Zeitrahmen auswählen",
+            "options": [
+              "Sofort (1 Monat)",
+              "Kurzfristig (1–3 Monate)",
+              "Mittelfristig (3–6 Monate)",
+              "Langfristig (6+ Monate)"
+            ]
+          },
+          "additionalRequirements": "Zusätzliche Anforderungen *",
+          "professionalPreference": {
+            "title": "Professionelle Präferenz",
+            "options": [
+              "Professionelle technische Dokumentation und Zertifizierung beilegen",
+              "Beschleunigten maritimen Versand anfordern (zusätzliche Kosten können anfallen)",
+              "Professionelle Updates zu ähnlichen Premium-Produkten und Branchennews erhalten"
+            ]
+          },
+          "submit": "Professionelle Anfrage absenden",
+          "previous": "Zurück"
+        },
+        "submitted": {
+          "title": "Professionelle Anfrage erfolgreich eingereicht!",
+          "description": "Vielen Dank für Ihr professionelles Interesse an Maulbeerseidenfaden. Unser maritimes Vertriebsteam wird Sie innerhalb von 1–2 Werktagen kontaktieren, um die Premium-Musterlieferung zu arrangieren.",
+          "referenceId": "Professionelle Referenz-ID:",
+          "referenceNote": "Bitte bewahren Sie diese Referenz für Ihre professionellen Unterlagen auf.",
+          "close": "Schließen"
+        }
+      }
+    },
+    "details": {
+      "back": "Back to catalog",
+      "requestSample": "Request Sample",
+      "getQuote": "Get Quote",
+      "callUs": "Call Us",
+      "tabs": [
+        { "id": "professionalSpecs", "label": "Professional Spec" },
+        { "id": "applications", "label": "Applications" },
+        { "id": "documentation", "label": "Documentation" },
+        { "id": "maritimeOrder", "label": "Maritime Order" }
+      ],
+      "1": {
+        "title": "CNC-Bediener",
+        "description": "Hochwertiges Bio-Baumwollgarn aus zertifiziert nachhaltigen Farmen, ideal für die Textilherstellung, Luxus- und Handwerksanwendungen.",
+        "mainImage": "/service1.svg",
+        "thumbnails": [
+          "/service1-op1.svg",
+          "/service1-op2.svg",
+          "/service1-op3.svg",
+          "/service1-op4.svg"
+        ],
+        "keyStats": {
+          "title": "Wichtige Statistiken",
+          "values": [
+            {
+              "label": "Spezifikation 1",
+              "value": "Einzeiler",
+              "type": "spec"
+            },
+            {
+              "label": "Mindestbestellmenge",
+              "value": "Tonne Baumwolle",
+              "type": "moq"
+            },
+            {
+              "label": "Spezifikation 1",
+              "value": "Einzeiler",
+              "type": "spec"
+            },
+            { "label": "Spezifikation 1", "value": "Einzeiler", "type": "spec" }
+          ]
+        },
+        "certifications": {
+          "title": "Zertifizierungen & Standards",
+          "values": ["ISO 9001", "OEKO-TEX"]
+        },
+        "professionalSpecs": {
+          "title": "Professionelle Technische Spezifikationen",
+          "description": "Detaillierte professionelle Spezifikationen und Premium-Produkteigenschaften",
+          "values": [
+            {
+              "property": "Professionelle Eigenschaft",
+              "value": "Premium-Wert"
+            },
+            {
+              "property": "Professionelle Zusammensetzung",
+              "value": "Rohseide der Güteklasse A"
+            },
+            {
+              "property": "Gewicht/Größe",
+              "value": "200 - 1200 Denier-Bereich"
+            },
+            {
+              "property": "Professionelles Material",
+              "value": "100% Maulbeerseide"
+            },
+            { "property": "Herkunft", "value": "China" },
+            {
+              "property": "Minimale Professionelle Bestellmenge",
+              "value": "100 kg"
+            },
+            { "property": "Express-Lieferzeit", "value": "10–15 Tage" }
+          ]
+        },
+        "applications": {
+          "title": "Professionelle Anwendungen & Einsatzgebiete",
+          "description": "Gängige professionelle Anwendungen und Branchen, in denen dieses Premiumprodukt verwendet wird",
+          "values": [
+            {
+              "title": "Luxusbekleidung",
+              "description": "Weit verbreitet in der professionellen Luxusbekleidungsbranche aufgrund seiner zuverlässigen Leistung und hochwertigen Eigenschaften."
+            },
+            {
+              "title": "Stickerei",
+              "description": "Weit verbreitet in der professionellen Stickerei für zuverlässige Leistung und hochwertige Eigenschaften."
+            },
+            {
+              "title": "Wohntextilien",
+              "description": "Weit verbreitet in der professionellen Wohntextilienherstellung für zuverlässige Leistung und hochwertige Eigenschaften."
+            },
+            {
+              "title": "Dekorative Textilien",
+              "description": "Weit verbreitet in professionellen dekorativen Textilien für zuverlässige Leistung und hochwertige Eigenschaften."
+            }
+          ]
+        },
+        "documentation": {
+          "title": "Professionelle Produktdokumentation",
+          "description": "Laden Sie professionelle technische Dokumente, Zertifizierungen und Premium-Produktblätter herunter",
+          "values": [
+            {
+              "title": "Professionelles Datenblatt",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Professionelles Sicherheitsdatenblatt (SDS)",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Premium-Produktbilder (hochauflösend)",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "images"
+            }
+          ]
+        },
+        "maritimeOrder": {
+          "order": {
+            "title": "Professionelle Maritime Bestellung",
+            "description": "Wichtige Details zur Aufgabe Ihrer professionellen Bestellung",
+            "minimumOrder": {
+              "title": "Minimale Professionelle Bestellmenge",
+              "description": "100 kg – Kontaktieren Sie uns für kleinere professionelle Mengen"
+            },
+            "paymentTerms": {
+              "title": "Professionelle Zahlungsbedingungen",
+              "description": "30% Anzahlung, 70% vor dem Versand. Akkreditiv bei Sicht für internationalen Handel verfügbar"
+            },
+            "shipping": {
+              "title": "Globaler Maritimer Versand",
+              "description": "FOB-Ursprung. Express-Internationaler maritimer Versand weltweit verfügbar"
+            }
+          },
+          "contacts": {
+            "contactProfessionalSalesTeam": "Kontaktieren Sie das Professionelle Vertriebsteam",
+            "title": "Professionelle Kontaktinformationen",
+            "description": "Kontaktieren Sie unser professionelles maritimes Vertriebsteam",
+            "salesManager": {
+              "title": "Professioneller Vertriebsleiter",
+              "name": "Kapitän John Doe",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "exportDept": {
+              "title": "Maritime Exportabteilung",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "technicalSupport": {
+              "title": "Professioneller Technischer Support",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            }
+          }
+        }
+      },
+      "2": {
+        "title": "CNC-Bediener",
+        "description": "Hochwertiges Bio-Baumwollgarn aus zertifiziert nachhaltigen Farmen, ideal für die Textilherstellung, Luxus- und Handwerksanwendungen.",
+        "mainImage": "/service12.svg",
+        "thumbnails": [
+          "/service1-op1.svg",
+          "/service1-op2.svg",
+          "/service1-op3.svg",
+          "/service1-op4.svg"
+        ],
+        "keyStats": {
+          "title": "Wichtige Statistiken",
+          "values": [
+            {
+              "label": "Spezifikation 1",
+              "value": "Einzeiler",
+              "type": "spec"
+            },
+            {
+              "label": "Mindestbestellmenge",
+              "value": "Tonne Baumwolle",
+              "type": "moq"
+            },
+            {
+              "label": "Spezifikation 1",
+              "value": "Einzeiler",
+              "type": "spec"
+            },
+            { "label": "Spezifikation 1", "value": "Einzeiler", "type": "spec" }
+          ]
+        },
+        "certifications": {
+          "title": "Zertifizierungen & Standards",
+          "values": ["ISO 9001", "OEKO-TEX"]
+        },
+        "professionalSpecs": {
+          "title": "Professionelle Technische Spezifikationen",
+          "description": "Detaillierte professionelle Spezifikationen und Premium-Produkteigenschaften",
+          "values": [
+            {
+              "property": "Professionelle Eigenschaft",
+              "value": "Premium-Wert"
+            },
+            {
+              "property": "Professionelle Zusammensetzung",
+              "value": "Rohseide der Güteklasse A"
+            },
+            {
+              "property": "Gewicht/Größe",
+              "value": "200 - 1200 Denier-Bereich"
+            },
+            {
+              "property": "Professionelles Material",
+              "value": "100% Maulbeerseide"
+            },
+            { "property": "Herkunft", "value": "China" },
+            {
+              "property": "Minimale Professionelle Bestellmenge",
+              "value": "100 kg"
+            },
+            { "property": "Express-Lieferzeit", "value": "10–15 Tage" }
+          ]
+        },
+        "applications": {
+          "title": "Professionelle Anwendungen & Einsatzgebiete",
+          "description": "Gängige professionelle Anwendungen und Branchen, in denen dieses Premiumprodukt verwendet wird",
+          "values": [
+            {
+              "title": "Luxusbekleidung",
+              "description": "Weit verbreitet in der professionellen Luxusbekleidungsbranche aufgrund seiner zuverlässigen Leistung und hochwertigen Eigenschaften."
+            },
+            {
+              "title": "Stickerei",
+              "description": "Weit verbreitet in der professionellen Stickerei für zuverlässige Leistung und hochwertige Eigenschaften."
+            },
+            {
+              "title": "Wohntextilien",
+              "description": "Weit verbreitet in der professionellen Wohntextilienherstellung für zuverlässige Leistung und hochwertige Eigenschaften."
+            },
+            {
+              "title": "Dekorative Textilien",
+              "description": "Weit verbreitet in professionellen dekorativen Textilien für zuverlässige Leistung und hochwertige Eigenschaften."
+            }
+          ]
+        },
+        "documentation": {
+          "title": "Professionelle Produktdokumentation",
+          "description": "Laden Sie professionelle technische Dokumente, Zertifizierungen und Premium-Produktblätter herunter",
+          "values": [
+            {
+              "title": "Professionelles Datenblatt",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Professionelles Sicherheitsdatenblatt (SDS)",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Premium-Produktbilder (hochauflösend)",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "images"
+            }
+          ]
+        },
+        "maritimeOrder": {
+          "order": {
+            "title": "Professionelle Maritime Bestellung",
+            "description": "Wichtige Details zur Aufgabe Ihrer professionellen Bestellung",
+            "minimumOrder": {
+              "title": "Minimale Professionelle Bestellmenge",
+              "description": "100 kg – Kontaktieren Sie uns für kleinere professionelle Mengen"
+            },
+            "paymentTerms": {
+              "title": "Professionelle Zahlungsbedingungen",
+              "description": "30% Anzahlung, 70% vor dem Versand. Akkreditiv bei Sicht für internationalen Handel verfügbar"
+            },
+            "shipping": {
+              "title": "Globaler Maritimer Versand",
+              "description": "FOB-Ursprung. Express-Internationaler maritimer Versand weltweit verfügbar"
+            }
+          },
+          "contacts": {
+            "contactProfessionalSalesTeam": "Kontaktieren Sie das Professionelle Vertriebsteam",
+            "title": "Professionelle Kontaktinformationen",
+            "description": "Kontaktieren Sie unser professionelles maritimes Vertriebsteam",
+            "salesManager": {
+              "title": "Professioneller Vertriebsleiter",
+              "name": "Kapitän John Doe",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "exportDept": {
+              "title": "Maritime Exportabteilung",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "technicalSupport": {
+              "title": "Professioneller Technischer Support",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            }
+          }
+        }
+      },
+      "3": {
+        "title": "CNC-Bediener",
+        "description": "Hochwertiges Bio-Baumwollgarn aus zertifiziert nachhaltigen Farmen, ideal für die Textilherstellung, Luxus- und Handwerksanwendungen.",
+        "mainImage": "/service3.svg",
+        "thumbnails": [
+          "/service1-op1.svg",
+          "/service1-op2.svg",
+          "/service1-op3.svg",
+          "/service1-op4.svg"
+        ],
+        "keyStats": {
+          "title": "Wichtige Statistiken",
+          "values": [
+            {
+              "label": "Spezifikation 1",
+              "value": "Einzeiler",
+              "type": "spec"
+            },
+            {
+              "label": "Mindestbestellmenge",
+              "value": "Tonne Baumwolle",
+              "type": "moq"
+            },
+            {
+              "label": "Spezifikation 1",
+              "value": "Einzeiler",
+              "type": "spec"
+            },
+            { "label": "Spezifikation 1", "value": "Einzeiler", "type": "spec" }
+          ]
+        },
+        "certifications": {
+          "title": "Zertifizierungen & Standards",
+          "values": ["ISO 9001", "OEKO-TEX"]
+        },
+        "professionalSpecs": {
+          "title": "Professionelle Technische Spezifikationen",
+          "description": "Detaillierte professionelle Spezifikationen und Premium-Produkteigenschaften",
+          "values": [
+            {
+              "property": "Professionelle Eigenschaft",
+              "value": "Premium-Wert"
+            },
+            {
+              "property": "Professionelle Zusammensetzung",
+              "value": "Rohseide der Güteklasse A"
+            },
+            {
+              "property": "Gewicht/Größe",
+              "value": "200 - 1200 Denier-Bereich"
+            },
+            {
+              "property": "Professionelles Material",
+              "value": "100% Maulbeerseide"
+            },
+            { "property": "Herkunft", "value": "China" },
+            {
+              "property": "Minimale Professionelle Bestellmenge",
+              "value": "100 kg"
+            },
+            { "property": "Express-Lieferzeit", "value": "10–15 Tage" }
+          ]
+        },
+        "applications": {
+          "title": "Professionelle Anwendungen & Einsatzgebiete",
+          "description": "Gängige professionelle Anwendungen und Branchen, in denen dieses Premiumprodukt verwendet wird",
+          "values": [
+            {
+              "title": "Luxusbekleidung",
+              "description": "Weit verbreitet in der professionellen Luxusbekleidungsbranche aufgrund seiner zuverlässigen Leistung und hochwertigen Eigenschaften."
+            },
+            {
+              "title": "Stickerei",
+              "description": "Weit verbreitet in der professionellen Stickerei für zuverlässige Leistung und hochwertige Eigenschaften."
+            },
+            {
+              "title": "Wohntextilien",
+              "description": "Weit verbreitet in der professionellen Wohntextilienherstellung für zuverlässige Leistung und hochwertige Eigenschaften."
+            },
+            {
+              "title": "Dekorative Textilien",
+              "description": "Weit verbreitet in professionellen dekorativen Textilien für zuverlässige Leistung und hochwertige Eigenschaften."
+            }
+          ]
+        },
+        "documentation": {
+          "title": "Professionelle Produktdokumentation",
+          "description": "Laden Sie professionelle technische Dokumente, Zertifizierungen und Premium-Produktblätter herunter",
+          "values": [
+            {
+              "title": "Professionelles Datenblatt",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Professionelles Sicherheitsdatenblatt (SDS)",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Premium-Produktbilder (hochauflösend)",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "images"
+            }
+          ]
+        },
+        "maritimeOrder": {
+          "order": {
+            "title": "Professionelle Maritime Bestellung",
+            "description": "Wichtige Details zur Aufgabe Ihrer professionellen Bestellung",
+            "minimumOrder": {
+              "title": "Minimale Professionelle Bestellmenge",
+              "description": "100 kg – Kontaktieren Sie uns für kleinere professionelle Mengen"
+            },
+            "paymentTerms": {
+              "title": "Professionelle Zahlungsbedingungen",
+              "description": "30% Anzahlung, 70% vor dem Versand. Akkreditiv bei Sicht für internationalen Handel verfügbar"
+            },
+            "shipping": {
+              "title": "Globaler Maritimer Versand",
+              "description": "FOB-Ursprung. Express-Internationaler maritimer Versand weltweit verfügbar"
+            }
+          },
+          "contacts": {
+            "contactProfessionalSalesTeam": "Kontaktieren Sie das Professionelle Vertriebsteam",
+            "title": "Professionelle Kontaktinformationen",
+            "description": "Kontaktieren Sie unser professionelles maritimes Vertriebsteam",
+            "salesManager": {
+              "title": "Professioneller Vertriebsleiter",
+              "name": "Kapitän John Doe",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "exportDept": {
+              "title": "Maritime Exportabteilung",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "technicalSupport": {
+              "title": "Professioneller Technischer Support",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            }
+          }
+        }
+      },
+      "4": {
+        "title": "CNC-Bediener",
+        "description": "Hochwertiges Bio-Baumwollgarn aus zertifiziert nachhaltigen Farmen, ideal für die Textilherstellung, Luxus- und Handwerksanwendungen.",
+        "mainImage": "/service4.svg",
+        "thumbnails": [
+          "/service1-op1.svg",
+          "/service1-op2.svg",
+          "/service1-op3.svg",
+          "/service1-op4.svg"
+        ],
+        "keyStats": {
+          "title": "Wichtige Statistiken",
+          "values": [
+            {
+              "label": "Spezifikation 1",
+              "value": "Einzeiler",
+              "type": "spec"
+            },
+            {
+              "label": "Mindestbestellmenge",
+              "value": "Tonne Baumwolle",
+              "type": "moq"
+            },
+            {
+              "label": "Spezifikation 1",
+              "value": "Einzeiler",
+              "type": "spec"
+            },
+            { "label": "Spezifikation 1", "value": "Einzeiler", "type": "spec" }
+          ]
+        },
+        "certifications": {
+          "title": "Zertifizierungen & Standards",
+          "values": ["ISO 9001", "OEKO-TEX"]
+        },
+        "professionalSpecs": {
+          "title": "Professionelle Technische Spezifikationen",
+          "description": "Detaillierte professionelle Spezifikationen und Premium-Produkteigenschaften",
+          "values": [
+            {
+              "property": "Professionelle Eigenschaft",
+              "value": "Premium-Wert"
+            },
+            {
+              "property": "Professionelle Zusammensetzung",
+              "value": "Rohseide der Güteklasse A"
+            },
+            {
+              "property": "Gewicht/Größe",
+              "value": "200 - 1200 Denier-Bereich"
+            },
+            {
+              "property": "Professionelles Material",
+              "value": "100% Maulbeerseide"
+            },
+            { "property": "Herkunft", "value": "China" },
+            {
+              "property": "Minimale Professionelle Bestellmenge",
+              "value": "100 kg"
+            },
+            { "property": "Express-Lieferzeit", "value": "10–15 Tage" }
+          ]
+        },
+        "applications": {
+          "title": "Professionelle Anwendungen & Einsatzgebiete",
+          "description": "Gängige professionelle Anwendungen und Branchen, in denen dieses Premiumprodukt verwendet wird",
+          "values": [
+            {
+              "title": "Luxusbekleidung",
+              "description": "Weit verbreitet in der professionellen Luxusbekleidungsbranche aufgrund seiner zuverlässigen Leistung und hochwertigen Eigenschaften."
+            },
+            {
+              "title": "Stickerei",
+              "description": "Weit verbreitet in der professionellen Stickerei für zuverlässige Leistung und hochwertige Eigenschaften."
+            },
+            {
+              "title": "Wohntextilien",
+              "description": "Weit verbreitet in der professionellen Wohntextilienherstellung für zuverlässige Leistung und hochwertige Eigenschaften."
+            },
+            {
+              "title": "Dekorative Textilien",
+              "description": "Weit verbreitet in professionellen dekorativen Textilien für zuverlässige Leistung und hochwertige Eigenschaften."
+            }
+          ]
+        },
+        "documentation": {
+          "title": "Professionelle Produktdokumentation",
+          "description": "Laden Sie professionelle technische Dokumente, Zertifizierungen und Premium-Produktblätter herunter",
+          "values": [
+            {
+              "title": "Professionelles Datenblatt",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Professionelles Sicherheitsdatenblatt (SDS)",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Premium-Produktbilder (hochauflösend)",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "images"
+            }
+          ]
+        },
+        "maritimeOrder": {
+          "order": {
+            "title": "Professionelle Maritime Bestellung",
+            "description": "Wichtige Details zur Aufgabe Ihrer professionellen Bestellung",
+            "minimumOrder": {
+              "title": "Minimale Professionelle Bestellmenge",
+              "description": "100 kg – Kontaktieren Sie uns für kleinere professionelle Mengen"
+            },
+            "paymentTerms": {
+              "title": "Professionelle Zahlungsbedingungen",
+              "description": "30% Anzahlung, 70% vor dem Versand. Akkreditiv bei Sicht für internationalen Handel verfügbar"
+            },
+            "shipping": {
+              "title": "Globaler Maritimer Versand",
+              "description": "FOB-Ursprung. Express-Internationaler maritimer Versand weltweit verfügbar"
+            }
+          },
+          "contacts": {
+            "contactProfessionalSalesTeam": "Kontaktieren Sie das Professionelle Vertriebsteam",
+            "title": "Professionelle Kontaktinformationen",
+            "description": "Kontaktieren Sie unser professionelles maritimes Vertriebsteam",
+            "salesManager": {
+              "title": "Professioneller Vertriebsleiter",
+              "name": "Kapitän John Doe",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "exportDept": {
+              "title": "Maritime Exportabteilung",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "technicalSupport": {
+              "title": "Professioneller Technischer Support",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            }
+          }
+        }
+      },
+      "5": {
+        "title": "CNC-Bediener",
+        "description": "Hochwertiges Bio-Baumwollgarn aus zertifiziert nachhaltigen Farmen, ideal für die Textilherstellung, Luxus- und Handwerksanwendungen.",
+        "mainImage": "/service5.svg",
+        "thumbnails": [
+          "/service1-op1.svg",
+          "/service1-op2.svg",
+          "/service1-op3.svg",
+          "/service1-op4.svg"
+        ],
+        "keyStats": {
+          "title": "Wichtige Statistiken",
+          "values": [
+            {
+              "label": "Spezifikation 1",
+              "value": "Einzeiler",
+              "type": "spec"
+            },
+            {
+              "label": "Mindestbestellmenge",
+              "value": "Tonne Baumwolle",
+              "type": "moq"
+            },
+            {
+              "label": "Spezifikation 1",
+              "value": "Einzeiler",
+              "type": "spec"
+            },
+            { "label": "Spezifikation 1", "value": "Einzeiler", "type": "spec" }
+          ]
+        },
+        "certifications": {
+          "title": "Zertifizierungen & Standards",
+          "values": ["ISO 9001", "OEKO-TEX"]
+        },
+        "professionalSpecs": {
+          "title": "Professionelle Technische Spezifikationen",
+          "description": "Detaillierte professionelle Spezifikationen und Premium-Produkteigenschaften",
+          "values": [
+            {
+              "property": "Professionelle Eigenschaft",
+              "value": "Premium-Wert"
+            },
+            {
+              "property": "Professionelle Zusammensetzung",
+              "value": "Rohseide der Güteklasse A"
+            },
+            {
+              "property": "Gewicht/Größe",
+              "value": "200 - 1200 Denier-Bereich"
+            },
+            {
+              "property": "Professionelles Material",
+              "value": "100% Maulbeerseide"
+            },
+            { "property": "Herkunft", "value": "China" },
+            {
+              "property": "Minimale Professionelle Bestellmenge",
+              "value": "100 kg"
+            },
+            { "property": "Express-Lieferzeit", "value": "10–15 Tage" }
+          ]
+        },
+        "applications": {
+          "title": "Professionelle Anwendungen & Einsatzgebiete",
+          "description": "Gängige professionelle Anwendungen und Branchen, in denen dieses Premiumprodukt verwendet wird",
+          "values": [
+            {
+              "title": "Luxusbekleidung",
+              "description": "Weit verbreitet in der professionellen Luxusbekleidungsbranche aufgrund seiner zuverlässigen Leistung und hochwertigen Eigenschaften."
+            },
+            {
+              "title": "Stickerei",
+              "description": "Weit verbreitet in der professionellen Stickerei für zuverlässige Leistung und hochwertige Eigenschaften."
+            },
+            {
+              "title": "Wohntextilien",
+              "description": "Weit verbreitet in der professionellen Wohntextilienherstellung für zuverlässige Leistung und hochwertige Eigenschaften."
+            },
+            {
+              "title": "Dekorative Textilien",
+              "description": "Weit verbreitet in professionellen dekorativen Textilien für zuverlässige Leistung und hochwertige Eigenschaften."
+            }
+          ]
+        },
+        "documentation": {
+          "title": "Professionelle Produktdokumentation",
+          "description": "Laden Sie professionelle technische Dokumente, Zertifizierungen und Premium-Produktblätter herunter",
+          "values": [
+            {
+              "title": "Professionelles Datenblatt",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Professionelles Sicherheitsdatenblatt (SDS)",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Premium-Produktbilder (hochauflösend)",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "images"
+            }
+          ]
+        },
+        "maritimeOrder": {
+          "order": {
+            "title": "Professionelle Maritime Bestellung",
+            "description": "Wichtige Details zur Aufgabe Ihrer professionellen Bestellung",
+            "minimumOrder": {
+              "title": "Minimale Professionelle Bestellmenge",
+              "description": "100 kg – Kontaktieren Sie uns für kleinere professionelle Mengen"
+            },
+            "paymentTerms": {
+              "title": "Professionelle Zahlungsbedingungen",
+              "description": "30% Anzahlung, 70% vor dem Versand. Akkreditiv bei Sicht für internationalen Handel verfügbar"
+            },
+            "shipping": {
+              "title": "Globaler Maritimer Versand",
+              "description": "FOB-Ursprung. Express-Internationaler maritimer Versand weltweit verfügbar"
+            }
+          },
+          "contacts": {
+            "contactProfessionalSalesTeam": "Kontaktieren Sie das Professionelle Vertriebsteam",
+            "title": "Professionelle Kontaktinformationen",
+            "description": "Kontaktieren Sie unser professionelles maritimes Vertriebsteam",
+            "salesManager": {
+              "title": "Professioneller Vertriebsleiter",
+              "name": "Kapitän John Doe",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "exportDept": {
+              "title": "Maritime Exportabteilung",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "technicalSupport": {
+              "title": "Professioneller Technischer Support",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            }
+          }
+        }
+      },
+      "6": {
+        "title": "CNC-Bediener",
+        "description": "Hochwertiges Bio-Baumwollgarn aus zertifiziert nachhaltigen Farmen, ideal für die Textilherstellung, Luxus- und Handwerksanwendungen.",
+        "mainImage": "/service6.svg",
+        "thumbnails": [
+          "/service1-op1.svg",
+          "/service1-op2.svg",
+          "/service1-op3.svg",
+          "/service1-op4.svg"
+        ],
+        "keyStats": {
+          "title": "Wichtige Statistiken",
+          "values": [
+            {
+              "label": "Spezifikation 1",
+              "value": "Einzeiler",
+              "type": "spec"
+            },
+            {
+              "label": "Mindestbestellmenge",
+              "value": "Tonne Baumwolle",
+              "type": "moq"
+            },
+            {
+              "label": "Spezifikation 1",
+              "value": "Einzeiler",
+              "type": "spec"
+            },
+            { "label": "Spezifikation 1", "value": "Einzeiler", "type": "spec" }
+          ]
+        },
+        "certifications": {
+          "title": "Zertifizierungen & Standards",
+          "values": ["ISO 9001", "OEKO-TEX"]
+        },
+        "professionalSpecs": {
+          "title": "Professionelle Technische Spezifikationen",
+          "description": "Detaillierte professionelle Spezifikationen und Premium-Produkteigenschaften",
+          "values": [
+            {
+              "property": "Professionelle Eigenschaft",
+              "value": "Premium-Wert"
+            },
+            {
+              "property": "Professionelle Zusammensetzung",
+              "value": "Rohseide der Güteklasse A"
+            },
+            {
+              "property": "Gewicht/Größe",
+              "value": "200 - 1200 Denier-Bereich"
+            },
+            {
+              "property": "Professionelles Material",
+              "value": "100% Maulbeerseide"
+            },
+            { "property": "Herkunft", "value": "China" },
+            {
+              "property": "Minimale Professionelle Bestellmenge",
+              "value": "100 kg"
+            },
+            { "property": "Express-Lieferzeit", "value": "10–15 Tage" }
+          ]
+        },
+        "applications": {
+          "title": "Professionelle Anwendungen & Einsatzgebiete",
+          "description": "Gängige professionelle Anwendungen und Branchen, in denen dieses Premiumprodukt verwendet wird",
+          "values": [
+            {
+              "title": "Luxusbekleidung",
+              "description": "Weit verbreitet in der professionellen Luxusbekleidungsbranche aufgrund seiner zuverlässigen Leistung und hochwertigen Eigenschaften."
+            },
+            {
+              "title": "Stickerei",
+              "description": "Weit verbreitet in der professionellen Stickerei für zuverlässige Leistung und hochwertige Eigenschaften."
+            },
+            {
+              "title": "Wohntextilien",
+              "description": "Weit verbreitet in der professionellen Wohntextilienherstellung für zuverlässige Leistung und hochwertige Eigenschaften."
+            },
+            {
+              "title": "Dekorative Textilien",
+              "description": "Weit verbreitet in professionellen dekorativen Textilien für zuverlässige Leistung und hochwertige Eigenschaften."
+            }
+          ]
+        },
+        "documentation": {
+          "title": "Professionelle Produktdokumentation",
+          "description": "Laden Sie professionelle technische Dokumente, Zertifizierungen und Premium-Produktblätter herunter",
+          "values": [
+            {
+              "title": "Professionelles Datenblatt",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Professionelles Sicherheitsdatenblatt (SDS)",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Premium-Produktbilder (hochauflösend)",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "images"
+            }
+          ]
+        },
+        "maritimeOrder": {
+          "order": {
+            "title": "Professionelle Maritime Bestellung",
+            "description": "Wichtige Details zur Aufgabe Ihrer professionellen Bestellung",
+            "minimumOrder": {
+              "title": "Minimale Professionelle Bestellmenge",
+              "description": "100 kg – Kontaktieren Sie uns für kleinere professionelle Mengen"
+            },
+            "paymentTerms": {
+              "title": "Professionelle Zahlungsbedingungen",
+              "description": "30% Anzahlung, 70% vor dem Versand. Akkreditiv bei Sicht für internationalen Handel verfügbar"
+            },
+            "shipping": {
+              "title": "Globaler Maritimer Versand",
+              "description": "FOB-Ursprung. Express-Internationaler maritimer Versand weltweit verfügbar"
+            }
+          },
+          "contacts": {
+            "contactProfessionalSalesTeam": "Kontaktieren Sie das Professionelle Vertriebsteam",
+            "title": "Professionelle Kontaktinformationen",
+            "description": "Kontaktieren Sie unser professionelles maritimes Vertriebsteam",
+            "salesManager": {
+              "title": "Professioneller Vertriebsleiter",
+              "name": "Kapitän John Doe",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "exportDept": {
+              "title": "Maritime Exportabteilung",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "technicalSupport": {
+              "title": "Professioneller Technischer Support",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            }
+          }
+        }
+      },
+      "7": {
+        "title": "CNC-Bediener",
+        "description": "Hochwertiges Bio-Baumwollgarn aus zertifiziert nachhaltigen Farmen, ideal für die Textilherstellung, Luxus- und Handwerksanwendungen.",
+        "mainImage": "/service7.svg",
+        "thumbnails": [
+          "/service1-op1.svg",
+          "/service1-op2.svg",
+          "/service1-op3.svg",
+          "/service1-op4.svg"
+        ],
+        "keyStats": {
+          "title": "Wichtige Statistiken",
+          "values": [
+            {
+              "label": "Spezifikation 1",
+              "value": "Einzeiler",
+              "type": "spec"
+            },
+            {
+              "label": "Mindestbestellmenge",
+              "value": "Tonne Baumwolle",
+              "type": "moq"
+            },
+            {
+              "label": "Spezifikation 1",
+              "value": "Einzeiler",
+              "type": "spec"
+            },
+            { "label": "Spezifikation 1", "value": "Einzeiler", "type": "spec" }
+          ]
+        },
+        "certifications": {
+          "title": "Zertifizierungen & Standards",
+          "values": ["ISO 9001", "OEKO-TEX"]
+        },
+        "professionalSpecs": {
+          "title": "Professionelle Technische Spezifikationen",
+          "description": "Detaillierte professionelle Spezifikationen und Premium-Produkteigenschaften",
+          "values": [
+            {
+              "property": "Professionelle Eigenschaft",
+              "value": "Premium-Wert"
+            },
+            {
+              "property": "Professionelle Zusammensetzung",
+              "value": "Rohseide der Güteklasse A"
+            },
+            {
+              "property": "Gewicht/Größe",
+              "value": "200 - 1200 Denier-Bereich"
+            },
+            {
+              "property": "Professionelles Material",
+              "value": "100% Maulbeerseide"
+            },
+            { "property": "Herkunft", "value": "China" },
+            {
+              "property": "Minimale Professionelle Bestellmenge",
+              "value": "100 kg"
+            },
+            { "property": "Express-Lieferzeit", "value": "10–15 Tage" }
+          ]
+        },
+        "applications": {
+          "title": "Professionelle Anwendungen & Einsatzgebiete",
+          "description": "Gängige professionelle Anwendungen und Branchen, in denen dieses Premiumprodukt verwendet wird",
+          "values": [
+            {
+              "title": "Luxusbekleidung",
+              "description": "Weit verbreitet in der professionellen Luxusbekleidungsbranche aufgrund seiner zuverlässigen Leistung und hochwertigen Eigenschaften."
+            },
+            {
+              "title": "Stickerei",
+              "description": "Weit verbreitet in der professionellen Stickerei für zuverlässige Leistung und hochwertige Eigenschaften."
+            },
+            {
+              "title": "Wohntextilien",
+              "description": "Weit verbreitet in der professionellen Wohntextilienherstellung für zuverlässige Leistung und hochwertige Eigenschaften."
+            },
+            {
+              "title": "Dekorative Textilien",
+              "description": "Weit verbreitet in professionellen dekorativen Textilien für zuverlässige Leistung und hochwertige Eigenschaften."
+            }
+          ]
+        },
+        "documentation": {
+          "title": "Professionelle Produktdokumentation",
+          "description": "Laden Sie professionelle technische Dokumente, Zertifizierungen und Premium-Produktblätter herunter",
+          "values": [
+            {
+              "title": "Professionelles Datenblatt",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Professionelles Sicherheitsdatenblatt (SDS)",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Premium-Produktbilder (hochauflösend)",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "images"
+            }
+          ]
+        },
+        "maritimeOrder": {
+          "order": {
+            "title": "Professionelle Maritime Bestellung",
+            "description": "Wichtige Details zur Aufgabe Ihrer professionellen Bestellung",
+            "minimumOrder": {
+              "title": "Minimale Professionelle Bestellmenge",
+              "description": "100 kg – Kontaktieren Sie uns für kleinere professionelle Mengen"
+            },
+            "paymentTerms": {
+              "title": "Professionelle Zahlungsbedingungen",
+              "description": "30% Anzahlung, 70% vor dem Versand. Akkreditiv bei Sicht für internationalen Handel verfügbar"
+            },
+            "shipping": {
+              "title": "Globaler Maritimer Versand",
+              "description": "FOB-Ursprung. Express-Internationaler maritimer Versand weltweit verfügbar"
+            }
+          },
+          "contacts": {
+            "contactProfessionalSalesTeam": "Kontaktieren Sie das Professionelle Vertriebsteam",
+            "title": "Professionelle Kontaktinformationen",
+            "description": "Kontaktieren Sie unser professionelles maritimes Vertriebsteam",
+            "salesManager": {
+              "title": "Professioneller Vertriebsleiter",
+              "name": "Kapitän John Doe",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "exportDept": {
+              "title": "Maritime Exportabteilung",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "technicalSupport": {
+              "title": "Professioneller Technischer Support",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            }
+          }
+        }
+      },
+      "8": {
+        "title": "CNC-Bediener",
+        "description": "Hochwertiges Bio-Baumwollgarn aus zertifiziert nachhaltigen Farmen, ideal für die Textilherstellung, Luxus- und Handwerksanwendungen.",
+        "mainImage": "/service8.svg",
+        "thumbnails": [
+          "/service1-op1.svg",
+          "/service1-op2.svg",
+          "/service1-op3.svg",
+          "/service1-op4.svg"
+        ],
+        "keyStats": {
+          "title": "Wichtige Statistiken",
+          "values": [
+            {
+              "label": "Spezifikation 1",
+              "value": "Einzeiler",
+              "type": "spec"
+            },
+            {
+              "label": "Mindestbestellmenge",
+              "value": "Tonne Baumwolle",
+              "type": "moq"
+            },
+            {
+              "label": "Spezifikation 1",
+              "value": "Einzeiler",
+              "type": "spec"
+            },
+            { "label": "Spezifikation 1", "value": "Einzeiler", "type": "spec" }
+          ]
+        },
+        "certifications": {
+          "title": "Zertifizierungen & Standards",
+          "values": ["ISO 9001", "OEKO-TEX"]
+        },
+        "professionalSpecs": {
+          "title": "Professionelle Technische Spezifikationen",
+          "description": "Detaillierte professionelle Spezifikationen und Premium-Produkteigenschaften",
+          "values": [
+            {
+              "property": "Professionelle Eigenschaft",
+              "value": "Premium-Wert"
+            },
+            {
+              "property": "Professionelle Zusammensetzung",
+              "value": "Rohseide der Güteklasse A"
+            },
+            {
+              "property": "Gewicht/Größe",
+              "value": "200 - 1200 Denier-Bereich"
+            },
+            {
+              "property": "Professionelles Material",
+              "value": "100% Maulbeerseide"
+            },
+            { "property": "Herkunft", "value": "China" },
+            {
+              "property": "Minimale Professionelle Bestellmenge",
+              "value": "100 kg"
+            },
+            { "property": "Express-Lieferzeit", "value": "10–15 Tage" }
+          ]
+        },
+        "applications": {
+          "title": "Professionelle Anwendungen & Einsatzgebiete",
+          "description": "Gängige professionelle Anwendungen und Branchen, in denen dieses Premiumprodukt verwendet wird",
+          "values": [
+            {
+              "title": "Luxusbekleidung",
+              "description": "Weit verbreitet in der professionellen Luxusbekleidungsbranche aufgrund seiner zuverlässigen Leistung und hochwertigen Eigenschaften."
+            },
+            {
+              "title": "Stickerei",
+              "description": "Weit verbreitet in der professionellen Stickerei für zuverlässige Leistung und hochwertige Eigenschaften."
+            },
+            {
+              "title": "Wohntextilien",
+              "description": "Weit verbreitet in der professionellen Wohntextilienherstellung für zuverlässige Leistung und hochwertige Eigenschaften."
+            },
+            {
+              "title": "Dekorative Textilien",
+              "description": "Weit verbreitet in professionellen dekorativen Textilien für zuverlässige Leistung und hochwertige Eigenschaften."
+            }
+          ]
+        },
+        "documentation": {
+          "title": "Professionelle Produktdokumentation",
+          "description": "Laden Sie professionelle technische Dokumente, Zertifizierungen und Premium-Produktblätter herunter",
+          "values": [
+            {
+              "title": "Professionelles Datenblatt",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Professionelles Sicherheitsdatenblatt (SDS)",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Premium-Produktbilder (hochauflösend)",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "images"
+            }
+          ]
+        },
+        "maritimeOrder": {
+          "order": {
+            "title": "Professionelle Maritime Bestellung",
+            "description": "Wichtige Details zur Aufgabe Ihrer professionellen Bestellung",
+            "minimumOrder": {
+              "title": "Minimale Professionelle Bestellmenge",
+              "description": "100 kg – Kontaktieren Sie uns für kleinere professionelle Mengen"
+            },
+            "paymentTerms": {
+              "title": "Professionelle Zahlungsbedingungen",
+              "description": "30% Anzahlung, 70% vor dem Versand. Akkreditiv bei Sicht für internationalen Handel verfügbar"
+            },
+            "shipping": {
+              "title": "Globaler Maritimer Versand",
+              "description": "FOB-Ursprung. Express-Internationaler maritimer Versand weltweit verfügbar"
+            }
+          },
+          "contacts": {
+            "contactProfessionalSalesTeam": "Kontaktieren Sie das Professionelle Vertriebsteam",
+            "title": "Professionelle Kontaktinformationen",
+            "description": "Kontaktieren Sie unser professionelles maritimes Vertriebsteam",
+            "salesManager": {
+              "title": "Professioneller Vertriebsleiter",
+              "name": "Kapitän John Doe",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "exportDept": {
+              "title": "Maritime Exportabteilung",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "technicalSupport": {
+              "title": "Professioneller Technischer Support",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            }
+          }
+        }
+      },
+      "9": {
+        "title": "CNC-Bediener",
+        "description": "Hochwertiges Bio-Baumwollgarn aus zertifiziert nachhaltigen Farmen, ideal für die Textilherstellung, Luxus- und Handwerksanwendungen.",
+        "mainImage": "/service9.svg",
+        "thumbnails": [
+          "/service1-op1.svg",
+          "/service1-op2.svg",
+          "/service1-op3.svg",
+          "/service1-op4.svg"
+        ],
+        "keyStats": {
+          "title": "Wichtige Statistiken",
+          "values": [
+            {
+              "label": "Spezifikation 1",
+              "value": "Einzeiler",
+              "type": "spec"
+            },
+            {
+              "label": "Mindestbestellmenge",
+              "value": "Tonne Baumwolle",
+              "type": "moq"
+            },
+            {
+              "label": "Spezifikation 1",
+              "value": "Einzeiler",
+              "type": "spec"
+            },
+            { "label": "Spezifikation 1", "value": "Einzeiler", "type": "spec" }
+          ]
+        },
+        "certifications": {
+          "title": "Zertifizierungen & Standards",
+          "values": ["ISO 9001", "OEKO-TEX"]
+        },
+        "professionalSpecs": {
+          "title": "Professionelle Technische Spezifikationen",
+          "description": "Detaillierte professionelle Spezifikationen und Premium-Produkteigenschaften",
+          "values": [
+            {
+              "property": "Professionelle Eigenschaft",
+              "value": "Premium-Wert"
+            },
+            {
+              "property": "Professionelle Zusammensetzung",
+              "value": "Rohseide der Güteklasse A"
+            },
+            {
+              "property": "Gewicht/Größe",
+              "value": "200 - 1200 Denier-Bereich"
+            },
+            {
+              "property": "Professionelles Material",
+              "value": "100% Maulbeerseide"
+            },
+            { "property": "Herkunft", "value": "China" },
+            {
+              "property": "Minimale Professionelle Bestellmenge",
+              "value": "100 kg"
+            },
+            { "property": "Express-Lieferzeit", "value": "10–15 Tage" }
+          ]
+        },
+        "applications": {
+          "title": "Professionelle Anwendungen & Einsatzgebiete",
+          "description": "Gängige professionelle Anwendungen und Branchen, in denen dieses Premiumprodukt verwendet wird",
+          "values": [
+            {
+              "title": "Luxusbekleidung",
+              "description": "Weit verbreitet in der professionellen Luxusbekleidungsbranche aufgrund seiner zuverlässigen Leistung und hochwertigen Eigenschaften."
+            },
+            {
+              "title": "Stickerei",
+              "description": "Weit verbreitet in der professionellen Stickerei für zuverlässige Leistung und hochwertige Eigenschaften."
+            },
+            {
+              "title": "Wohntextilien",
+              "description": "Weit verbreitet in der professionellen Wohntextilienherstellung für zuverlässige Leistung und hochwertige Eigenschaften."
+            },
+            {
+              "title": "Dekorative Textilien",
+              "description": "Weit verbreitet in professionellen dekorativen Textilien für zuverlässige Leistung und hochwertige Eigenschaften."
+            }
+          ]
+        },
+        "documentation": {
+          "title": "Professionelle Produktdokumentation",
+          "description": "Laden Sie professionelle technische Dokumente, Zertifizierungen und Premium-Produktblätter herunter",
+          "values": [
+            {
+              "title": "Professionelles Datenblatt",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Professionelles Sicherheitsdatenblatt (SDS)",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Premium-Produktbilder (hochauflösend)",
+              "description": "Details zu professionellen technischen Spezifikationen (PDF)",
+              "type": "images"
+            }
+          ]
+        },
+        "maritimeOrder": {
+          "order": {
+            "title": "Professionelle Maritime Bestellung",
+            "description": "Wichtige Details zur Aufgabe Ihrer professionellen Bestellung",
+            "minimumOrder": {
+              "title": "Minimale Professionelle Bestellmenge",
+              "description": "100 kg – Kontaktieren Sie uns für kleinere professionelle Mengen"
+            },
+            "paymentTerms": {
+              "title": "Professionelle Zahlungsbedingungen",
+              "description": "30% Anzahlung, 70% vor dem Versand. Akkreditiv bei Sicht für internationalen Handel verfügbar"
+            },
+            "shipping": {
+              "title": "Globaler Maritimer Versand",
+              "description": "FOB-Ursprung. Express-Internationaler maritimer Versand weltweit verfügbar"
+            }
+          },
+          "contacts": {
+            "contactProfessionalSalesTeam": "Kontaktieren Sie das Professionelle Vertriebsteam",
+            "title": "Professionelle Kontaktinformationen",
+            "description": "Kontaktieren Sie unser professionelles maritimes Vertriebsteam",
+            "salesManager": {
+              "title": "Professioneller Vertriebsleiter",
+              "name": "Kapitän John Doe",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "exportDept": {
+              "title": "Maritime Exportabteilung",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "technicalSupport": {
+              "title": "Professioneller Technischer Support",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            }
+          }
+        }
+      }
+    },
     "categories": [
       {
         "id": "all",

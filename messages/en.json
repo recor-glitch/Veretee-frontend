@@ -442,6 +442,1260 @@
     "requestSample": "Request Sample",
     "headline": "Machined/ 3D Printed Products",
     "description": "Your trusted partner for sourcing high-quality products.",
+    "sample": {
+      "title": "Request Professional Sample",
+      "description": "Fill out the professional form below to request a premium sample of this product. All fields marked with * are required for maritime processing",
+      "form": {
+        "step1": {
+          "title": "Professional Company Information",
+          "companyName": "Company Name *",
+          "companyNamePlaceholder": "Your Professional Company Ltd.",
+          "industry": {
+            "title": "Industry *",
+            "options": [
+              "Professional Textile Manufacturing ",
+              "Premium Apparel & Fashion",
+              "Professional Toys & Games",
+              "Professional Health & Wellness",
+              "Premium Retail",
+              "Luxury Hospitality",
+              "Other Professional"
+            ],
+            "placeholder": "Select Professional Industry"
+          },
+          "companySize": {
+            "title": "Company Size",
+            "options": [
+              "Start-up (1-5)",
+              "Small-Size Company (11-50)",
+              "Mid-Size Company (100-500)",
+              "Large-Size Company (500-1000++)"
+            ],
+            "placeholder": "Select Company Size"
+          },
+          "website": {
+            "title": "Professional Website",
+            "placeholder": "www.example.com"
+          },
+          "submit": "Next",
+          "cancel": "Cancel"
+        },
+        "step2": {
+          "title": "Professional Contact Information",
+          "fullName": {
+            "title": "Full Name *",
+            "placeholder": "Your Name"
+          },
+          "professionalTitle": {
+            "title": "Professional Title *",
+            "placeholder": "Your Title"
+          },
+          "email": {
+            "title": "Professional Email *",
+            "placeholder": "name@company.com"
+          },
+          "phone": {
+            "title": "Contact Number",
+            "placeholder": "+1"
+          },
+          "country": {
+            "title": "Country *",
+            "placeholder": "Select Your Country",
+            "options": [
+              "United States",
+              "Germany",
+              "India",
+              "Poland",
+              "England"
+            ]
+          },
+          "submit": "Next",
+          "previous": "Previous"
+        },
+        "step3": {
+          "title": "Professional Sample Requirements",
+          "professionalIntent": {
+            "title": "Professional Intended Use *",
+            "placeholder": "Need for personal use"
+          },
+          "orderQuantity": {
+            "title": "Order Quantity *",
+            "placeholder": "Select Quantity",
+            "options": [
+              "Small (<100 Kg)",
+              "Professional Minimum (100 Kg)",
+              "Medium (2x Professional Minimum)",
+              "Large (5x Professional Minimum)"
+            ]
+          },
+          "orderTimeframe": {
+            "title": "Timeline for Order",
+            "placeholder": "Select Time Frame",
+            "options": [
+              "Immediate (1 Month)",
+              "Short Term  (1-3 Months)",
+              "Medium Term (3-6 Months)",
+              "Long Term (6+ Months)"
+            ]
+          },
+          "additionalRequirements": "Additional Requirements *",
+          "professionalPreference": {
+            "title": "Professional Preference",
+            "options": [
+              "Include professional technical documentation and certification",
+              "Request expedited maritime shipping (additional charges may apply)",
+              "Receive professional updates about similar premium products and industry news"
+            ]
+          },
+          "submit": "Submit Professional Request",
+          "previous": "Previous"
+        },
+        "submitted": {
+          "title": "Professional Request Submitted Successfully!",
+          "description": "Thank you for your professional interest in Mulberry Silk Thread. Our maritime sales team will contact you within 1-2 business days to arrange premium sample delivery.",
+          "referenceId": "Professional Reference ID:",
+          "referenceNote": "Please keep this reference for your professional records",
+          "close": "Close"
+        }
+      }
+    },
+    "details": {
+      "back": "Back to catalog",
+      "requestSample": "Request Sample",
+      "getQuote": "Get Quote",
+      "callUs": "Call Us",
+      "tabs": [
+        { "id": "professionalSpecs", "label": "Professional Spec" },
+        { "id": "applications", "label": "Applications" },
+        { "id": "documentation", "label": "Documentation" },
+        { "id": "maritimeOrder", "label": "Maritime Order" }
+      ],
+      "1": {
+        "title": "CNC Operator",
+        "description": "High-quality organic cotton yarn sourced from certified sustainable farms, perfect for textile manufacturing, luxury and crafting applications.",
+        "mainImage": "/service1.svg",
+        "thumbnails": [
+          "/service1-op1.svg",
+          "/service1-op2.svg",
+          "/service1-op3.svg",
+          "/service1-op4.svg"
+        ],
+        "keyStats": {
+          "title": "Key Statistics",
+          "values": [
+            { "label": "Spec 1", "value": "One liner", "type": "spec" },
+            { "label": "MOQ", "value": "Ton of cotton", "type": "moq" },
+            { "label": "Spec 1", "value": "One liner", "type": "spec" },
+            { "label": "Spec 1", "value": "One liner", "type": "spec" }
+          ]
+        },
+        "certifications": {
+          "title": "Certification & Standard",
+          "values": ["ISO 9001", "OEKO-TEX"]
+        },
+        "professionalSpecs": {
+          "title": "Professional Technical Specification",
+          "description": "Detailed professional specifications and premium product properties",
+          "values": [
+            { "property": "Professional Property", "value": "Premium Value" },
+            {
+              "property": "Professional Composition",
+              "value": "Grade A raw silk"
+            },
+            { "property": "Weight/Size", "value": "200 - 1200 denier range" },
+            {
+              "property": "Professional Material",
+              "value": "100% Mulberry Silk"
+            },
+            { "property": "Origin", "value": "China" },
+            { "property": "Minimum Professional Order", "value": "100 kg" },
+            { "property": "Express Lead Time", "value": "10-15 days" }
+          ]
+        },
+        "applications": {
+          "title": "Professional Applications & Use Cases",
+          "description": "Common professional applications and industries where this premium product is used",
+          "values": [
+            {
+              "title": "Luxury Apparel",
+              "description": "Widely used in professional luxury apparel for its reliable performance and premium quality characteristics"
+            },
+            {
+              "title": "Embroidery",
+              "description": "Widely used in professional embroidery for its reliable performance and premium quality characteristics."
+            },
+            {
+              "title": "Home Furnishing",
+              "description": "Widely used in professional home furnishing for its reliable performance and premium quality characteristics."
+            },
+            {
+              "title": "Decorative Textiles",
+              "description": "Widely used in professional decorative textiles for its reliable performance and premium quality characteristics."
+            }
+          ]
+        },
+        "documentation": {
+          "title": "Professional Product Documentation",
+          "description": "Download professional technical documents, certifications, and premium product sheets",
+          "values": [
+            {
+              "title": "Professional Specification Sheet",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Professional Safety Data Sheet (SDS)",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Premium product images (High-Res)",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "images"
+            }
+          ]
+        },
+        "maritimeOrder": {
+          "order": {
+            "title": "Professional Maritime Ordering",
+            "description": "Important details for placing your professional order",
+            "minimumOrder": {
+              "title": "Minimum Professional Order Quantity",
+              "description": "100 kg- Contact us for smaller professional quantities"
+            },
+            "paymentTerms": {
+              "title": "Professional Payment Terms",
+              "description": "30% advance, 70% before maritime shipment. LC at sight available for international trade"
+            },
+            "shipping": {
+              "title": "Global Maritime Shipping",
+              "description": "FOB origin. Express international maritime shipping available worldwide"
+            }
+          },
+          "contacts": {
+            "contactProfessionalSalesTeam": "Contact Professional Sales Team",
+            "title": "Professional Contact Information",
+            "description": "Get in touch with our professional maritime sales team",
+            "salesManager": {
+              "title": "Professional Sales Manager",
+              "name": "Captain John Doe",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "exportDept": {
+              "title": "Maritime Export Department",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "technicalSupport": {
+              "title": "Professional Technical Support",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            }
+          }
+        }
+      },
+      "2": {
+        "title": "CNC Operator",
+        "description": "High-quality organic cotton yarn sourced from certified sustainable farms, perfect for textile manufacturing, luxury and crafting applications.",
+        "mainImage": "/service2.svg",
+        "thumbnails": [
+          "/service1-op1.svg",
+          "/service1-op2.svg",
+          "/service1-op3.svg",
+          "/service1-op4.svg"
+        ],
+        "keyStats": {
+          "title": "Key Statistics",
+          "values": [
+            { "label": "Spec 1", "value": "One liner", "type": "spec" },
+            { "label": "MOQ", "value": "Ton of cotton", "type": "moq" },
+            { "label": "Spec 1", "value": "One liner", "type": "spec" },
+            { "label": "Spec 1", "value": "One liner", "type": "spec" }
+          ]
+        },
+        "certifications": {
+          "title": "Certification & Standard",
+          "values": ["ISO 9001", "OEKO-TEX"]
+        },
+        "professionalSpecs": {
+          "title": "Professional Technical Specification",
+          "description": "Detailed professional specifications and premium product properties",
+          "values": [
+            { "property": "Professional Property", "value": "Premium Value" },
+            {
+              "property": "Professional Composition",
+              "value": "Grade A raw silk"
+            },
+            { "property": "Weight/Size", "value": "200 - 1200 denier range" },
+            {
+              "property": "Professional Material",
+              "value": "100% Mulberry Silk"
+            },
+            { "property": "Origin", "value": "China" },
+            { "property": "Minimum Professional Order", "value": "100 kg" },
+            { "property": "Express Lead Time", "value": "10-15 days" }
+          ]
+        },
+        "applications": {
+          "title": "Professional Applications & Use Cases",
+          "description": "Common professional applications and industries where this premium product is used",
+          "values": [
+            {
+              "title": "Luxury Apparel",
+              "description": "Widely used in professional luxury apparel for its reliable performance and premium quality characteristics"
+            },
+            {
+              "title": "Embroidery",
+              "description": "Widely used in professional embroidery for its reliable performance and premium quality characteristics."
+            },
+            {
+              "title": "Home Furnishing",
+              "description": "Widely used in professional home furnishing for its reliable performance and premium quality characteristics."
+            },
+            {
+              "title": "Decorative Textiles",
+              "description": "Widely used in professional decorative textiles for its reliable performance and premium quality characteristics."
+            }
+          ]
+        },
+        "documentation": {
+          "title": "Professional Product Documentation",
+          "description": "Download professional technical documents, certifications, and premium product sheets",
+          "values": [
+            {
+              "title": "Professional Specification Sheet",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Professional Safety Data Sheet (SDS)",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Premium product images (High-Res)",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "images"
+            }
+          ]
+        },
+        "maritimeOrder": {
+          "order": {
+            "title": "Professional Maritime Ordering",
+            "description": "Important details for placing your professional order",
+            "minimumOrder": {
+              "title": "Minimum Professional Order Quantity",
+              "description": "100 kg- Contact us for smaller professional quantities"
+            },
+            "paymentTerms": {
+              "title": "Professional Payment Terms",
+              "description": "30% advance, 70% before maritime shipment. LC at sight available for international trade"
+            },
+            "shipping": {
+              "title": "Global Maritime Shipping",
+              "description": "FOB origin. Express international maritime shipping available worldwide"
+            }
+          },
+          "contacts": {
+            "contactProfessionalSalesTeam": "Contact Professional Sales Team",
+            "title": "Professional Contact Information",
+            "description": "Get in touch with our professional maritime sales team",
+            "salesManager": {
+              "title": "Professional Sales Manager",
+              "name": "Captain John Doe",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "exportDept": {
+              "title": "Maritime Export Department",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "technicalSupport": {
+              "title": "Professional Technical Support",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            }
+          }
+        }
+      },
+      "3": {
+        "title": "CNC Operator",
+        "description": "High-quality organic cotton yarn sourced from certified sustainable farms, perfect for textile manufacturing, luxury and crafting applications.",
+        "mainImage": "/service3.svg",
+        "thumbnails": [
+          "/service1-op1.svg",
+          "/service1-op2.svg",
+          "/service1-op3.svg",
+          "/service1-op4.svg"
+        ],
+        "keyStats": {
+          "title": "Key Statistics",
+          "values": [
+            { "label": "Spec 1", "value": "One liner", "type": "spec" },
+            { "label": "MOQ", "value": "Ton of cotton", "type": "moq" },
+            { "label": "Spec 1", "value": "One liner", "type": "spec" },
+            { "label": "Spec 1", "value": "One liner", "type": "spec" }
+          ]
+        },
+        "certifications": {
+          "title": "Certification & Standard",
+          "values": ["ISO 9001", "OEKO-TEX"]
+        },
+        "professionalSpecs": {
+          "title": "Professional Technical Specification",
+          "description": "Detailed professional specifications and premium product properties",
+          "values": [
+            { "property": "Professional Property", "value": "Premium Value" },
+            {
+              "property": "Professional Composition",
+              "value": "Grade A raw silk"
+            },
+            { "property": "Weight/Size", "value": "200 - 1200 denier range" },
+            {
+              "property": "Professional Material",
+              "value": "100% Mulberry Silk"
+            },
+            { "property": "Origin", "value": "China" },
+            { "property": "Minimum Professional Order", "value": "100 kg" },
+            { "property": "Express Lead Time", "value": "10-15 days" }
+          ]
+        },
+        "applications": {
+          "title": "Professional Applications & Use Cases",
+          "description": "Common professional applications and industries where this premium product is used",
+          "values": [
+            {
+              "title": "Luxury Apparel",
+              "description": "Widely used in professional luxury apparel for its reliable performance and premium quality characteristics"
+            },
+            {
+              "title": "Embroidery",
+              "description": "Widely used in professional embroidery for its reliable performance and premium quality characteristics."
+            },
+            {
+              "title": "Home Furnishing",
+              "description": "Widely used in professional home furnishing for its reliable performance and premium quality characteristics."
+            },
+            {
+              "title": "Decorative Textiles",
+              "description": "Widely used in professional decorative textiles for its reliable performance and premium quality characteristics."
+            }
+          ]
+        },
+        "documentation": {
+          "title": "Professional Product Documentation",
+          "description": "Download professional technical documents, certifications, and premium product sheets",
+          "values": [
+            {
+              "title": "Professional Specification Sheet",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Professional Safety Data Sheet (SDS)",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Premium product images (High-Res)",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "images"
+            }
+          ]
+        },
+        "maritimeOrder": {
+          "order": {
+            "title": "Professional Maritime Ordering",
+            "description": "Important details for placing your professional order",
+            "minimumOrder": {
+              "title": "Minimum Professional Order Quantity",
+              "description": "100 kg- Contact us for smaller professional quantities"
+            },
+            "paymentTerms": {
+              "title": "Professional Payment Terms",
+              "description": "30% advance, 70% before maritime shipment. LC at sight available for international trade"
+            },
+            "shipping": {
+              "title": "Global Maritime Shipping",
+              "description": "FOB origin. Express international maritime shipping available worldwide"
+            }
+          },
+          "contacts": {
+            "contactProfessionalSalesTeam": "Contact Professional Sales Team",
+            "title": "Professional Contact Information",
+            "description": "Get in touch with our professional maritime sales team",
+            "salesManager": {
+              "title": "Professional Sales Manager",
+              "name": "Captain John Doe",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "exportDept": {
+              "title": "Maritime Export Department",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "technicalSupport": {
+              "title": "Professional Technical Support",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            }
+          }
+        }
+      },
+      "4": {
+        "title": "CNC Operator",
+        "description": "High-quality organic cotton yarn sourced from certified sustainable farms, perfect for textile manufacturing, luxury and crafting applications.",
+        "mainImage": "/service4.svg",
+        "thumbnails": [
+          "/service1-op1.svg",
+          "/service1-op2.svg",
+          "/service1-op3.svg",
+          "/service1-op4.svg"
+        ],
+        "keyStats": {
+          "title": "Key Statistics",
+          "values": [
+            { "label": "Spec 1", "value": "One liner", "type": "spec" },
+            { "label": "MOQ", "value": "Ton of cotton", "type": "moq" },
+            { "label": "Spec 1", "value": "One liner", "type": "spec" },
+            { "label": "Spec 1", "value": "One liner", "type": "spec" }
+          ]
+        },
+        "certifications": {
+          "title": "Certification & Standard",
+          "values": ["ISO 9001", "OEKO-TEX"]
+        },
+        "professionalSpecs": {
+          "title": "Professional Technical Specification",
+          "description": "Detailed professional specifications and premium product properties",
+          "values": [
+            { "property": "Professional Property", "value": "Premium Value" },
+            {
+              "property": "Professional Composition",
+              "value": "Grade A raw silk"
+            },
+            { "property": "Weight/Size", "value": "200 - 1200 denier range" },
+            {
+              "property": "Professional Material",
+              "value": "100% Mulberry Silk"
+            },
+            { "property": "Origin", "value": "China" },
+            { "property": "Minimum Professional Order", "value": "100 kg" },
+            { "property": "Express Lead Time", "value": "10-15 days" }
+          ]
+        },
+        "applications": {
+          "title": "Professional Applications & Use Cases",
+          "description": "Common professional applications and industries where this premium product is used",
+          "values": [
+            {
+              "title": "Luxury Apparel",
+              "description": "Widely used in professional luxury apparel for its reliable performance and premium quality characteristics"
+            },
+            {
+              "title": "Embroidery",
+              "description": "Widely used in professional embroidery for its reliable performance and premium quality characteristics."
+            },
+            {
+              "title": "Home Furnishing",
+              "description": "Widely used in professional home furnishing for its reliable performance and premium quality characteristics."
+            },
+            {
+              "title": "Decorative Textiles",
+              "description": "Widely used in professional decorative textiles for its reliable performance and premium quality characteristics."
+            }
+          ]
+        },
+        "documentation": {
+          "title": "Professional Product Documentation",
+          "description": "Download professional technical documents, certifications, and premium product sheets",
+          "values": [
+            {
+              "title": "Professional Specification Sheet",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Professional Safety Data Sheet (SDS)",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Premium product images (High-Res)",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "images"
+            }
+          ]
+        },
+        "maritimeOrder": {
+          "order": {
+            "title": "Professional Maritime Ordering",
+            "description": "Important details for placing your professional order",
+            "minimumOrder": {
+              "title": "Minimum Professional Order Quantity",
+              "description": "100 kg- Contact us for smaller professional quantities"
+            },
+            "paymentTerms": {
+              "title": "Professional Payment Terms",
+              "description": "30% advance, 70% before maritime shipment. LC at sight available for international trade"
+            },
+            "shipping": {
+              "title": "Global Maritime Shipping",
+              "description": "FOB origin. Express international maritime shipping available worldwide"
+            }
+          },
+          "contacts": {
+            "contactProfessionalSalesTeam": "Contact Professional Sales Team",
+            "title": "Professional Contact Information",
+            "description": "Get in touch with our professional maritime sales team",
+            "salesManager": {
+              "title": "Professional Sales Manager",
+              "name": "Captain John Doe",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "exportDept": {
+              "title": "Maritime Export Department",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "technicalSupport": {
+              "title": "Professional Technical Support",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            }
+          }
+        }
+      },
+      "5": {
+        "title": "CNC Operator",
+        "description": "High-quality organic cotton yarn sourced from certified sustainable farms, perfect for textile manufacturing, luxury and crafting applications.",
+        "mainImage": "/service5.svg",
+        "thumbnails": [
+          "/service1-op1.svg",
+          "/service1-op2.svg",
+          "/service1-op3.svg",
+          "/service1-op4.svg"
+        ],
+        "keyStats": {
+          "title": "Key Statistics",
+          "values": [
+            { "label": "Spec 1", "value": "One liner", "type": "spec" },
+            { "label": "MOQ", "value": "Ton of cotton", "type": "moq" },
+            { "label": "Spec 1", "value": "One liner", "type": "spec" },
+            { "label": "Spec 1", "value": "One liner", "type": "spec" }
+          ]
+        },
+        "certifications": {
+          "title": "Certification & Standard",
+          "values": ["ISO 9001", "OEKO-TEX"]
+        },
+        "professionalSpecs": {
+          "title": "Professional Technical Specification",
+          "description": "Detailed professional specifications and premium product properties",
+          "values": [
+            { "property": "Professional Property", "value": "Premium Value" },
+            {
+              "property": "Professional Composition",
+              "value": "Grade A raw silk"
+            },
+            { "property": "Weight/Size", "value": "200 - 1200 denier range" },
+            {
+              "property": "Professional Material",
+              "value": "100% Mulberry Silk"
+            },
+            { "property": "Origin", "value": "China" },
+            { "property": "Minimum Professional Order", "value": "100 kg" },
+            { "property": "Express Lead Time", "value": "10-15 days" }
+          ]
+        },
+        "applications": {
+          "title": "Professional Applications & Use Cases",
+          "description": "Common professional applications and industries where this premium product is used",
+          "values": [
+            {
+              "title": "Luxury Apparel",
+              "description": "Widely used in professional luxury apparel for its reliable performance and premium quality characteristics"
+            },
+            {
+              "title": "Embroidery",
+              "description": "Widely used in professional embroidery for its reliable performance and premium quality characteristics."
+            },
+            {
+              "title": "Home Furnishing",
+              "description": "Widely used in professional home furnishing for its reliable performance and premium quality characteristics."
+            },
+            {
+              "title": "Decorative Textiles",
+              "description": "Widely used in professional decorative textiles for its reliable performance and premium quality characteristics."
+            }
+          ]
+        },
+        "documentation": {
+          "title": "Professional Product Documentation",
+          "description": "Download professional technical documents, certifications, and premium product sheets",
+          "values": [
+            {
+              "title": "Professional Specification Sheet",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Professional Safety Data Sheet (SDS)",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Premium product images (High-Res)",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "images"
+            }
+          ]
+        },
+        "maritimeOrder": {
+          "order": {
+            "title": "Professional Maritime Ordering",
+            "description": "Important details for placing your professional order",
+            "minimumOrder": {
+              "title": "Minimum Professional Order Quantity",
+              "description": "100 kg- Contact us for smaller professional quantities"
+            },
+            "paymentTerms": {
+              "title": "Professional Payment Terms",
+              "description": "30% advance, 70% before maritime shipment. LC at sight available for international trade"
+            },
+            "shipping": {
+              "title": "Global Maritime Shipping",
+              "description": "FOB origin. Express international maritime shipping available worldwide"
+            }
+          },
+          "contacts": {
+            "contactProfessionalSalesTeam": "Contact Professional Sales Team",
+            "title": "Professional Contact Information",
+            "description": "Get in touch with our professional maritime sales team",
+            "salesManager": {
+              "title": "Professional Sales Manager",
+              "name": "Captain John Doe",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "exportDept": {
+              "title": "Maritime Export Department",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "technicalSupport": {
+              "title": "Professional Technical Support",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            }
+          }
+        }
+      },
+      "6": {
+        "title": "CNC Operator",
+        "description": "High-quality organic cotton yarn sourced from certified sustainable farms, perfect for textile manufacturing, luxury and crafting applications.",
+        "mainImage": "/service6.svg",
+        "thumbnails": [
+          "/service1-op1.svg",
+          "/service1-op2.svg",
+          "/service1-op3.svg",
+          "/service1-op4.svg"
+        ],
+        "keyStats": {
+          "title": "Key Statistics",
+          "values": [
+            { "label": "Spec 1", "value": "One liner", "type": "spec" },
+            { "label": "MOQ", "value": "Ton of cotton", "type": "moq" },
+            { "label": "Spec 1", "value": "One liner", "type": "spec" },
+            { "label": "Spec 1", "value": "One liner", "type": "spec" }
+          ]
+        },
+        "certifications": {
+          "title": "Certification & Standard",
+          "values": ["ISO 9001", "OEKO-TEX"]
+        },
+        "professionalSpecs": {
+          "title": "Professional Technical Specification",
+          "description": "Detailed professional specifications and premium product properties",
+          "values": [
+            { "property": "Professional Property", "value": "Premium Value" },
+            {
+              "property": "Professional Composition",
+              "value": "Grade A raw silk"
+            },
+            { "property": "Weight/Size", "value": "200 - 1200 denier range" },
+            {
+              "property": "Professional Material",
+              "value": "100% Mulberry Silk"
+            },
+            { "property": "Origin", "value": "China" },
+            { "property": "Minimum Professional Order", "value": "100 kg" },
+            { "property": "Express Lead Time", "value": "10-15 days" }
+          ]
+        },
+        "applications": {
+          "title": "Professional Applications & Use Cases",
+          "description": "Common professional applications and industries where this premium product is used",
+          "values": [
+            {
+              "title": "Luxury Apparel",
+              "description": "Widely used in professional luxury apparel for its reliable performance and premium quality characteristics"
+            },
+            {
+              "title": "Embroidery",
+              "description": "Widely used in professional embroidery for its reliable performance and premium quality characteristics."
+            },
+            {
+              "title": "Home Furnishing",
+              "description": "Widely used in professional home furnishing for its reliable performance and premium quality characteristics."
+            },
+            {
+              "title": "Decorative Textiles",
+              "description": "Widely used in professional decorative textiles for its reliable performance and premium quality characteristics."
+            }
+          ]
+        },
+        "documentation": {
+          "title": "Professional Product Documentation",
+          "description": "Download professional technical documents, certifications, and premium product sheets",
+          "values": [
+            {
+              "title": "Professional Specification Sheet",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Professional Safety Data Sheet (SDS)",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Premium product images (High-Res)",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "images"
+            }
+          ]
+        },
+        "maritimeOrder": {
+          "order": {
+            "title": "Professional Maritime Ordering",
+            "description": "Important details for placing your professional order",
+            "minimumOrder": {
+              "title": "Minimum Professional Order Quantity",
+              "description": "100 kg- Contact us for smaller professional quantities"
+            },
+            "paymentTerms": {
+              "title": "Professional Payment Terms",
+              "description": "30% advance, 70% before maritime shipment. LC at sight available for international trade"
+            },
+            "shipping": {
+              "title": "Global Maritime Shipping",
+              "description": "FOB origin. Express international maritime shipping available worldwide"
+            }
+          },
+          "contacts": {
+            "contactProfessionalSalesTeam": "Contact Professional Sales Team",
+            "title": "Professional Contact Information",
+            "description": "Get in touch with our professional maritime sales team",
+            "salesManager": {
+              "title": "Professional Sales Manager",
+              "name": "Captain John Doe",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "exportDept": {
+              "title": "Maritime Export Department",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "technicalSupport": {
+              "title": "Professional Technical Support",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            }
+          }
+        }
+      },
+      "7": {
+        "title": "CNC Operator",
+        "description": "High-quality organic cotton yarn sourced from certified sustainable farms, perfect for textile manufacturing, luxury and crafting applications.",
+        "mainImage": "/service7.svg",
+        "thumbnails": [
+          "/service1-op1.svg",
+          "/service1-op2.svg",
+          "/service1-op3.svg",
+          "/service1-op4.svg"
+        ],
+        "keyStats": {
+          "title": "Key Statistics",
+          "values": [
+            { "label": "Spec 1", "value": "One liner", "type": "spec" },
+            { "label": "MOQ", "value": "Ton of cotton", "type": "moq" },
+            { "label": "Spec 1", "value": "One liner", "type": "spec" },
+            { "label": "Spec 1", "value": "One liner", "type": "spec" }
+          ]
+        },
+        "certifications": {
+          "title": "Certification & Standard",
+          "values": ["ISO 9001", "OEKO-TEX"]
+        },
+        "professionalSpecs": {
+          "title": "Professional Technical Specification",
+          "description": "Detailed professional specifications and premium product properties",
+          "values": [
+            { "property": "Professional Property", "value": "Premium Value" },
+            {
+              "property": "Professional Composition",
+              "value": "Grade A raw silk"
+            },
+            { "property": "Weight/Size", "value": "200 - 1200 denier range" },
+            {
+              "property": "Professional Material",
+              "value": "100% Mulberry Silk"
+            },
+            { "property": "Origin", "value": "China" },
+            { "property": "Minimum Professional Order", "value": "100 kg" },
+            { "property": "Express Lead Time", "value": "10-15 days" }
+          ]
+        },
+        "applications": {
+          "title": "Professional Applications & Use Cases",
+          "description": "Common professional applications and industries where this premium product is used",
+          "values": [
+            {
+              "title": "Luxury Apparel",
+              "description": "Widely used in professional luxury apparel for its reliable performance and premium quality characteristics"
+            },
+            {
+              "title": "Embroidery",
+              "description": "Widely used in professional embroidery for its reliable performance and premium quality characteristics."
+            },
+            {
+              "title": "Home Furnishing",
+              "description": "Widely used in professional home furnishing for its reliable performance and premium quality characteristics."
+            },
+            {
+              "title": "Decorative Textiles",
+              "description": "Widely used in professional decorative textiles for its reliable performance and premium quality characteristics."
+            }
+          ]
+        },
+        "documentation": {
+          "title": "Professional Product Documentation",
+          "description": "Download professional technical documents, certifications, and premium product sheets",
+          "values": [
+            {
+              "title": "Professional Specification Sheet",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Professional Safety Data Sheet (SDS)",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Premium product images (High-Res)",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "images"
+            }
+          ]
+        },
+        "maritimeOrder": {
+          "order": {
+            "title": "Professional Maritime Ordering",
+            "description": "Important details for placing your professional order",
+            "minimumOrder": {
+              "title": "Minimum Professional Order Quantity",
+              "description": "100 kg- Contact us for smaller professional quantities"
+            },
+            "paymentTerms": {
+              "title": "Professional Payment Terms",
+              "description": "30% advance, 70% before maritime shipment. LC at sight available for international trade"
+            },
+            "shipping": {
+              "title": "Global Maritime Shipping",
+              "description": "FOB origin. Express international maritime shipping available worldwide"
+            }
+          },
+          "contacts": {
+            "contactProfessionalSalesTeam": "Contact Professional Sales Team",
+            "title": "Professional Contact Information",
+            "description": "Get in touch with our professional maritime sales team",
+            "salesManager": {
+              "title": "Professional Sales Manager",
+              "name": "Captain John Doe",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "exportDept": {
+              "title": "Maritime Export Department",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "technicalSupport": {
+              "title": "Professional Technical Support",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            }
+          }
+        }
+      },
+      "8": {
+        "title": "CNC Operator",
+        "description": "High-quality organic cotton yarn sourced from certified sustainable farms, perfect for textile manufacturing, luxury and crafting applications.",
+        "mainImage": "/service8.svg",
+        "thumbnails": [
+          "/service1-op1.svg",
+          "/service1-op2.svg",
+          "/service1-op3.svg",
+          "/service1-op4.svg"
+        ],
+        "keyStats": {
+          "title": "Key Statistics",
+          "values": [
+            { "label": "Spec 1", "value": "One liner", "type": "spec" },
+            { "label": "MOQ", "value": "Ton of cotton", "type": "moq" },
+            { "label": "Spec 1", "value": "One liner", "type": "spec" },
+            { "label": "Spec 1", "value": "One liner", "type": "spec" }
+          ]
+        },
+        "certifications": {
+          "title": "Certification & Standard",
+          "values": ["ISO 9001", "OEKO-TEX"]
+        },
+        "professionalSpecs": {
+          "title": "Professional Technical Specification",
+          "description": "Detailed professional specifications and premium product properties",
+          "values": [
+            { "property": "Professional Property", "value": "Premium Value" },
+            {
+              "property": "Professional Composition",
+              "value": "Grade A raw silk"
+            },
+            { "property": "Weight/Size", "value": "200 - 1200 denier range" },
+            {
+              "property": "Professional Material",
+              "value": "100% Mulberry Silk"
+            },
+            { "property": "Origin", "value": "China" },
+            { "property": "Minimum Professional Order", "value": "100 kg" },
+            { "property": "Express Lead Time", "value": "10-15 days" }
+          ]
+        },
+        "applications": {
+          "title": "Professional Applications & Use Cases",
+          "description": "Common professional applications and industries where this premium product is used",
+          "values": [
+            {
+              "title": "Luxury Apparel",
+              "description": "Widely used in professional luxury apparel for its reliable performance and premium quality characteristics"
+            },
+            {
+              "title": "Embroidery",
+              "description": "Widely used in professional embroidery for its reliable performance and premium quality characteristics."
+            },
+            {
+              "title": "Home Furnishing",
+              "description": "Widely used in professional home furnishing for its reliable performance and premium quality characteristics."
+            },
+            {
+              "title": "Decorative Textiles",
+              "description": "Widely used in professional decorative textiles for its reliable performance and premium quality characteristics."
+            }
+          ]
+        },
+        "documentation": {
+          "title": "Professional Product Documentation",
+          "description": "Download professional technical documents, certifications, and premium product sheets",
+          "values": [
+            {
+              "title": "Professional Specification Sheet",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Professional Safety Data Sheet (SDS)",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Premium product images (High-Res)",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "images"
+            }
+          ]
+        },
+        "maritimeOrder": {
+          "order": {
+            "title": "Professional Maritime Ordering",
+            "description": "Important details for placing your professional order",
+            "minimumOrder": {
+              "title": "Minimum Professional Order Quantity",
+              "description": "100 kg- Contact us for smaller professional quantities"
+            },
+            "paymentTerms": {
+              "title": "Professional Payment Terms",
+              "description": "30% advance, 70% before maritime shipment. LC at sight available for international trade"
+            },
+            "shipping": {
+              "title": "Global Maritime Shipping",
+              "description": "FOB origin. Express international maritime shipping available worldwide"
+            }
+          },
+          "contacts": {
+            "contactProfessionalSalesTeam": "Contact Professional Sales Team",
+            "title": "Professional Contact Information",
+            "description": "Get in touch with our professional maritime sales team",
+            "salesManager": {
+              "title": "Professional Sales Manager",
+              "name": "Captain John Doe",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "exportDept": {
+              "title": "Maritime Export Department",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "technicalSupport": {
+              "title": "Professional Technical Support",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            }
+          }
+        }
+      },
+      "9": {
+        "title": "CNC Operator",
+        "description": "High-quality organic cotton yarn sourced from certified sustainable farms, perfect for textile manufacturing, luxury and crafting applications.",
+        "mainImage": "/service9.svg",
+        "thumbnails": [
+          "/service1-op1.svg",
+          "/service1-op2.svg",
+          "/service1-op3.svg",
+          "/service1-op4.svg"
+        ],
+        "keyStats": {
+          "title": "Key Statistics",
+          "values": [
+            { "label": "Spec 1", "value": "One liner", "type": "spec" },
+            { "label": "MOQ", "value": "Ton of cotton", "type": "moq" },
+            { "label": "Spec 1", "value": "One liner", "type": "spec" },
+            { "label": "Spec 1", "value": "One liner", "type": "spec" }
+          ]
+        },
+        "certifications": {
+          "title": "Certification & Standard",
+          "values": ["ISO 9001", "OEKO-TEX"]
+        },
+        "professionalSpecs": {
+          "title": "Professional Technical Specification",
+          "description": "Detailed professional specifications and premium product properties",
+          "values": [
+            { "property": "Professional Property", "value": "Premium Value" },
+            {
+              "property": "Professional Composition",
+              "value": "Grade A raw silk"
+            },
+            { "property": "Weight/Size", "value": "200 - 1200 denier range" },
+            {
+              "property": "Professional Material",
+              "value": "100% Mulberry Silk"
+            },
+            { "property": "Origin", "value": "China" },
+            { "property": "Minimum Professional Order", "value": "100 kg" },
+            { "property": "Express Lead Time", "value": "10-15 days" }
+          ]
+        },
+        "applications": {
+          "title": "Professional Applications & Use Cases",
+          "description": "Common professional applications and industries where this premium product is used",
+          "values": [
+            {
+              "title": "Luxury Apparel",
+              "description": "Widely used in professional luxury apparel for its reliable performance and premium quality characteristics"
+            },
+            {
+              "title": "Embroidery",
+              "description": "Widely used in professional embroidery for its reliable performance and premium quality characteristics."
+            },
+            {
+              "title": "Home Furnishing",
+              "description": "Widely used in professional home furnishing for its reliable performance and premium quality characteristics."
+            },
+            {
+              "title": "Decorative Textiles",
+              "description": "Widely used in professional decorative textiles for its reliable performance and premium quality characteristics."
+            }
+          ]
+        },
+        "documentation": {
+          "title": "Professional Product Documentation",
+          "description": "Download professional technical documents, certifications, and premium product sheets",
+          "values": [
+            {
+              "title": "Professional Specification Sheet",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Professional Safety Data Sheet (SDS)",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "pdf"
+            },
+            {
+              "title": "Premium product images (High-Res)",
+              "description": "Details professional technical specifications (PDF)",
+              "type": "images"
+            }
+          ]
+        },
+        "maritimeOrder": {
+          "order": {
+            "title": "Professional Maritime Ordering",
+            "description": "Important details for placing your professional order",
+            "minimumOrder": {
+              "title": "Minimum Professional Order Quantity",
+              "description": "100 kg- Contact us for smaller professional quantities"
+            },
+            "paymentTerms": {
+              "title": "Professional Payment Terms",
+              "description": "30% advance, 70% before maritime shipment. LC at sight available for international trade"
+            },
+            "shipping": {
+              "title": "Global Maritime Shipping",
+              "description": "FOB origin. Express international maritime shipping available worldwide"
+            }
+          },
+          "contacts": {
+            "contactProfessionalSalesTeam": "Contact Professional Sales Team",
+            "title": "Professional Contact Information",
+            "description": "Get in touch with our professional maritime sales team",
+            "salesManager": {
+              "title": "Professional Sales Manager",
+              "name": "Captain John Doe",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "exportDept": {
+              "title": "Maritime Export Department",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            },
+            "technicalSupport": {
+              "title": "Professional Technical Support",
+              "email": "john.doe@veretee.com",
+              "phone": "+91 935677286"
+            }
+          }
+        }
+      }
+    },
     "categories": [
       {
         "id": "all",
