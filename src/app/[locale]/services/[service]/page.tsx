@@ -3,6 +3,13 @@
 import CTA from "@/components/Landing/CTA";
 import SampleRequestModal from "@/components/SampleRequestModal";
 import { Button } from "@/components/ui/button";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { ArrowLeft, Download, Mail, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -18,6 +25,7 @@ function ServiceDetailPage() {
   const serviceData = t.raw(`${service}`);
   const tabs = t.raw("tabs");
   const [activeTab, setActiveTab] = useState(tabs[0].id);
+  const [selectedImage, setSelectedImage] = useState(0); // Track selected main image index
 
   return (
     <>
@@ -43,7 +51,11 @@ function ServiceDetailPage() {
               {/* Main Image */}
               <div className="relative h-80 bg-gray-200 rounded-lg overflow-hidden">
                 <Image
-                  src={serviceData.mainImage}
+                  src={
+                    selectedImage === 0
+                      ? serviceData.mainImage
+                      : serviceData.thumbnails[selectedImage - 1]
+                  }
                   alt={serviceData.title}
                   fill
                   className="object-cover"
@@ -52,10 +64,32 @@ function ServiceDetailPage() {
 
               {/* Thumbnail Images */}
               <div className="flex gap-6 w-full">
+                {/* Main image thumbnail */}
+                <div
+                  onClick={() => setSelectedImage(0)}
+                  className={`relative w-1/4 h-20 bg-gray-200 rounded-lg overflow-hidden cursor-pointer transition-all duration-200 ${
+                    selectedImage === 0
+                      ? "ring-2 ring-primary ring-offset-2"
+                      : "hover:ring-1 hover:ring-gray-300"
+                  }`}
+                >
+                  <Image
+                    src={serviceData.mainImage}
+                    alt={serviceData.title}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                {/* Additional thumbnails */}
                 {serviceData.thumbnails.map((thumb: string, index: number) => (
                   <div
                     key={index}
-                    className="relative w-1/4 h-20 bg-gray-200 rounded-lg overflow-hidden cursor-pointer"
+                    onClick={() => setSelectedImage(index + 1)}
+                    className={`relative w-1/4 h-20 bg-gray-200 rounded-lg overflow-hidden cursor-pointer transition-all duration-200 ${
+                      selectedImage === index + 1
+                        ? "ring-2 ring-primary ring-offset-2"
+                        : "hover:ring-1 hover:ring-gray-300"
+                    }`}
                   >
                     <Image
                       src={thumb}
@@ -131,10 +165,12 @@ function ServiceDetailPage() {
                 >
                   {t("requestSample")}
                 </Button>
-                <Button variant="outline" size="lg">
+              </div>
+              <div className="flex gap-8 justify-between">
+                <Button variant="outline" className="md:px-16 w-fit">
                   {t("getQuote")}
                 </Button>
-                <Button variant="outline" size="lg">
+                <Button variant="outline" className="w-fit md:px-16">
                   {t("callUs")}
                 </Button>
               </div>
@@ -142,21 +178,40 @@ function ServiceDetailPage() {
           </div>
 
           {/* Tabs Section */}
-          <div className="border-b border-gray-200 mb-8">
-            <div className="flex space-x-8">
-              {tabs.map((tab: { id: string; label: string }) => (
-                <button
-                  key={tab.id}
-                  onClick={() => setActiveTab(tab.id)}
-                  className={`py-4 px-2 border-b-2 font-medium text-sm transition-colors ${
-                    activeTab === tab.id
-                      ? "border-primary text-primary"
-                      : "border-transparent text-gray-500 hover:text-gray-700"
-                  }`}
-                >
-                  {tab.label}
-                </button>
-              ))}
+          <div className="mb-8">
+            {/* Desktop Tabs */}
+            <div className="hidden md:block border-b border-gray-200">
+              <div className="flex space-x-8">
+                {tabs.map((tab: { id: string; label: string }) => (
+                  <button
+                    key={tab.id}
+                    onClick={() => setActiveTab(tab.id)}
+                    className={`py-4 px-2 border-b-2 font-medium text-sm transition-colors ${
+                      activeTab === tab.id
+                        ? "border-primary text-primary"
+                        : "border-transparent text-gray-500 hover:text-gray-700"
+                    }`}
+                  >
+                    {tab.label}
+                  </button>
+                ))}
+              </div>
+            </div> 
+
+            {/* Mobile Select Dropdown */}
+            <div className="md:hidden">
+              <Select value={activeTab} onValueChange={setActiveTab}>
+                <SelectTrigger className="w-full">
+                  <SelectValue placeholder="Select a tab" />
+                </SelectTrigger>
+                <SelectContent>
+                  {tabs.map((tab: { id: string; label: string }) => (
+                    <SelectItem key={tab.id} value={tab.id}>
+                      {tab.label}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
             </div>
           </div>
 

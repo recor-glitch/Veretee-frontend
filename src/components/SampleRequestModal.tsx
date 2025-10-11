@@ -19,13 +19,33 @@ import {
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
 import { cn } from "@/lib/utils";
-import { Check, CircleArrowRight, LogOut } from "lucide-react";
+import { Check, CircleArrowRight, LogOut, Loader2 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
+import { useParams } from "next/navigation";
 
 type SampleRequestModalProps = {
   open: boolean;
   onOpenChange: (open: boolean) => void;
+};
+
+type FormData = {
+  // Step 1
+  companyName: string;
+  industry: string;
+  companySize: string;
+  website: string;
+  // Step 2
+  fullName: string;
+  professionalTitle: string;
+  email: string;
+  phone: string;
+  country: string;
+  // Step 3
+  professionalIntent: string;
+  orderQuantity: string;
+  orderTimeframe: string;
+  additionalRequirements: string;
 };
 
 export default function SampleRequestModal({
@@ -33,25 +53,100 @@ export default function SampleRequestModal({
   onOpenChange,
 }: SampleRequestModalProps) {
   const t = useTranslations("service.sample");
+  const { service } = useParams();
   const submitted = t.raw("form.submitted");
   const step1 = t.raw("form.step1");
   const step2 = t.raw("form.step2");
   const step3 = t.raw("form.step3");
   const [step, setStep] = useState(1);
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [referenceId] = useState("VN-2-855274");
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [referenceId, setReferenceId] = useState("");
+  
+  const [formData, setFormData] = useState<FormData>({
+    companyName: '',
+    industry: '',
+    companySize: '',
+    website: '',
+    fullName: '',
+    professionalTitle: '',
+    email: '',
+    phone: '',
+    country: '',
+    professionalIntent: '',
+    orderQuantity: '',
+    orderTimeframe: '',
+    additionalRequirements: '',
+  });
+
+  const updateFormData = (field: keyof FormData, value: string) => {
+    setFormData(prev => ({ ...prev, [field]: value }));
+  };
+
+  const generateReferenceId = () => {
+    const timestamp = Date.now().toString().slice(-6);
+    const random = Math.random().toString(36).substring(2, 5).toUpperCase();
+    return `VN-${random}-${timestamp}`;
+  };
 
   const next = () => setStep((s) => Math.min(3, s + 1));
   const prev = () => setStep((s) => Math.max(1, s - 1));
 
-  const handleSubmit = () => {
-    setIsSubmitted(true);
+  const handleSubmit = async () => {
+    setIsLoading(true);
+    setError(null);
+    
+    try {
+      const newReferenceId = generateReferenceId();
+      setReferenceId(newReferenceId);
+      
+      const response = await fetch('/api/sample-request', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          ...formData,
+          serviceName: service,
+          referenceId: newReferenceId,
+        }),
+      });
+
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.error || 'Failed to submit request');
+      }
+
+      setIsSubmitted(true);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'An error occurred');
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const handleClose = () => {
     onOpenChange(false);
     setIsSubmitted(false);
     setStep(1);
+    setError(null);
+    setFormData({
+      companyName: '',
+      industry: '',
+      companySize: '',
+      website: '',
+      fullName: '',
+      professionalTitle: '',
+      email: '',
+      phone: '',
+      country: '',
+      professionalIntent: '',
+      orderQuantity: '',
+      orderTimeframe: '',
+      additionalRequirements: '',
+    });
   };
 
   return (
@@ -151,13 +246,17 @@ export default function SampleRequestModal({
                       <label className="text-sm font-medium">
                         {step1.companyName}
                       </label>
-                      <Input placeholder={step1.companyNamePlaceholder} />
+                      <Input 
+                        placeholder={step1.companyNamePlaceholder}
+                        value={formData.companyName}
+                        onChange={(e) => updateFormData('companyName', e.target.value)}
+                      />
                     </div>
                     <div className="space-y-2">
                       <label className="text-sm font-medium">
                         {step1.industry.title}
                       </label>
-                      <Select>
+                      <Select value={formData.industry} onValueChange={(value) => updateFormData('industry', value)}>
                         <SelectTrigger className="w-full">
                           <SelectValue
                             placeholder={step1.industry.placeholder}
@@ -178,7 +277,7 @@ export default function SampleRequestModal({
                       <label className="text-sm font-medium">
                         {step1.companySize.title}
                       </label>
-                      <Select>
+                      <Select value={formData.companySize} onValueChange={(value) => updateFormData('companySize', value)}>
                         <SelectTrigger className="w-full">
                           <SelectValue
                             placeholder={step1.companySize.placeholder}
@@ -199,7 +298,11 @@ export default function SampleRequestModal({
                       <label className="text-sm font-medium">
                         {step1.website.title}
                       </label>
-                      <Input placeholder={step1.website.placeholder} />
+                      <Input 
+                        placeholder={step1.website.placeholder}
+                        value={formData.website}
+                        onChange={(e) => updateFormData('website', e.target.value)}
+                      />
                     </div>
                   </div>
                 </section>
@@ -213,7 +316,11 @@ export default function SampleRequestModal({
                       <label className="text-sm font-medium">
                         {step2.fullName.title}
                       </label>
-                      <Input placeholder={step2.fullName.placeholder} />
+                      <Input 
+                        placeholder={step2.fullName.placeholder}
+                        value={formData.fullName}
+                        onChange={(e) => updateFormData('fullName', e.target.value)}
+                      />
                     </div>
                     <div className="space-y-2">
                       <label className="text-sm font-medium">
@@ -221,6 +328,8 @@ export default function SampleRequestModal({
                       </label>
                       <Input
                         placeholder={step2.professionalTitle.placeholder}
+                        value={formData.professionalTitle}
+                        onChange={(e) => updateFormData('professionalTitle', e.target.value)}
                       />
                     </div>
                     <div className="space-y-2">
@@ -230,19 +339,25 @@ export default function SampleRequestModal({
                       <Input
                         type="email"
                         placeholder={step2.email.placeholder}
+                        value={formData.email}
+                        onChange={(e) => updateFormData('email', e.target.value)}
                       />
                     </div>
                     <div className="space-y-2">
                       <label className="text-sm font-medium">
                         {step2.phone.title}
                       </label>
-                      <Input placeholder={step2.phone.placeholder} />
+                      <Input 
+                        placeholder={step2.phone.placeholder}
+                        value={formData.phone}
+                        onChange={(e) => updateFormData('phone', e.target.value)}
+                      />
                     </div>
                     <div className="space-y-2 md:col-span-2">
                       <label className="text-sm font-medium">
                         {step2.country.title}
                       </label>
-                      <Select>
+                      <Select value={formData.country} onValueChange={(value) => updateFormData('country', value)}>
                         <SelectTrigger className="w-full">
                           <SelectValue
                             placeholder={step2.country.placeholder}
@@ -271,13 +386,17 @@ export default function SampleRequestModal({
                       <label className="text-sm font-medium">
                         {step3.professionalIntent.title}
                       </label>
-                      <Textarea rows={4} />
+                      <Textarea 
+                        rows={4}
+                        value={formData.professionalIntent}
+                        onChange={(e) => updateFormData('professionalIntent', e.target.value)}
+                      />
                     </div>
                     <div className="space-y-2">
                       <label className="text-sm font-medium">
                         {step3.orderQuantity.title}
                       </label>
-                      <Select>
+                      <Select value={formData.orderQuantity} onValueChange={(value) => updateFormData('orderQuantity', value)}>
                         <SelectTrigger className="w-full">
                           <SelectValue placeholder="Select Quantity" />
                         </SelectTrigger>
@@ -296,7 +415,7 @@ export default function SampleRequestModal({
                       <label className="text-sm font-medium">
                         {step3.orderTimeframe.title}
                       </label>
-                      <Select>
+                      <Select value={formData.orderTimeframe} onValueChange={(value) => updateFormData('orderTimeframe', value)}>
                         <SelectTrigger className="w-full">
                           <SelectValue
                             placeholder={step3.orderTimeframe.placeholder}
@@ -317,10 +436,21 @@ export default function SampleRequestModal({
                       <label className="text-sm font-medium">
                         {step3.additionalRequirements}
                       </label>
-                      <Textarea rows={4} />
+                      <Textarea 
+                        rows={4}
+                        value={formData.additionalRequirements}
+                        onChange={(e) => updateFormData('additionalRequirements', e.target.value)}
+                      />
                     </div>
                   </div>
                 </section>
+              )}
+
+              {/* Error Display */}
+              {error && (
+                <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+                  <p className="text-red-800 text-sm">{error}</p>
+                </div>
               )}
 
               <DialogFooter className="p-0">
@@ -337,6 +467,7 @@ export default function SampleRequestModal({
                     )}
                     variant={step === 1 ? "ghost" : "outline"}
                     onClick={step === 1 ? handleClose : prev}
+                    disabled={isLoading}
                   >
                     {step === 1
                       ? step1.cancel
@@ -345,12 +476,21 @@ export default function SampleRequestModal({
                       : step3.previous}
                   </Button>
                   {step < 3 ? (
-                    <Button onClick={next}>
+                    <Button onClick={next} disabled={isLoading}>
                       <CircleArrowRight />
                       {step1.submit}
                     </Button>
                   ) : (
-                    <Button onClick={handleSubmit}>{step3.submit}</Button>
+                    <Button onClick={handleSubmit} disabled={isLoading}>
+                      {isLoading ? (
+                        <>
+                          <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                          Submitting...
+                        </>
+                      ) : (
+                        step3.submit
+                      )}
+                    </Button>
                   )}
                 </div>
               </DialogFooter>
