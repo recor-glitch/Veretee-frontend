@@ -7,32 +7,40 @@
     "services": "Dienstleistungen",
     "servicesDropdown": [
       {
-        "title": "Bearbeitete Produkte",
-        "link": "/services/machined-products"
+        "title": "Hergestellte Vorrichtungen",
+        "link": "/services/1"
       },
       {
-        "title": "Textilien & Garn",
-        "link": "/services/textile-yarn"
+        "title": "CNC-Drehbohren",
+        "link": "/services/2"
       },
       {
-        "title": "Küchenprodukte",
-        "link": "/services/kitchen-products"
+        "title": "CAD 3D Software",
+        "link": "/services/3"
       },
       {
-        "title": "Wellnessprodukte",
-        "link": "/services/wellness-products"
+        "title": "CNC-Bediener",
+        "link": "/services/4"
       },
       {
-        "title": "3D-Druckprodukte",
-        "link": "/services/3d-printing-products"
+        "title": "CNC-Werkzeuge",
+        "link": "/services/5"
       },
       {
-        "title": "Spielzeug",
-        "link": "/services/toys"
+        "title": "Laser-Schweißen",
+        "link": "/services/6"
       },
       {
-        "title": "Rohmaterialien",
-        "link": "/services/raw-materials"
+        "title": "Präzisions-CNC-Fräsen",
+        "link": "/services/7"
+      },
+      {
+        "title": "Schnelle Prototypenentwicklung",
+        "link": "/services/8"
+      },
+      {
+        "title": "Spritzgusswerkzeuge",
+        "link": "/services/9"
       }
     ],
     "career": "Karriere",

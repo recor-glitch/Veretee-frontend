@@ -7,32 +7,40 @@
     "services": "Services",
     "servicesDropdown": [
       {
-        "title": "Machined Products",
-        "link": "/services/machined-products"
+        "title": "Fabricated Fixtures",
+        "link": "/services/1"
       },
       {
-        "title": "Textile & Yarn",
-        "link": "/services/textile-yarn"
+        "title": "CNC lathe drilling",
+        "link": "/services/2"
       },
       {
-        "title": "Kitchen Products",
-        "link": "/services/kitchen-products"
+        "title": "CAD 3D Software",
+        "link": "/services/3"
       },
       {
-        "title": "Wellness Products",
-        "link": "/services/wellness-products"
+        "title": "CNC Operator",
+        "link": "/services/4"
       },
       {
-        "title": "3 D Printing Products",
-        "link": "/services/3d-printing-products"
+        "title": "CNC Tools",
+        "link": "/services/5"
       },
       {
-        "title": "Toys",
-        "link": "/services/toys"
+        "title": "Laser Welding",
+        "link": "/services/6"
       },
       {
-        "title": "Raw Materials",
-        "link": "/services/raw-materials"
+        "title": "Precision CNC Milling",
+        "link": "/services/7"
+      },
+      {
+        "title": "Rapid Prototyping",
+        "link": "/services/8"
+      },
+      {
+        "title": "Injection Moulding Tools",
+        "link": "/services/9"
       }
     ],
     "career": "Career",
