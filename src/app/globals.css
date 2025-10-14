@@ -150,3 +150,82 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .product-card-hover {
+    @apply relative overflow-hidden transition-all duration-700 ease-in-out
+           flex-1 min-w-0;
+  }
+
+  .product-card-hover:hover {
+    @apply flex-[2];
+  }
+
+  .product-cards-container:hover .product-card-hover:not(:hover) {
+    @apply flex-[0.5] opacity-75;
+  }
+
+  .product-card-hover .card-image {
+    @apply w-full h-full object-cover transition-all duration-700 ease-in-out;
+  }
+
+  .product-card-hover .card-overlay {
+    @apply absolute inset-0 bg-gradient-to-r from-primary via-primary/95 to-primary/80 
+           opacity-0 transition-all duration-700 ease-in-out
+           flex items-center gap-4 p-8;
+  }
+
+  .product-card-hover .card-text-content {
+    @apply flex-1 text-white opacity-0 transform translate-x-[-50px] 
+           transition-all duration-700 ease-in-out delay-100
+           flex flex-col justify-center;
+  }
+
+  .product-card-hover .card-image-content {
+    @apply flex-1 opacity-0 transform translate-x-[50px] 
+           transition-all duration-700 ease-in-out delay-150
+           relative min-h-0
+           bg-white/15 rounded-xl backdrop-blur-sm border border-white/20
+           p-4 mx-2 h-full w-full;
+  }
+
+  .product-card-hover .card-image-content img {
+    @apply absolute inset-4 w-auto h-auto max-w-full max-h-full 
+           object-contain rounded-lg;
+  }
+
+  .product-card-hover .learn-more-btn {
+    @apply bg-white text-primary px-6 py-3 rounded-full font-semibold
+           flex items-center gap-2 hover:bg-white/90 transition-colors duration-300
+           transform scale-0 transition-transform duration-500 ease-out delay-200
+           w-fit;
+  }
+
+  .product-card-hover .original-overlay {
+    @apply transition-opacity duration-700 ease-in-out;
+  }
+
+  .product-card-hover:hover .card-overlay {
+    @apply opacity-100;
+  }
+
+  .product-card-hover:hover .card-text-content {
+    @apply opacity-100 transform translate-x-0;
+  }
+
+  .product-card-hover:hover .card-image-content {
+    @apply opacity-100 transform translate-x-0;
+  }
+
+  .product-card-hover:hover .learn-more-btn {
+    @apply scale-100;
+  }
+
+  .product-card-hover:hover .card-image {
+    @apply scale-110;
+  }
+
+  .product-card-hover:hover .original-overlay {
+    @apply opacity-0;
+  }
+}

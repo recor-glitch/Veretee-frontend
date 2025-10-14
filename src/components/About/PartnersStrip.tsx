@@ -123,13 +123,15 @@ const PartnersStrip: React.FC = () => {
               >
                 <div className="aspect-[3/4] relative">
                   <Image
+                    width={300}
+                    height={300}
                     src={client.image}
                     alt={client.name}
-                    className="w-full h-full min-h-2/3 object-cover transition-all duration-500 group-hover:scale-110"
+                    className="w-full h-full min-h-2/3 object-cover transition-all duration-500"
                   />
                 </div>
                 <div className="p-6 bg-white">
-                  <h3 className="text-3xl font-medium text-gray-800">
+                  <h3 className="text-2xl font-medium text-gray-800">
                     {client.name}
                   </h3>
                 </div>
