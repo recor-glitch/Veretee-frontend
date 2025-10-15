@@ -69,7 +69,7 @@ const PartnersStrip: React.FC = () => {
       <div className="w-full">
         <div className="gap-8 grid grid-cols-4">
           {/* Left Content Section */}
-          <div className="md:col-span-2 col-span-full p-8 flex flex-col">
+          <div className="md:col-span-2 col-span-full flex flex-col">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
               {t("story.title")}
             </h2>
