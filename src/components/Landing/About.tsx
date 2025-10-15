@@ -21,24 +21,27 @@ const AboutSection = () => {
             <TabsTrigger
               value="purpose"
               className="bg-transparent data-[state=active]:bg-transparent data-[state=active]:shadow-none rounded-none border-b-2 border-transparent data-[state=active]:border-primary px-0 pb-3"
+              suppressHydrationWarning={true}
             >
               {t("purposeTab")}
             </TabsTrigger>
             <TabsTrigger
               value="mission"
               className="bg-transparent data-[state=active]:bg-transparent data-[state=active]:shadow-none rounded-none border-b-2 border-transparent data-[state=active]:border-primary px-0 pb-3"
+              suppressHydrationWarning={true}
             >
               {t("missionTab")}
             </TabsTrigger>
             <TabsTrigger
               value="vision"
               className="bg-transparent data-[state=active]:bg-transparent data-[state=active]:shadow-none rounded-none border-b-2 border-transparent data-[state=active]:border-primary px-0 pb-3"
+              suppressHydrationWarning={true}
             >
               {t("visionTab")}
             </TabsTrigger>
           </TabsList>
 
-          <TabsContent value="purpose" className="space-y-6 mt-8">
+          <TabsContent value="purpose" className="space-y-6 mt-8" suppressHydrationWarning={true}>
             <p className="text-muted-foreground text-base leading-relaxed">
               {t("purpose")}
             </p>
@@ -49,7 +52,7 @@ const AboutSection = () => {
             </Link>
           </TabsContent>
 
-          <TabsContent value="mission" className="space-y-6 mt-8">
+          <TabsContent value="mission" className="space-y-6 mt-8" suppressHydrationWarning={true}>
             <p className="text-muted-foreground text-base leading-relaxed">
               {t("mission")}
             </p>
@@ -60,7 +63,7 @@ const AboutSection = () => {
             </Link>
           </TabsContent>
 
-          <TabsContent value="vision" className="space-y-6 mt-8">
+          <TabsContent value="vision" className="space-y-6 mt-8" suppressHydrationWarning={true}>
             <p className="text-muted-foreground text-base leading-relaxed">
               {t("vision")}
             </p>

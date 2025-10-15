@@ -158,8 +158,8 @@ export default function SampleRequestModal({
         }
       }}
     >
-      <DialogContent className="max-w-4xl p-0">
-        <div className="rounded-2xl">
+      <DialogContent className="max-w-4xl p-0 max-h-[95vh] overflow-y-auto sm:max-h-[90vh] flex flex-col w-[95vw] sm:w-full">
+        <div className="rounded-2xl flex flex-col h-full">
           {isSubmitted ? (
             // Success Modal
             <div className="p-6 md:p-8 flex flex-col items-center justify-center text-center space-y-6 min-h-fit">
@@ -203,16 +203,18 @@ export default function SampleRequestModal({
             </div>
           ) : (
             // Original Form Content
-            <div className="p-6 md:p-8 gap-8 flex flex-col">
-              <DialogHeader>
-                <DialogTitle className="text-2xl md:text-3xl text-primary">
-                  {t("title")}
-                </DialogTitle>
-                <DialogDescription>{t("description")}</DialogDescription>
-              </DialogHeader>
+            <div className="flex flex-col h-full">
+              {/* Fixed Header */}
+              <div className="p-6 md:p-8 pb-4 border-b border-gray-100">
+                <DialogHeader>
+                  <DialogTitle className="text-2xl md:text-3xl text-primary">
+                    {t("title")}
+                  </DialogTitle>
+                  <DialogDescription>{t("description")}</DialogDescription>
+                </DialogHeader>
 
-              {/* Steps indicator */}
-              <div className="flex items-center justify-center gap-6 py-6">
+                {/* Steps indicator */}
+                <div className="flex items-center justify-center gap-3 sm:gap-6 py-4 sm:py-6">
                 {[1, 2, 3].map((i) => (
                   <div key={i} className="flex items-center gap-2">
                     <div
@@ -228,16 +230,19 @@ export default function SampleRequestModal({
                     {i !== 3 && (
                       <div
                         className={
-                          "h-[2px] w-16 md:w-24 rounded-full " +
+                          "h-[2px] w-8 sm:w-16 md:w-24 rounded-full " +
                           (step > i ? "bg-primary" : "bg-muted")
                         }
                       />
                     )}
                   </div>
                 ))}
+                </div>
               </div>
 
-              {/* Step content */}
+              {/* Scrollable Content */}
+              <div className="flex-1 overflow-y-auto px-4 sm:px-6 md:px-8 py-4">
+                {/* Step content */}
               {step === 1 && (
                 <section className="space-y-6">
                   <h3 className="text-xl font-semibold">{step1.title}</h3>
@@ -446,14 +451,17 @@ export default function SampleRequestModal({
                 </section>
               )}
 
-              {/* Error Display */}
-              {error && (
-                <div className="bg-red-50 border border-red-200 rounded-lg p-4">
-                  <p className="text-red-800 text-sm">{error}</p>
-                </div>
-              )}
+                {/* Error Display */}
+                {error && (
+                  <div className="bg-red-50 border border-red-200 rounded-lg p-4 mt-4">
+                    <p className="text-red-800 text-sm">{error}</p>
+                  </div>
+                )}
+              </div>
 
-              <DialogFooter className="p-0">
+              {/* Fixed Footer */}
+              <div className="border-t border-gray-100 p-4 sm:p-6 md:p-8 pt-4">
+                <DialogFooter className="p-0">
                 <div
                   className={cn(
                     "flex w-full items-center gap-4",
@@ -493,7 +501,8 @@ export default function SampleRequestModal({
                     </Button>
                   )}
                 </div>
-              </DialogFooter>
+                </DialogFooter>
+              </div>
             </div>
           )}
         </div>

@@ -69,7 +69,7 @@
   },
   "hero": {
     "welcome": "Welcome to Veretee",
-    "headline": "Your Trusted B2B Partner in Global Businesses",
+    "headline": "Your trusted one-stop sourcing partner. Built on clarity, Driven by confidence.",
     "desc": "Connecting businesses worldwide with seamless import and export solutions",
     "exploreButtonText": "Explore Catalog",
     "quoteButtonText": "Request Quote",
@@ -88,7 +88,23 @@
     "purposeTab": "Our Purpose",
     "missionTab": "Our Mission",
     "visionTab": "Our Vision",
-    "ourStory": "Our Story",
+    "ourStory": {
+      "title": "Our Story",
+      "stories": [
+        {
+          "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=600",
+          "content": "Innovation drives us forward with passion spark of innovation and dedication to transform ideas"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600",
+          "content": "Building the future requires vision spark of determination and the will to make it reality"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600",
+          "content": "Building the future requires vision spark of determination and the will to make it reality"
+        }
+      ]
+    },
     "purpose": "Lets make the world better together and let us help you with the CSR and make it a sustainable, fruitful business. Explain something something something about our work. We can add something here. I just keep it same as home page has. something something about our work. We can add something here. I just keep it same as home page has. something something about our work. We can add something here. I just keep it same as home page has. ",
     "mission": "Lets make the world better together and let us help you with the CSR and make it a sustainable, fruitful business. Explain something something something about our work. We can add something here. I just keep it same as home page has. something something about our work. We can add something here. I just keep it same as home page has. something something about our work. We can add something here. I just keep it same as home page has. ",
     "vision": "Lets make the world better together and let us help you with the CSR and make it a sustainable, fruitful business. Explain something something something about our work. We can add something here. I just keep it same as home page has. something something about our work. We can add something here. I just keep it same as home page has. something something about our work. We can add something here. I just keep it same as home page has. ",

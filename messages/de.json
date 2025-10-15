@@ -69,7 +69,7 @@
   },
   "hero": {
     "welcome": "Willkommen bei Veretee",
-    "headline": "Ihr vertrauenswürdiger B2B-Partner im globalen Geschäft",
+    "headline": "Ihr zuverlässiger One-Stop-Sourcing-Partner. Auf Klarheit aufgebaut, von Vertrauen getrieben.",
     "desc": "Wir verbinden Unternehmen weltweit mit nahtlosen Import- und Exportlösungen",
     "exploreButtonText": "Katalog erkunden",
     "quoteButtonText": "Angebot anfordern",
@@ -88,7 +88,23 @@
     "purposeTab": "Unser Zweck",
     "missionTab": "Unsere Mission",
     "visionTab": "Unsere Vision",
-    "ourStory": "Unsere Geschichte",
+    "ourStory": {
+      "title": "Unsere Geschichte",
+      "stories": [
+        {
+          "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=600",
+          "content": "Innovation treibt uns mit Leidenschaft, dem Funken der Innovation und dem Engagement an, Ideen zu verwirklichen."
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600",
+          "content": "Die Zukunft zu gestalten erfordert Vision, Entschlossenheit und den Willen, sie Wirklichkeit werden zu lassen."
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600",
+          "content": "Die Zukunft zu gestalten erfordert Vision, Entschlossenheit und den Willen, sie Wirklichkeit werden zu lassen."
+        }
+      ]
+    },
     "purpose": "Lassen Sie uns gemeinsam die Welt verbessern und helfen wir Ihnen mit CSR, ein nachhaltiges, erfolgreiches Geschäft aufzubauen. Erklärung über unsere Arbeit. Hier können wir etwas hinzufügen. Ich lasse es gleich wie auf der Startseite. Erklärung über unsere Arbeit. Hier können wir etwas hinzufügen.",
     "mission": "Lassen Sie uns gemeinsam die Welt verbessern und helfen wir Ihnen mit CSR, ein nachhaltiges, erfolgreiches Geschäft aufzubauen. Erklärung über unsere Arbeit. Hier können wir etwas hinzufügen. Ich lasse es gleich wie auf der Startseite. Erklärung über unsere Arbeit. Hier können wir etwas hinzufügen.",
     "vision": "Lassen Sie uns gemeinsam die Welt verbessern und helfen wir Ihnen mit CSR, ein nachhaltiges, erfolgreiches Geschäft aufzubauen. Erklärung über unsere Arbeit. Hier können wir etwas hinzufügen. Ich lasse es gleich wie auf der Startseite. Erklärung über unsere Arbeit. Hier können wir etwas hinzufügen.",

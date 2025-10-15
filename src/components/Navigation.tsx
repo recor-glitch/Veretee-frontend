@@ -82,7 +82,10 @@ const Navigation = () => {
               {t("about")}
             </Link>
             <DropdownMenu>
-              <DropdownMenuTrigger className="flex cursor-pointer items-center gap-1 text-muted-foreground hover:text-primary transition-colors outline-none">
+              <DropdownMenuTrigger 
+                className="flex cursor-pointer items-center gap-1 text-muted-foreground hover:text-primary transition-colors outline-none"
+                suppressHydrationWarning={true}
+              >
                 {t("services")}
                 <ChevronDown className="h-4 w-4" />
               </DropdownMenuTrigger>
@@ -112,7 +115,10 @@ const Navigation = () => {
 
           <div className="flex items-center space-x-4">
             <DropdownMenu>
-              <DropdownMenuTrigger className="flex items-center gap-2 bg-blue-900 focus:outline-none hover:bg-blue-800 text-white pl-4 pr-3 py-2.5 rounded-full transition-colors duration-200 font-medium cursor-pointer min-w-[100px]">
+              <DropdownMenuTrigger 
+                className="flex items-center gap-2 bg-blue-900 focus:outline-none hover:bg-blue-800 text-white pl-4 pr-3 py-2.5 rounded-full transition-colors duration-200 font-medium cursor-pointer min-w-[100px]"
+                suppressHydrationWarning={true}
+              >
                 <Globe className="h-4 w-4" />
                 {currentLocale.toUpperCase()}
                 <ChevronDown className="h-4 w-4" />
@@ -133,7 +139,7 @@ const Navigation = () => {
               </DropdownMenuContent>
             </DropdownMenu>
             <Sheet open={isDrawerOpen} onOpenChange={setIsDrawerOpen}>
-              <SheetTrigger asChild>
+              <SheetTrigger asChild suppressHydrationWarning={true}>
                 <Button variant="ghost" size="icon" className="md:hidden">
                   <Menu className="h-5 w-5" />
                 </Button>

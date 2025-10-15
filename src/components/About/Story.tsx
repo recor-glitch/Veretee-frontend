@@ -9,27 +9,8 @@ import {
 } from "../ui/carousel";
 
 function Story() {
-  const t = useTranslations("about");
-  const stories = [
-    {
-      image:
-        "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=600",
-      content:
-        "Innovation drives us forward with passion spark of innovation and dedication to transform ideas",
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600",
-      content:
-        "Building the future requires vision spark of determination and the will to make it reality",
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600",
-      content:
-        "Building the future requires vision spark of determination and the will to make it reality",
-    },
-  ];
+  const t = useTranslations("about.ourStory");
+  const stories = t.raw("stories") as { image: string; content: string }[];
 
   return (
     <section className="container mx-auto px-4 py-16">
@@ -42,7 +23,7 @@ function Story() {
         className="w-full"
       >
         <div className="flex justify-between items-center mb-8">
-          <h2 className="text-3xl font-bold text-gray-900">Our Story</h2>
+          <h2 className="text-3xl font-bold text-gray-900">{t("title")}</h2>
           <div className="col-span-full justify-end items-center gap-4 hidden md:flex">
             <CarouselNext className="relative rounded-full bg-[#D9EBED] p-2 translate-x-0 translate-y-0" />
             <CarouselPrevious className="relative rounded-full bg-primary p-2 text-white translate-x-0 translate-y-0" />

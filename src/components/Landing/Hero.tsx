@@ -1,47 +1,46 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Home } from "lucide-react";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
+import RequestQuoteButton from "./RequestQuoteButton";
 
-// Use public path directly for background images
 const Hero = () => {
   const t = useTranslations("hero");
-  return (
-    <section className="relative min-h-[820px] md:min-h-[960px] flex items-center overflow-hidden rounded-2xl">
-      <div
-        className="absolute inset-0 bg-cover bg-center pointer-events-none"
-        style={{
-          backgroundImage: "url(/hero-port.svg)",
-        }}
-      >
-        <div className="absolute inset-0 bg-primary-light/40 pointer-events-none"></div>
-      </div>
 
-      <div className="container mx-auto px-4 relative z-20">
-        <div className="grid md:grid-cols-2 gap-8 items-center">
-          <div className="text-white animate-fade-in">
-            <div className="inline-block bg-primary-dark/80 px-4 py-2 rounded-full mb-4">
-              <span className="text-sm font-medium">{t("welcome")}</span>
+  return (
+    <section className="relative min-h-[600px] md:py-12 flex items-center">
+      <div className="container mx-auto px-4 lg:px-8">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          {/* Left Content */}
+          <div className="space-y-8 col-span-full">
+            <div className="space-y-6">
+              <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-primary leading-tight">
+                {t("headline")}
+              </h1>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
-              {t("headline")}
-            </h1>
-            <p className="text-lg mb-8 text-white/90">{t("desc")}</p>
-            <div className="flex flex-wrap gap-4">
+
+            <div className="flex flex-row gap-4">
               <Button size="lg" className="bg-primary">
                 <Home className="text-white" />
                 {t("exploreButtonText")}
                 <ArrowRight className="text-white" />
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="bg-white text-primary border-primary hover:text-white"
-              >
-                {t("quoteButtonText")}
-              </Button>
+              <RequestQuoteButton />
             </div>
           </div>
-          {/* <TrackingForm /> */}
+
+          {/* Right Image */}
+          <div className="relative col-span-full">
+            <div className="relative rounded-none md:rounded-xl overflow-hidden">
+              <Image
+                width={300}
+                height={300}
+                src="/hero-port.svg"
+                alt="Shipping port with cranes and containers"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
