@@ -458,7 +458,11 @@
         "date": "2023-04-01",
         "description": "„Das Thema nachhaltige Beschaffung wird zu einem immer wichtigeren Bereich, den es zu beobachten gilt, da die Gesetze zu Lieferketten und Sorgfaltspflichten immer weiter ausgebaut werden“, sagte Sylvain Guyoton, Chief Rating Officer bei EcoVadis. „Das Prinzip der ‚begründeten Bedenken‘ in der Richtlinie zur Nachhaltigkeitssorgfaltspflicht von Unternehmen wird beispielsweise viele Unternehmen dazu verpflichten, nachhaltige Beschaffungspraktiken an ihre Tier-1-Lieferanten weiterzugeben, die überall auf der Welt sein können. Unternehmen müssen enger als je zuvor mit ihren Lieferanten zusammenarbeiten, um konform und wettbewerbsfähig zu bleiben.“ Lesen Sie hier den vollständigen Bericht zum Business Sustainability Index und erstellen Sie im Index Online benutzerdefinierte Ansichten bestimmter Sektoren, Regionen und Themen. ###"
       }
-    ]
+    ],
+    "error": {
+      "title": "Nichts jetzt bedeutet nicht für immer.",
+      "alt": "Kein Karrierebild"
+    }
   },
   "service": {
     "title": "Dienstleistungskatalog",

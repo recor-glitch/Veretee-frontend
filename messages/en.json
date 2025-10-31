@@ -458,7 +458,11 @@
         "date": "2023-04-01",
         "description": "“The Sustainable Procurement theme is becoming an even more crucial area to watch as supply chain and due diligence laws continue to expand,” said Sylvain Guyoton, chief rating officer at EcoVadis. “The principle of ‘substantiated concerns’ in the Corporate Sustainability Due Diligence Directive, for example, will require many companies to cascade sustainable procurement practices to their Tier 1 suppliers, and who may be anywhere in the world. Companies must work more closely with suppliers than ever before to remain both compliant and competitive.” Read the full Business Sustainability Index report here, and create custom views of specific sectors, geographies, and themes, in the Index Online. ###"
       }
-    ]
+    ],
+    "error": {
+      "title": "Nothing now doesn’t mean never.",
+      "alt": "No Career image"
+    }
   },
   "service": {
     "title": "Service Catalog",
