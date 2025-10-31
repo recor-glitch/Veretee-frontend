@@ -1,9 +1,10 @@
 "use client";
 
-import React from "react";
-import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
+import { useTranslations } from "next-intl";
+import Error from "next/error";
 import Link from "next/link";
+import React from "react";
 
 function JobListing() {
   const [selectedFilter, setSelectedFilter] = React.useState<number>(0);
@@ -16,6 +17,9 @@ function JobListing() {
     team: string;
     location: string;
   }[];
+
+  if (!career || career.length == 0)
+    throw new Error({ statusCode: 500, title: "Expected Error" });
 
   const handleFilterClick = (index: number) => {
     setSelectedFilter(index);
