@@ -1,4 +1,3 @@
-import AboutSection from "@/components/Landing/About";
 import CTA from "@/components/Landing/CTA";
 import Hero from "@/components/Landing/Hero";
 import News from "@/components/Landing/News";
@@ -11,7 +10,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       <Hero />
-      <AboutSection />
+      {/* <AboutSection /> */}
       <WhyChooseUs />
       <Products />
       <Partners />
